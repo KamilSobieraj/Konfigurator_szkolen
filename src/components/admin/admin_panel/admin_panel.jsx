@@ -29,7 +29,7 @@ class AdminPanel extends Component {
 
   render() {
     return (
-      <div>
+      <React.Fragment>
         <Well bsSize="large">
           <h2>Panel administracyjny</h2>
           {this.state.user ? (
@@ -39,7 +39,7 @@ class AdminPanel extends Component {
           ) : null}
         </Well>
         {this.state.user ? <AdminMain /> : <AdminLogin />}
-      </div>
+      </React.Fragment>
     );
   }
 }

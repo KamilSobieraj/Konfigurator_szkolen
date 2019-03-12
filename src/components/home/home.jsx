@@ -58,7 +58,7 @@ class Home extends Component {
     return loading ? (
       <Preloader />
     ) : (
-      <div>
+      <React.Fragment>
         <Router>
           <AdminPanel path="/admin" />
           {/*<Form path="/formm" />*/}
@@ -82,7 +82,7 @@ class Home extends Component {
         <div className="footer">
           <Footer />
         </div>
-      </div>
+      </React.Fragment>
     );
   }
 }

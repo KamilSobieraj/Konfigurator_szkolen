@@ -14,8 +14,7 @@ class ModulesList extends Component {
       margin: "1px 1px 1px 10px"
     };
     return (
-      <div>
-        {console.log(window.location)}
+      <React.Fragment>
         {this.orderedModules &&
           Object.keys(this.orderedModules).map(e => (
             <Panel bsStyle="warning" defaultExpanded key={e}>
@@ -41,7 +40,7 @@ class ModulesList extends Component {
               </Panel.Collapse>
             </Panel>
           ))}
-      </div>
+      </React.Fragment>
     );
   }
 }

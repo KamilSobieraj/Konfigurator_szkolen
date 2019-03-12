@@ -98,7 +98,7 @@ class AdminMain extends Component {
     return loading ? (
       <Preloader />
     ) : (
-      <div>
+      <React.Fragment>
         <Col xs={8} md={6}>
           <h2>Dodaj moduł:</h2>
           <form>
@@ -147,7 +147,7 @@ class AdminMain extends Component {
             removeModuleFromDB={this.removeModuleFromDB}
           />
         </Col>
-      </div>
+      </React.Fragment>
     );
   }
 }

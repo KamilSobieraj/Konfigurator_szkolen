@@ -33,7 +33,7 @@ class AdminLogin extends Component {
   }
   render() {
     return (
-      <div>
+      <React.Fragment>
         <Form horizontal>
           <FormGroup>
             <Col componentClass={ControlLabel} sm={1}>
@@ -72,7 +72,7 @@ class AdminLogin extends Component {
             </Col>
           </FormGroup>
         </Form>
-      </div>
+      </React.Fragment>
     );
   }
 }
