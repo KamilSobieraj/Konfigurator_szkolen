@@ -1,0 +1,112 @@
+@import "../../global.scss";
+.thematic-area-nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  margin: 0;
+  z-index: 2;
+  background-color: $color-background-primary;
+  color: black;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  box-shadow: 0 2px 1px 0px rgb(235, 235, 235);
+
+  @include for-phone {
+    font-size: 14px;
+    padding: 4px;
+  }
+
+  @include for-desctop-and-up {
+    font-size: 18px;
+  }
+}
+.thematic-area-nav__logo-wrapper {
+  width: 120px;
+  display: flex;
+  align-items: center;
+}
+.thematic-area-nav__logo {
+  max-width: 100%;
+  @include for-phone {
+    display: none;
+  }
+  @include for-tablet-portrait-and-up {
+    display: none;
+  }
+  @include for-tablet-landscape-and-up {
+    display: block;
+  }
+}
+.thematic-area-nav__areas {
+  list-style: none;
+  margin: 0;
+  display: flex;
+  flex: 1;
+
+  @include for-phone {
+    padding-left: 0;
+  }
+  @include for-tablet-portrait-and-up {
+    padding-left: 0;
+  }
+}
+.thematic-area-nav__single-thematic-area {
+  padding: 0.6em 1em;
+  border-top: none;
+  border-bottom: none;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+  position: relative;
+  min-height: 77px;
+  //border-right: 1px solid rgb(218, 218, 218);
+  //border-left: 1px solid rgb(218, 218, 218);
+  //border-radius: 5px;
+  //box-shadow: 1px 1px 1px;
+  background-color: $color-background-primary;
+  a {
+    text-decoration: none;
+    color: #393e41;
+    &:hover,
+    &:focus,
+    &:active,
+    &:visited,
+    &.active {
+      cursor: pointer;
+      text-decoration: none;
+      &:before {
+        transition: transform 0.2s ease;
+        transform: scale(1, 1);
+        background: $color-cp-yellow;
+      }
+    }
+    &.active {
+      &:before {
+        background: $color-cp-blue;
+      }
+    }
+    &:before {
+      content: "";
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      transform: scale(0, 1);
+      transform-origin: left;
+      height: 4px;
+    }
+  }
+  & > a:focus {
+    outline: none;
+  }
+
+  @include for-phone {
+    align-items: center;
+  }
+  @include for-tablet-portrait-and-up {
+    align-items: center;
+  }
+}

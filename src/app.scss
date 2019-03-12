@@ -1,13 +1,31 @@
-//@import "./global.scss";
-/*
+@import "./global.scss";
+@import url("https://fonts.googleapis.com/css?family=Lato:400,900&subset=latin-ext");
 body {
   margin: 0;
-  padding: 0;
-  font-family: Shree;
-  background-color: rgb(224, 224, 224);
+  padding: 77px 0 0;
+  font-family: "Lato", sans-serif;
+  background-color: $color-background-secondary;
+  color: #393e41;
 }
-@font-face {
-  font-family: "Shree";
-  src: url(./fonts/font.css);
+#root {
+  //TODO find out why bootstrap styles override app styles and refactor
+
+  font-family: "Lato", sans-serif;
 }
-*/
+
+//TODO  move to icons.scss
+.icon {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  stroke-width: 0;
+  stroke: currentColor;
+  fill: currentColor;
+}
+
+.icons-sprite {
+  position: absolute;
+  width: 0;
+  height: 0;
+  overflow: hidden;
+}

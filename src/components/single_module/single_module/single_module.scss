@@ -1,0 +1,60 @@
+@import "../../../global.scss";
+.single-module {
+  background-color: $color-background-primary;
+  box-shadow: $box-shadow;
+  position: relative;
+  transition: all 1s ease;
+  display: flex;
+  flex-direction: column;
+
+  &__tile-button {
+    position: relative;
+    padding: 20px 20px 40px 20px;
+    margin: 0;
+    background: transparent;
+    text-align: center;
+    display: flex;
+    flex-grow: 1;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  &__icon-wrapper {
+    width: 32px;
+    height: 32px;
+    position: absolute;
+    bottom: -8px;
+    right: -8px;
+    transform: scale(1);
+    transition: transform $duration $timing;
+    border-radius: 50%;
+    background: #fff;
+    cursor: pointer;
+
+    box-shadow: $box-shadow;
+    &:hover {
+      transform: scale(1.2);
+    }
+  }
+  &__icon {
+    display: inline-block;
+    fill: $color-cp-yellow;
+
+    &--add {
+      fill: $color-cp-yellow;
+    }
+  }
+}
+.single-module--not-added {
+}
+
+.single-module--added {
+  transform: scale(0.9); //rotateY(360deg);
+  //what color will be better:
+  //border: 3px solid $color-cp-yellow-light;
+  background-color: $color-cp-yellow-light;
+  //background-color: $color-cp-chosen;
+  //color: lighten($color: #000000, $amount: 5%);
+  //color: darken($color: $color-background-primary, $amount: 8%);
+}
