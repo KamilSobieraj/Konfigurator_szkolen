@@ -1,15 +1,14 @@
 import React, { Component } from "react";
-import "./home.scss";
+import "./Home.scss";
 import { Router } from "@reach/router";
 import firebase from "firebase";
 import { DB_CONFIG } from "../../database/db_config";
-import ThematicArea from "../single_module/thematic_area/thematic_area";
-import OrderList from "../order_list/order_list_main/order_list_main";
-import Footer from "../footer/footer";
-import AdminPanel from "../admin/admin_panel/admin_panel";
-import Preloader from "../preloader/preloader";
-//import Form from "./components/form/form";
-//import Logo from "./logos/logo_CPAB.png";
+import ThematicArea from "../ThematicArea/ThematicArea";
+import OrderListMain from "../OrderPanel/OrderListMain/OrderListMain";
+import Footer from "../Footer/Footer";
+import AdminMain from "../Admin/AdminMain";
+import Preloader from "../Preloader/Preloader";
+import Icons from "../ui/icons/icons";
 
 let chosenModulesArray = [];
 
@@ -60,12 +59,13 @@ class Home extends Component {
     ) : (
       <React.Fragment>
         <Router>
-          <AdminPanel path="/admin" />
+          <AdminMain path="/admin" />
           {/*<Form path="/formm" />*/}
         </Router>
         {/*<LandingPage />
         <img src={Logo} />*/}
         <div className="main-layout">
+          <Icons />
           <ThematicArea
             modules={modules}
             orderedModules={orderedModules}
@@ -73,7 +73,7 @@ class Home extends Component {
             clickedModuleNames={holdClickedModulesNames}
             chosenModulesNames={holdClickedModulesNames}
           />
-          <OrderList
+          <OrderListMain
             clickedModuleNames={holdClickedModulesNames}
             chosenModulesNames={holdClickedModulesNames}
             removeModuleNameFromOrderList={this.removeModuleNameFromOrderList}

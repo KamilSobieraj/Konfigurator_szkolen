@@ -1,8 +1,8 @@
 import React, { Component } from "react";
 import "./app.scss";
 import { Router } from "@reach/router";
-import Home from "./components/home/home";
-import AdminPanel from "./components/admin/admin_panel/admin_panel";
+import Home from "./components/Home/Home";
+import AdminMain from "./components/Admin/AdminMain";
 
 class App extends Component {
   render() {
@@ -10,7 +10,7 @@ class App extends Component {
       <div>
         <Router>
           <Home path="/*" />
-          <AdminPanel path="/admin" />
+          <AdminMain path="/admin" />
         </Router>
       </div>
     );

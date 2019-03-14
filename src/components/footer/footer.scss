@@ -1,10 +1,13 @@
-@import "../../global.scss";
+@import "../ui/variables.scss";
+@import "../ui/mixins.scss";
+
 .footer {
   background-color: $color-background-secondary;
   //color: rgb(0, 0, 0);
   position: relative;
   border-top: 1px rgb(90, 90, 90) solid;
 }
+
 .footer__contact-info {
   padding-top: 1.2em;
   padding-bottom: 1.2em;
@@ -41,6 +44,7 @@
     display: block;
   }
 }
+
 .footer__contact-info-icon {
   height: 2vw;
   width: 2vw;
