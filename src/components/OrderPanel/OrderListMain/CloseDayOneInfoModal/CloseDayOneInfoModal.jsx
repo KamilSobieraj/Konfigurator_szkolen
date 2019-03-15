@@ -9,11 +9,11 @@ const CloseDayOneInfoModal = props => {
       onHide={props.handleCloseCloseDayOneInfo}
     >
       <Modal.Header closeButton>
-        <Modal.Title className="order-list__close-day-one-info-modal-title">
+        <Modal.Title className="close-day-one-info-modal__title">
           Udało się skomponować pierwszy dzień!
         </Modal.Title>
       </Modal.Header>
-      <Modal.Body className="order-list__close-day-one-info-modal-body">
+      <Modal.Body className="close-day-one-info-modal__body">
         Dodaj kolejny moduł, aby rozpocząć komponowanie następnego dnia.
       </Modal.Body>
       <Modal.Footer>

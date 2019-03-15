@@ -1,13 +1,10 @@
 @import "../ui/mixins.scss";
 
-//For smaller screens form has more width
+//For smaller screens modules has less space.
 .main-layout {
-  display: grid;
-  grid-template-columns: 60vw 40vw;
-  grid-template-rows: 15vh auto;
+  width: 60vw;
 
   @include for-tablet-portrait-and-up {
-    grid-template-columns: 70vw 30vw;
-    //grid-template-rows: 15vh auto;
+    width: 70vw;
   }
 }

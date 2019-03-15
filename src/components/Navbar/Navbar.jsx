@@ -20,18 +20,18 @@ class Navbar extends Component {
   }
   render() {
     return (
-      <div className="thematic-area-nav">
-        <div className="thematic-area-nav__logo-wrapper">
+      <div className="navbar">
+        <div className="navbar__logo-wrapper">
           <img
-            className="thematic-area-nav__logo"
+            className="navbar__logo"
             src={LogoCPAB}
             alt="Logo Coaching People"
           />
         </div>
 
-        <ul className="thematic-area-nav__areas">
+        <ul className="navbar__thematic-areas-wrapper">
           {Object.keys(this.orderedModules).map(e => (
-            <li className="thematic-area-nav__single-thematic-area" key={e}>
+            <li className="navbar__single-thematic-area" key={e}>
               <Link
                 tabIndex="1"
                 activeClass="active"

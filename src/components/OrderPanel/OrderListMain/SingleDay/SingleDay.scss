@@ -1,83 +1,85 @@
 @import "../../../ui/variables.scss";
 @import "../../../ui/mixins.scss";
 
+.single-day {
+  border-bottom: 1px solid $color-cp-blue-light;
+  margin-top: 25px;
+  margin-bottom: 10px;
+
+  &__header {
+    animation: order-list-module-appear 1s forwards;
+    &::before {
+      @include bullet($color-cp-blue, 0.5em);
+      content: "\A";
+      display: inline-block;
+      margin-right: 5px;
+    }
+    @include for-phone {
+      font-size: 14px;
+    }
+    @include for-tablet-portrait-and-up {
+      font-size: 16px;
+    }
+    @include for-tablet-landscape-and-up {
+      font-size: 18px;
+    }
+    @include for-desctop-and-up {
+      font-size: 20px;
+    }
+    @include for-big-screen-and-up {
+      font-size: 1.3vw;
+    }
+  }
+
+  &__module {
+    display: inline-flex;
+    width: 100%;
+    border: none;
+    animation: order-list-module-appear 1s forwards;
+    &::before {
+      @include bullet($color-cp-yellow, 0.5em);
+      content: "\A";
+      display: inline-block;
+      margin-right: 5px;
+    }
+    @include for-phone {
+      font-size: 12px;
+    }
+    @include for-tablet-portrait-and-up {
+      font-size: 14px;
+    }
+    @include for-tablet-landscape-and-up {
+      font-size: 16px;
+    }
+    @include for-desctop-and-up {
+      font-size: 18px;
+    }
+    @include for-big-screen-and-up {
+      font-size: 1.1vw;
+    }
+  }
+
+  &__module-remove-button {
+    align-self: center;
+    margin-left: 5px;
+    margin-right: 0;
+    margin-left: auto;
+    &:hover {
+      cursor: pointer;
+    }
+    & > img {
+      height: 1em;
+      width: 1em;
+      color: pink;
+    }
+  }
+}
+
 @keyframes order-list-module-appear {
   from {
     opacity: 0;
   }
   to {
     opacity: 1;
-  }
-}
-.order-list__single-day-display {
-  border-bottom: $division-line;
-  margin-top: 25px;
-  margin-bottom: 10px;
-}
-.order-list__single-day-display-header {
-  @include for-phone {
-    font-size: 14px;
-  }
-  @include for-tablet-portrait-and-up {
-    font-size: 16px;
-  }
-  @include for-tablet-landscape-and-up {
-    font-size: 18px;
-  }
-  @include for-desctop-and-up {
-    font-size: 20px;
-  }
-  @include for-big-screen-and-up {
-    font-size: 1.3vw;
-  }
-  animation: order-list-module-appear 1s forwards;
-  &::before {
-    @include bullet($color-cp-blue, 0.5em);
-    content: "\A";
-    display: inline-block;
-    margin-right: 5px;
-  }
-}
-.list-group-item {
-  display: inline-flex;
-  width: 100%;
-  border: none;
-  @include for-phone {
-    font-size: 12px;
-  }
-  @include for-tablet-portrait-and-up {
-    font-size: 14px;
-  }
-  @include for-tablet-landscape-and-up {
-    font-size: 16px;
-  }
-  @include for-desctop-and-up {
-    font-size: 18px;
-  }
-  @include for-big-screen-and-up {
-    font-size: 1.1vw;
-  }
-}
-.order_list__single-day-module-display {
-  animation: order-list-module-appear 1s forwards;
-  &::before {
-    @include bullet($color-cp-yellow, 0.5em);
-    content: "\A";
-    display: inline-block;
-    margin-right: 5px;
-  }
-}
-.order-list__single-day-remove-button {
-  align-self: center;
-  margin-left: 5px;
-  margin-right: 0;
-  margin-left: auto;
-  &:hover {
-    cursor: pointer;
-  }
-  & > img {
-    height: 1em;
-    width: 1em;
-    color: pink;
   }
 }

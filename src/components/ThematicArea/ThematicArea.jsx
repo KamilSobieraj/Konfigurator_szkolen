@@ -2,7 +2,6 @@ import React, { Component } from "react";
 import "./ThematicArea.scss";
 import SingleModule from "./SingleModule/SingleModule";
 import groupBy from "lodash.groupby";
-import Navbar from "../Navbar/Navbar";
 
 class ThematicArea extends Component {
   constructor(props) {
@@ -20,37 +19,34 @@ class ThematicArea extends Component {
   });
   render() {
     return (
-      <div className="main-layout__modules-display">
-        <Navbar modules={this.props.modules} />
-        <div className="main-layout__areas-display">
-          {this.orderedModules &&
-            Object.keys(this.orderedModules).map((e, i) => {
-              return (
-                <div
-                  key={`thematic-area-module-${i}`}
-                  className="thematic-area-display"
-                >
-                  <h3 id={e}>
-                    <span>{e}</span>
-                  </h3>
-                  <div className="main-layout__single-modules-display">
-                    {Object.values(this.orderedModules[e]).map(f => (
-                      <SingleModule
-                        name={this.props.name}
-                        moveModuleNameUpToThematicArea={
-                          this.takeModuleNameFromSingleModule
-                        }
-                        clickedModuleNames={this.props.clickedModuleNames}
-                        chosenModulesNames={this.props.chosenModulesNames}
-                        key={f && f.id} //probably key={f.id} is enough, but just in case let it be...
-                        {...f}
-                      />
-                    ))}
-                  </div>
+      <div className="thematic-areas">
+        {this.orderedModules &&
+          Object.keys(this.orderedModules).map((e, i) => {
+            return (
+              <div
+                key={`single-area-${i}`}
+                className="thematic-areas__single-area"
+              >
+                <div id={e} className="thematic-areas__single-area-title">
+                  <span>{e}</span>
                 </div>
-              );
-            })}
-        </div>
+                <div className="thematic-areas__modules">
+                  {Object.values(this.orderedModules[e]).map(f => (
+                    <SingleModule
+                      name={this.props.name}
+                      moveModuleNameUpToThematicArea={
+                        this.takeModuleNameFromSingleModule
+                      }
+                      clickedModuleNames={this.props.clickedModuleNames}
+                      chosenModulesNames={this.props.chosenModulesNames}
+                      key={f && f.id} //probably key={f.id} is enough, but just in case let it be...
+                      {...f}
+                    />
+                  ))}
+                </div>
+              </div>
+            );
+          })}
       </div>
     );
   }

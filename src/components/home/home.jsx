@@ -9,6 +9,7 @@ import Footer from "../Footer/Footer";
 import AdminMain from "../Admin/AdminMain";
 import Preloader from "../Preloader/Preloader";
 import Icons from "../ui/icons/icons";
+import Navbar from "../Navbar/Navbar";
 
 let chosenModulesArray = [];
 
@@ -66,6 +67,7 @@ class Home extends Component {
         <img src={Logo} />*/}
         <div className="main-layout">
           <Icons />
+          <Navbar modules={modules} />
           <ThematicArea
             modules={modules}
             orderedModules={orderedModules}

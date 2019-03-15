@@ -23,22 +23,22 @@ class Help extends Component {
   render() {
     return (
       <React.Fragment>
-        <button className="order-list__help" onClick={this.handleShow}>
-          <Icon className={"help-icon"} name={"icon-help"} />
+        <button className="help-button" onClick={this.handleShow}>
+          <Icon className={"help-button__icon"} name={"icon-help"} />
           Jak skomponować szkolenie?
         </button>
         <Modal show={this.state.show} onHide={this.handleClose}>
           <Modal.Body>
             <Button
               onClick={this.handleClose}
-              className="help-modal__close-btn"
+              className="help-button__modal-close-button"
             >
               <img src={CloseButton} alt="zamknij" />
             </Button>
             <img
               src={Infographic}
               alt="Inforgrafika - jak skomponować szkolenie"
-              className="help-modal__infograpgic"
+              className="help-button__modal-infograpgic"
             />
           </Modal.Body>
         </Modal>

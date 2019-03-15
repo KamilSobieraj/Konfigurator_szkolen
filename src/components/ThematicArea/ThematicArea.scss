@@ -1,84 +1,76 @@
 @import "../ui/variables.scss";
 @import "../ui/mixins.scss";
 
-.main-layout__modules-display {
-  grid-row: 1/3;
-  grid-column: 1/2;
-  padding-left: 10px;
-  padding-right: 10px;
-}
-.thematic-area-display {
-  border-bottom: $division-line;
-  padding: 2.2vw 1vw 1.3vw 1vw;
-  &:not(:first-child) {
-    padding-top: 7vw;
-  }
-  &:last-child {
-    border-bottom: none;
-  }
-  & > h3 {
-    text-transform: uppercase;
-    text-align: center;
-    position: relative;
-    padding: 0 20px;
-    &:before,
-    &:after {
-      height: 2px;
-      width: 15vw;
-      margin-bottom: 8px;
-      background-color: $color-cp-blue-light;
-      content: "\A";
-      display: inline-block;
+.thematic-areas {
+  padding: 30px 20px 30px 20px;
+
+  &__single-area {
+    &:not(:first-child) {
+      padding-top: 80px;
     }
-    &:before {
-      margin-right: 20px;
-    }
-    &:after {
-      margin-left: 20px;
-    }
-    & > span {
-      background-color: $color-cp-yellow-light;
-      padding: 5px 20px;
-      border-top: $color-cp-yellow-dark 1px solid;
-      border-right: $color-cp-yellow-dark 1px solid;
-      border: $color-cp-yellow-dark 1px solid;
-      //border-top-right-radius: 5px;
-      border-radius: 5px;
-      //box-shadow: 2px -2px 5px 2px $color-cp-yellow-dark;
-      font-weight: bold;
-      @include for-phone {
-        font-size: 12px;
+
+    &-title {
+      position: relative;
+      padding: 0 20px;
+      text-align: center;
+      text-transform: uppercase;
+      //strokes
+      &:before,
+      &:after {
+        height: 2px;
+        width: 15vw;
+        margin-bottom: 8px;
+        background-color: $color-cp-blue-light;
+        content: "\A";
+        display: inline-block;
       }
-      @include for-tablet-portrait-and-up {
-        font-size: 14px;
+      &:before {
+        margin-right: 20px;
       }
-      @include for-tablet-landscape-and-up {
-        font-size: 16px;
+      &:after {
+        margin-left: 20px;
       }
-      @include for-desctop-and-up {
-        font-size: 24px;
-      }
-      @include for-big-screen-and-up {
-        font-size: 1.4vw;
+      & > span {
+        padding: 5px 20px;
+        border: $color-cp-yellow-dark 1px solid;
+        border-radius: 5px;
+        background-color: $color-cp-yellow-light;
+        font-weight: bold;
+        @include for-phone {
+          font-size: 12px;
+        }
+        @include for-tablet-portrait-and-up {
+          font-size: 14px;
+        }
+        @include for-tablet-landscape-and-up {
+          font-size: 16px;
+        }
+        @include for-desctop-and-up {
+          font-size: 24px;
+        }
+        @include for-big-screen-and-up {
+          font-size: 1.4vw;
+        }
       }
     }
   }
-}
-.main-layout__single-modules-display {
-  display: grid;
-  clear: both;
-  grid-gap: 1.5vw;
-  margin: 50px 0;
-  @include for-phone {
-    grid-template-columns: repeat(auto-fit, minmax(20vw, 25vw));
-  }
-  @include for-tablet-portrait-and-up {
-    grid-template-columns: repeat(auto-fit, minmax(10vw, 20vw));
-  }
-  @include for-tablet-landscape-and-up {
-    grid-template-columns: repeat(auto-fit, minmax(11vw, 15vw));
-  }
-  @include for-big-screen-and-up {
-    grid-template-columns: repeat(auto-fit, minmax(10vw, 12vw));
+
+  &__modules {
+    display: grid;
+    grid-gap: 1.5vw;
+    clear: both;
+    margin: 50px 0;
+    @include for-phone {
+      grid-template-columns: repeat(auto-fit, minmax(20vw, 25vw));
+    }
+    @include for-tablet-portrait-and-up {
+      grid-template-columns: repeat(auto-fit, minmax(10vw, 20vw));
+    }
+    @include for-tablet-landscape-and-up {
+      grid-template-columns: repeat(auto-fit, minmax(11vw, 15vw));
+    }
+    @include for-big-screen-and-up {
+      grid-template-columns: repeat(auto-fit, minmax(10vw, 12vw));
+    }
   }
 }

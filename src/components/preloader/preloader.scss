@@ -10,38 +10,39 @@ body {
   height: 100vh;
 }
 
-.preload_wrap {
+.preloader {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-}
 
-.preload_text {
-  color: $color-cp-yellow;
-  display: inline-block;
-  margin-left: 5px;
-  font-weight: bold;
-}
-
-.preload_bounceball {
-  position: relative;
-  display: inline-block;
-  height: 37px;
-  width: $width;
-  &:before {
-    position: absolute;
-    content: "";
-    display: block;
-    top: 0;
+  &__bounceball {
+    position: relative;
+    display: inline-block;
+    height: 37px;
     width: $width;
-    height: $height;
-    border-radius: 50%;
-    background-color: $color-cp-yellow;
-    transform-origin: 50%;
-    animation: bounce 500ms alternate infinite ease;
+    &:before {
+      position: absolute;
+      content: "";
+      display: block;
+      top: 0;
+      width: $width;
+      height: $height;
+      border-radius: 50%;
+      background-color: $color-cp-yellow;
+      transform-origin: 50%;
+      animation: bounce 500ms alternate infinite ease;
+    }
+  }
+
+  &__text {
+    color: $color-cp-yellow;
+    display: inline-block;
+    margin-left: 5px;
+    font-weight: bold;
   }
 }
+
 @keyframes bounce {
   0% {
     top: $bounce_height;

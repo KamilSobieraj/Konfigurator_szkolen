@@ -2,81 +2,78 @@
 @import "../../ui/mixins.scss";
 
 .order-list {
-  grid-column: 2/3;
   position: fixed;
+
   top: 77px;
   right: 0;
   height: 90vh;
+  width: 30vw;
+  padding: 0 1vw 2vw 1vw;
+  border: 0.1vw double $color-cp-chosen;
   overflow-y: scroll;
   overflow-x: hidden;
   background-color: $color-background-primary;
-  padding: 0 1vw 2vw 1vw;
-  border: 0.1vw double $color-cp-chosen;
-  width: 40vw;
-  grid-template-rows: 15vh auto;
+  //Form has more width on mobile
+  @include for-phone {
+    width: 40vw;
+  }
 
-  @include for-tablet-portrait-and-up {
-    width: 30vw;
+  &__header {
+    border-bottom: 2px solid $color-cp-blue-light;
+    @include for-phone {
+      font-size: 20px;
+    }
+    @include for-tablet-portrait-and-up {
+      font-size: 24px;
+    }
+    @include for-tablet-landscape-and-up {
+      font-size: 26px;
+    }
+    @include for-desctop-and-up {
+      font-size: 30px;
+    }
+    @include for-big-screen-and-up {
+      font-size: 1.6vw;
+    }
   }
-}
-.order-list__header {
-  border-bottom: 1px solid $color-cp-blue-light;
-  @include for-phone {
-    padding-top: 20px;
-    font-size: 20px;
+
+  &__add-first-module-info {
+    &::before {
+      @include bullet($color-cp-blue, 0.5em);
+      content: "\A";
+      display: inline-block;
+      margin-right: 5px;
+    }
+    @include for-phone {
+      font-size: 10px !important;
+    }
+    @include for-tablet-portrait-and-up {
+      font-size: 12px !important;
+    }
+    @include for-tablet-landscape-and-up {
+      font-size: 14px !important;
+    }
+    @include for-desctop-and-up {
+      font-size: 16px !important;
+    }
+    @include for-big-screen-and-up {
+      font-size: 1.1vw !important;
+    }
   }
-  @include for-tablet-portrait-and-up {
-    padding-top: 24px;
-    font-size: 24px;
-  }
-  @include for-tablet-landscape-and-up {
-    padding-top: 26px;
-    font-size: 26px;
-  }
-  @include for-desctop-and-up {
-    padding-top: 30px;
-    font-size: 30px;
-  }
-  @include for-big-screen-and-up {
-    padding-top: 1.6vw;
-    font-size: 1.6vw;
-  }
-}
-.order-list__add-first-module-info {
-  @include for-phone {
-    font-size: 10px !important;
-  }
-  @include for-tablet-portrait-and-up {
-    font-size: 12px !important;
-  }
-  @include for-tablet-landscape-and-up {
-    font-size: 14px !important;
-  }
-  @include for-desctop-and-up {
-    font-size: 16px !important;
-  }
-  @include for-big-screen-and-up {
-    font-size: 1.1vw !important;
-  }
-  &::before {
-    @include bullet($color-cp-blue, 0.5em);
-    content: "\A";
-    display: inline-block;
-    margin-right: 5px;
-  }
-}
-.order-list__single-day-close-day-button {
-  width: 90%;
-  @include for-phone {
-    font-size: 12px;
-  }
-  @include for-tablet-portrait-and-up {
-    font-size: 18px;
-  }
-  @include for-tablet-landscape-and-up {
-    font-size: 20px;
-  }
-  @include for-big-screen-and-up {
-    font-size: 1.3vw;
+
+  &__single-day-close-day-button {
+    width: 90%;
+    @include for-phone {
+      font-size: 12px;
+    }
+    @include for-tablet-portrait-and-up {
+      font-size: 18px;
+    }
+    @include for-tablet-landscape-and-up {
+      font-size: 20px;
+    }
+    @include for-big-screen-and-up {
+      font-size: 1.3vw;
+    }
   }
 }
