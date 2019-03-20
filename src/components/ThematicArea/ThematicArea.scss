@@ -15,20 +15,29 @@
       text-align: center;
       text-transform: uppercase;
       //strokes
-      &:before,
-      &:after {
-        height: 2px;
-        width: 15vw;
-        margin-bottom: 8px;
-        background-color: $color-cp-blue-light;
-        content: "\A";
-        display: inline-block;
+
+      @include for-tablet-portrait-and-up {
+        &:before,
+        &:after {
+          height: 2px;
+          width: 0;
+          margin-bottom: 8px;
+          background-color: $color-cp-blue-light;
+          content: "\A";
+          display: inline-block;
+        }
+        &:before {
+          margin-right: 20px;
+        }
+        &:after {
+          margin-left: 20px;
+        }
       }
-      &:before {
-        margin-right: 20px;
-      }
-      &:after {
-        margin-left: 20px;
+      @include for-tablet-landscape-and-up {
+        &:before,
+        &:after {
+          width: 17%;
+        }
       }
       & > span {
         padding: 5px 20px;
