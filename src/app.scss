@@ -1,5 +1,6 @@
 @import "./components/ui/variables.scss";
 @import url("https://fonts.googleapis.com/css?family=Lato:400,900&subset=latin-ext");
+@import "./components/ui/mixins.scss";
 
 body {
   margin: 0;
@@ -7,6 +8,22 @@ body {
   font-family: "Lato", sans-serif;
   background-color: $color-background-secondary;
   color: #393e41;
+
+  @include for-phone {
+    font-size: 12px;
+  }
+  @include for-tablet-portrait-and-up {
+    font-size: 14px;
+  }
+  @include for-tablet-landscape-and-up {
+    font-size: 16px;
+  }
+  @include for-desctop-and-up {
+    font-size: 18px;
+  }
+  @include for-big-screen-and-up {
+    font-size: 22px;
+  }
 }
 
 #root {

@@ -21,60 +21,22 @@
     display: flex;
     flex-direction: column;
     border-bottom: 2px solid $color-cp-blue-light;
-    @include for-phone {
-      font-size: 20px;
-    }
-    @include for-tablet-portrait-and-up {
-      font-size: 24px;
-    }
-    @include for-tablet-landscape-and-up {
-      font-size: 26px;
-    }
-    @include for-desctop-and-up {
-      font-size: 30px;
-    }
-    @include for-big-screen-and-up {
-      font-size: 1.6vw;
-    }
+    font-size: 1.6em;
   }
 
   &__add-first-module-info {
+    font-size: 0.8em !important;
+
     &::before {
       @include bullet($color-cp-blue, 0.5em);
       content: "\A";
       display: inline-block;
       margin-right: 5px;
     }
-    @include for-phone {
-      font-size: 10px !important;
-    }
-    @include for-tablet-portrait-and-up {
-      font-size: 12px !important;
-    }
-    @include for-tablet-landscape-and-up {
-      font-size: 14px !important;
-    }
-    @include for-desctop-and-up {
-      font-size: 16px !important;
-    }
-    @include for-big-screen-and-up {
-      font-size: 1.1vw !important;
-    }
   }
 
   &__single-day-close-day-button {
     width: 90%;
-    @include for-phone {
-      font-size: 12px;
-    }
-    @include for-tablet-portrait-and-up {
-      font-size: 18px;
-    }
-    @include for-tablet-landscape-and-up {
-      font-size: 20px;
-    }
-    @include for-big-screen-and-up {
-      font-size: 1.3vw;
-    }
+    font-size: 1em;
   }
 }

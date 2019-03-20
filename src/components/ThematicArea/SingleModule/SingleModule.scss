@@ -7,6 +7,7 @@
   transition: all 1s ease;
   display: flex;
   flex-direction: column;
+  font-size: 0.8em;
 
   &__tile-button {
     position: relative;
@@ -51,11 +52,6 @@
 }
 
 .single-module--added {
-  transform: scale(0.9); //rotateY(360deg);
-  //what color will be better:
-  //border: 3px solid $color-cp-yellow-light;
+  transform: scale(0.9);
   background-color: $color-cp-yellow-light;
-  //background-color: $color-cp-chosen;
-  //color: lighten($color: #000000, $amount: 5%);
-  //color: darken($color: $color-background-primary, $amount: 8%);
 }
