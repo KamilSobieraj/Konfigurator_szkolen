@@ -648,7 +648,7 @@ class SendOrderForm extends Component {
       //.then(data => console.log(data))
       .catch(error => console.log(error));
     //Info after sending e-mail;
-    console.log(formData);
+    //console.log(formData);
     alert(`Zamówienie zostało wysłane!
 Wkrótce skontaktujemy się z Państwem!`);
   };

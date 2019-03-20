@@ -3,7 +3,6 @@
 
 .order-list {
   position: fixed;
-
   top: 77px;
   right: 0;
   height: 90vh;
@@ -19,6 +18,8 @@
   }
 
   &__header {
+    display: flex;
+    flex-direction: column;
     border-bottom: 2px solid $color-cp-blue-light;
     @include for-phone {
       font-size: 20px;
