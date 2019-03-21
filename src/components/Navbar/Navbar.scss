@@ -14,12 +14,23 @@
   background-color: $color-background-primary;
   color: black;
   box-shadow: 0 2px 1px 0px rgb(235, 235, 235);
-  font-size: 1em;
+  @include for-phone {
+    font-size: 0.8em;
+  }
+  @include for-tablet-portrait-and-up {
+    font-size: 0.8em;
+  }
+  @include for-tablet-landscape-and-up {
+    font-size: 1em;
+  }
 
   &__logo-wrapper {
     width: 120px;
     display: flex;
     align-items: center;
+    @include for-phone {
+      display: none;
+    }
   }
 
   &__logo {
@@ -50,8 +61,11 @@
     padding: 0.6em 1em;
     border-top: none;
     border-bottom: none;
-    min-height: 77px;
+    min-height: 4em;
     background-color: $color-background-primary;
+    @include for-phone {
+      min-height: 1.5em;
+    }
     a {
       text-decoration: none;
       color: #393e41;

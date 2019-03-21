@@ -3,11 +3,11 @@
 
 .order-list {
   position: fixed;
-  top: 77px;
+  top: 3em;
   right: 0;
   height: 90vh;
   width: 30vw;
-  padding: 0 1vw 2vw 1vw;
+  padding: 1vw 1vw 2vw 1vw;
   border: 0.1vw double $color-cp-chosen;
   overflow-y: scroll;
   overflow-x: hidden;

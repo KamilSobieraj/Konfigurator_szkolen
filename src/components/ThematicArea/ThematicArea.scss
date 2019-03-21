@@ -6,7 +6,15 @@
 
   &__single-area {
     &:not(:first-child) {
-      padding-top: 80px;
+      @include for-phone {
+        padding-top: 10px;
+      }
+      @include for-tablet-portrait-and-up {
+        padding-top: 30px;
+      }
+      @include for-tablet-landscape-and-up {
+        padding-top: 80px;
+      }
     }
 
     &-title {
@@ -15,7 +23,6 @@
       text-align: center;
       text-transform: uppercase;
       //strokes
-
       @include for-tablet-portrait-and-up {
         &:before,
         &:after {
@@ -57,12 +64,15 @@
     margin: 50px 0;
     @include for-phone {
       grid-template-columns: repeat(auto-fit, minmax(20vw, 25vw));
+      margin-top: 20px;
     }
     @include for-tablet-portrait-and-up {
       grid-template-columns: repeat(auto-fit, minmax(10vw, 20vw));
+      margin-top: 25px;
     }
     @include for-tablet-landscape-and-up {
       grid-template-columns: repeat(auto-fit, minmax(11vw, 15vw));
+      margin-top: 50px;
     }
     @include for-big-screen-and-up {
       grid-template-columns: repeat(auto-fit, minmax(10vw, 12vw));
