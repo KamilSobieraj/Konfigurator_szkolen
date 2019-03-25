@@ -32,7 +32,7 @@ class SendOrderForm extends Component {
   }
   sendEmail = e => {
     //**** DESTRUCTURING ****\\
-    e.preventDefault();
+    //e.preventDefault();
     const { email } = this.state;
     const {
       chosenModulesNames,
@@ -61,13 +61,13 @@ class SendOrderForm extends Component {
     let myhtml =
       `<p>Zamówienie od: <strong>${
         this.senderName.value
-      }</strong></p><p>Telefon kontaktowy: ${
+      }</strong></p><p>Telefon kontaktowy: <strong>${
         this.senderPhoneNumber.value
       }</p></strong></p><p>Adres e-mail: ${
         email.sender
-      }</p><p>Miejsce szkolenia: ${
+      }</p><p>Miejsce szkolenia: <strong>${
         this.senderPlaceOfTraining.value
-      }</p><p>Wiadomość od zamawiającego: <p>"${this.senderMessage.value.replace(
+      }</strong></p><p>Wiadomość od zamawiającego: <p>"${this.senderMessage.value.replace(
         /(\r\n\t|\n|\r\t)/gm,
         ""
       )}"</p></p><p><strong>Zamówienie:</strong> </p>` +
@@ -80,9 +80,8 @@ class SendOrderForm extends Component {
           : isDayTwoClosed !== true || dayThreeDuration === 0
           ? `<ul>Pierwszy dzień: ${chosenModulesNames
               .slice(0, dayOneDuration)
-              .map(
-                e => `<li>${e}</li>`
-              )}</ul><ul>Drugi dzień: ${chosenModulesNames
+              .map(e => `<li>${e}</li>`)
+              .join("")}</ul><ul>Drugi dzień: ${chosenModulesNames
               .slice(dayOneDuration, dayOneDuration + dayTwoDuration)
               .map(e => `<li>${e}</li>`)
               .join("")}</ul>`
@@ -636,7 +635,8 @@ class SendOrderForm extends Component {
     };
     let formData = new FormData();
     formData.append("emailData", JSON.stringify(emailData));
-    fetch("/send-email", {
+    fetch("/send-email/index.php", {
+      type: "POST",
       method: "POST",
       //mode: "same-origin",
       //credentials: "same-origin",
