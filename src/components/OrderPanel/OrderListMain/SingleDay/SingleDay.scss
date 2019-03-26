@@ -21,6 +21,9 @@
     display: inline-flex;
     width: 100%;
     border: none;
+    @include for-phone {
+      font-size: 0.8em;
+    }
     font-size: 0.9em;
     animation: order-list-module-appear 1s forwards;
     &::before {
