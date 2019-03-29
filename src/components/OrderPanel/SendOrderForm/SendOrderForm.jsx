@@ -15,7 +15,7 @@ class SendOrderForm extends Component {
     this.state = {
       isCheckboxChecked: false,
       email: {
-        recipient: "kamil.sobieraj.dev@gmail.com",
+        recipient: "biuro@cpab.pl",
         sender: "",
         subject: "Konfigurator - Zamówienie od "
       }
@@ -612,21 +612,6 @@ class SendOrderForm extends Component {
               .join("")}</ul>`
       }`;
     //**** Send an e-mail ****\\
-    /*
-    const data = new URLSearchParams(formElement);
-    const options = {
-      method: "POST",
-      body: data
-    };
-    fetch("http://konfiguratorszkolen.pl/send-email", options)
-      .then(response => {
-        if (response.status !== 200) {
-          return Promise.reject(response);
-        }
-        return response.json();
-      })
-      .then(json => console.log(json))
-      .catch(error => console.log(error));*/
     const emailData = {
       recipient: email.recipient,
       subject: email.subject,
@@ -644,11 +629,9 @@ class SendOrderForm extends Component {
     })
       //.then(res => res.json())
       .then(res => res.text())
-      .then(text => console.log(text))
-      //.then(data => console.log(data))
+      .then(text => text)
       .catch(error => console.log(error));
     //Info after sending e-mail;
-    //console.log(formData);
     alert(`Zamówienie zostało wysłane!
 Wkrótce skontaktujemy się z Państwem!`);
   };
@@ -656,11 +639,7 @@ Wkrótce skontaktujemy się z Państwem!`);
     const { email } = this.state;
     return (
       <div className="send-my-list__form-container">
-        <Form
-          //action="localhost:3001/mailer/index.php"
-          //method="post"
-          onSubmit={this.sendEmail}
-        >
+        <Form onSubmit={this.sendEmail}>
           <FormGroup>
             <ControlLabel className="send-my-list__form-input-label">
               Imię i nazwisko lub nazwa firmy:
