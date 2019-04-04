@@ -19,17 +19,17 @@ class ThematicArea extends Component {
   });
   render() {
     return (
-      <div className="thematic-areas">
+      <main className="thematic-areas">
         {this.orderedModules &&
           Object.keys(this.orderedModules).map((e, i) => {
             return (
-              <div
+              <section
                 key={`single-area-${i}`}
                 className="thematic-areas__single-area"
               >
-                <div id={e} className="thematic-areas__single-area-title">
+                <header id={e} className="thematic-areas__single-area-title">
                   <span>{e}</span>
-                </div>
+                </header>
                 <div className="thematic-areas__modules">
                   {Object.values(this.orderedModules[e]).map(f => (
                     <SingleModule
@@ -44,10 +44,10 @@ class ThematicArea extends Component {
                     />
                   ))}
                 </div>
-              </div>
+              </section>
             );
           })}
-      </div>
+      </main>
     );
   }
 }

@@ -7,43 +7,56 @@ import IconMobile from "../ui/icons/IconMobile.png";
 
 const Footer = () => {
   return (
-    <div className="footer">
-      <div className="footer__contact-info">
-        <a href="tel:+48 530 392 776">
-          <img
-            src={IconMobile}
-            alt="mobile icon"
-            className="footer__contact-info-icon"
-          />
-          +48 530 392 776
-        </a>
-        <a href="mailto: biuro@cpab.pl">
-          <img
-            src={IconMail}
-            alt="mail icon"
-            className="footer__contact-info-icon"
-          />
-          biuro@cpab.pl
-        </a>
-        <a href="http://www.cpab.pl" target="_blank" rel="noopener noreferrer">
-          <img
-            src={IconWebsite}
-            alt="website icon"
-            className="footer__contact-info-icon"
-          />
-          www.cpab.pl
-        </a>
-        <p>
-          {" "}
-          <img
-            src={IconMapPin}
-            alt="map pin icon"
-            className="footer__contact-info-icon"
-          />
-          ul. Jagiellońska 24, 40-035 Katowice
-        </p>
-      </div>
-      <div className="footer__copyright">
+    <footer className="footer">
+      <section className="footer__contact-info">
+        <address property="mobile">
+          <a href="tel:+48 530 392 776">
+            <img
+              src={IconMobile}
+              alt="mobile icon"
+              className="footer__contact-info-icon"
+            />
+            +48 530 392 776
+          </a>
+        </address>
+        <address property="email">
+          <a href="mailto: biuro@cpab.pl">
+            <img
+              src={IconMail}
+              alt="mail icon"
+              className="footer__contact-info-icon"
+            />
+            biuro@cpab.pl
+          </a>
+        </address>
+        <address property="website">
+          <a
+            href="http://www.cpab.pl"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              src={IconWebsite}
+              alt="website icon"
+              className="footer__contact-info-icon"
+            />
+            www.cpab.pl
+          </a>
+        </address>
+        <address property="address">
+          <p>
+            {" "}
+            <img
+              src={IconMapPin}
+              alt="map pin icon"
+              className="footer__contact-info-icon"
+            />
+            ul. Jagiellońska 24, 40-035 Katowice
+          </p>
+        </address>
+      </section>
+
+      <section className="footer__copyright">
         <p>Wszelkie prawa zastrzeżone, CPAB &#9400; 2016-2019</p>
         <p hidden>
           Autor strony:{" "}
@@ -55,8 +68,8 @@ const Footer = () => {
             Kamil Sobieraj
           </a>
         </p>
-      </div>
-    </div>
+      </section>
+    </footer>
   );
 };
 

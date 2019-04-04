@@ -14,16 +14,16 @@
     @include for-tablet-landscape-and-up {
       display: flex;
       flex-wrap: wrap;
-      & > a,
-      p {
+      & > address {
         margin-left: 40px;
       }
     }
 
-    & a {
+    & address,
+    a {
       display: block;
       text-decoration: none;
-      color: black;
+      color: #393e41;
     }
 
     &-icon {

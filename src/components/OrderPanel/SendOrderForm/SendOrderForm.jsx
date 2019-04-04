@@ -638,7 +638,7 @@ Wkrótce skontaktujemy się z Państwem!`);
   render() {
     const { email } = this.state;
     return (
-      <div className="send-my-list__form-container">
+      <section className="send-my-list__form-container">
         <Form onSubmit={this.sendEmail}>
           <FormGroup>
             <ControlLabel className="send-my-list__form-input-label">
@@ -749,7 +749,7 @@ Wkrótce skontaktujemy się z Państwem!`);
             )}
           </FormGroup>
         </Form>
-      </div>
+      </section>
     );
   }
 }

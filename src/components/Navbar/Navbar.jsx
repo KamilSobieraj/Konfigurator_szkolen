@@ -20,7 +20,7 @@ class Navbar extends Component {
   }
   render() {
     return (
-      <div className="navbar">
+      <nav className="navbar">
         <div className="navbar__logo-wrapper">
           <img
             className="navbar__logo"
@@ -48,7 +48,7 @@ class Navbar extends Component {
             </li>
           ))}
         </ul>
-      </div>
+      </nav>
     );
   }
 }
