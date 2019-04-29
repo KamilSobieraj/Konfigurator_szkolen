@@ -1,9 +1,6 @@
 import React from "react";
 import "./Footer.scss";
-import IconMapPin from "../ui/icons/IconMapPin.png";
-import IconWebsite from "../ui/icons/IconWebsite.png";
-import IconMail from "../ui/icons/IconMail.png";
-import IconMobile from "../ui/icons/IconMobile.png";
+import Icon from "../ui/icons/icon";
 
 const Footer = () => {
   return (
@@ -11,20 +8,20 @@ const Footer = () => {
       <section className="footer__contact-info">
         <address property="mobile">
           <a href="tel:+48 530 392 776">
-            <img
-              src={IconMobile}
+            <Icon
+              className={"footer__contact-info-icon"}
+              name={"icon-mobile"}
               alt="mobile icon"
-              className="footer__contact-info-icon"
             />
             +48 530 392 776
           </a>
         </address>
         <address property="email">
           <a href="mailto: biuro@cpab.pl">
-            <img
-              src={IconMail}
-              alt="mail icon"
-              className="footer__contact-info-icon"
+            <Icon
+              className={"footer__contact-info-icon"}
+              name={"icon-mail"}
+              alt="e-mail icon"
             />
             biuro@cpab.pl
           </a>
@@ -35,21 +32,20 @@ const Footer = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <img
-              src={IconWebsite}
+            <Icon
+              className={"footer__contact-info-icon"}
+              name={"icon-website"}
               alt="website icon"
-              className="footer__contact-info-icon"
             />
             www.cpab.pl
           </a>
         </address>
         <address property="address">
           <p>
-            {" "}
-            <img
-              src={IconMapPin}
-              alt="map pin icon"
-              className="footer__contact-info-icon"
+            <Icon
+              className={"footer__contact-info-icon"}
+              name={"icon-pin"}
+              alt="adress icon"
             />
             ul. Jagiellońska 24, 40-035 Katowice
           </p>

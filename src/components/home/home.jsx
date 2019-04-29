@@ -61,7 +61,6 @@ class Home extends Component {
       <React.Fragment>
         <Router>
           <AdminMain path="/admin" />
-          {/*<Form path="/formm" />*/}
         </Router>
         {/*<LandingPage />
         <img src={Logo} />*/}

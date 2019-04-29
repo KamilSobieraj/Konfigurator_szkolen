@@ -21,15 +21,18 @@
 
     & address,
     a {
-      display: block;
+      display: flex;
       text-decoration: none;
       color: #393e41;
+      align-items:center;
+      font-weight: bold;
     }
 
     &-icon {
       height: 1.2em;
       width: 1.2em;
-      margin-right: 10px;
+      margin-right: 10px;      
+      weight: bold;
     }
   }
 

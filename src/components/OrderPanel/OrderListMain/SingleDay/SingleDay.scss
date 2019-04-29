@@ -42,10 +42,10 @@
     &:hover {
       cursor: pointer;
     }
-    & > img {
+    & > .single-day__module-remove-icon {
       height: 1em;
       width: 1em;
-      color: pink;
+      fill: red;
     }
   }
 }

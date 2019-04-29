@@ -15,7 +15,7 @@ class SendOrderForm extends Component {
     this.state = {
       isCheckboxChecked: false,
       email: {
-        recipient: "biuro@cpab.pl",
+        recipient: "",
         sender: "",
         subject: "Konfigurator - Zamówienie od "
       }
@@ -57,565 +57,566 @@ class SendOrderForm extends Component {
       isDayNineClosed
     } = this.props;
     let senderName = this.senderName.value;
+    let userOrderedList = `${
+      isDayOneClosed !== true || dayTwoDuration === 0
+        ? `<ul>Pierwszy dzień:${chosenModulesNames
+            .slice(0, dayOneDuration)
+            .map(e => `<li>${e}</li>`)
+            .join("")}</ul>`
+        : isDayTwoClosed !== true || dayThreeDuration === 0
+        ? `<ul>Pierwszy dzień: ${chosenModulesNames
+            .slice(0, dayOneDuration)
+            .map(e => `<li>${e}</li>`)
+            .join("")}</ul><ul>Drugi dzień: ${chosenModulesNames
+            .slice(dayOneDuration, dayOneDuration + dayTwoDuration)
+            .map(e => `<li>${e}</li>`)
+            .join("")}</ul>`
+        : isDayThreeClosed !== true || dayFourDuration === 0
+        ? `<ul>Pierwszy dzień: ${chosenModulesNames
+            .slice(0, dayOneDuration)
+            .map(
+              e => `<li>${e}</li>`
+            )}</ul><ul>Drugi dzień: ${chosenModulesNames
+            .slice(dayOneDuration, dayOneDuration + dayTwoDuration)
+            .map(e => `<li>${e}</li>`)
+            .join("")}</ul><ul>Trzeci dzień: ${chosenModulesNames
+            .slice(
+              dayOneDuration + dayTwoDuration,
+              dayOneDuration + dayTwoDuration + dayThreeDuration
+            )
+            .map(e => `<li>${e}</li>`)
+            .join("")}</ul>`
+        : isDayFourClosed !== true || dayFiveDuration === 0
+        ? `<ul>Pierwszy dzień: ${chosenModulesNames
+            .slice(0, dayOneDuration)
+            .map(
+              e => `<li>${e}</li>`
+            )}</ul><ul>Drugi dzień: ${chosenModulesNames
+            .slice(dayOneDuration, dayOneDuration + dayTwoDuration)
+            .map(e => `<li>${e}</li>`)
+            .join("")}</ul><ul>Trzeci dzień: ${chosenModulesNames
+            .slice(
+              dayOneDuration + dayTwoDuration,
+              dayOneDuration + dayTwoDuration + dayThreeDuration
+            )
+            .map(e => `<li>${e}</li>`)
+            .join("")}</ul><ul>Czwarty dzień: ${chosenModulesNames
+            .slice(
+              dayOneDuration + dayTwoDuration + dayThreeDuration,
+              dayOneDuration +
+                dayTwoDuration +
+                dayThreeDuration +
+                dayFourDuration
+            )
+            .map(e => `<li>${e}</li>`)
+            .join("")}</ul>`
+        : isDayFiveClosed !== true || daySixDuration === 0
+        ? `<ul>Pierwszy dzień: ${chosenModulesNames
+            .slice(0, dayOneDuration)
+            .map(
+              e => `<li>${e}</li>`
+            )}</ul><ul>Drugi dzień: ${chosenModulesNames
+            .slice(dayOneDuration, dayOneDuration + dayTwoDuration)
+            .map(e => `<li>${e}</li>`)
+            .join("")}</ul><ul>Trzeci dzień: ${chosenModulesNames
+            .slice(
+              dayOneDuration + dayTwoDuration,
+              dayOneDuration + dayTwoDuration + dayThreeDuration
+            )
+            .map(e => `<li>${e}</li>`)
+            .join("")}</ul><ul>Czwarty dzień: ${chosenModulesNames
+            .slice(
+              dayOneDuration + dayTwoDuration + dayThreeDuration,
+              dayOneDuration +
+                dayTwoDuration +
+                dayThreeDuration +
+                dayFourDuration
+            )
+            .map(e => `<li>${e}</li>`)
+            .join("")}</ul><ul>Piąty dzień: ${chosenModulesNames
+            .slice(
+              dayOneDuration +
+                dayTwoDuration +
+                dayThreeDuration +
+                dayFourDuration,
+              dayOneDuration +
+                dayTwoDuration +
+                dayThreeDuration +
+                dayFourDuration +
+                dayFiveDuration
+            )
+            .map(e => `<li>${e}</li>`)
+            .join("")}</ul>`
+        : isDaySixClosed !== true || daySevenDuration === 0
+        ? `<ul>Pierwszy dzień: ${chosenModulesNames
+            .slice(0, dayOneDuration)
+            .map(
+              e => `<li>${e}</li>`
+            )}</ul><ul>Drugi dzień: ${chosenModulesNames
+            .slice(dayOneDuration, dayOneDuration + dayTwoDuration)
+            .map(e => `<li>${e}</li>`)
+            .join("")}</ul><ul>Trzeci dzień: ${chosenModulesNames
+            .slice(
+              dayOneDuration + dayTwoDuration,
+              dayOneDuration + dayTwoDuration + dayThreeDuration
+            )
+            .map(e => `<li>${e}</li>`)
+            .join("")}</ul><ul>Czwarty dzień: ${chosenModulesNames
+            .slice(
+              dayOneDuration + dayTwoDuration + dayThreeDuration,
+              dayOneDuration +
+                dayTwoDuration +
+                dayThreeDuration +
+                dayFourDuration
+            )
+            .map(e => `<li>${e}</li>`)
+            .join("")}</ul><ul>Piąty dzień: ${chosenModulesNames
+            .slice(
+              dayOneDuration +
+                dayTwoDuration +
+                dayThreeDuration +
+                dayFourDuration,
+              dayOneDuration +
+                dayTwoDuration +
+                dayThreeDuration +
+                dayFourDuration +
+                dayFiveDuration
+            )
+            .map(e => `<li>${e}</li>`)
+            .join("")}</ul><ul>Szósty dzień: ${chosenModulesNames
+            .slice(
+              dayOneDuration +
+                dayTwoDuration +
+                dayThreeDuration +
+                dayFourDuration +
+                dayFiveDuration,
+              dayOneDuration +
+                dayTwoDuration +
+                dayThreeDuration +
+                dayFourDuration +
+                dayFiveDuration +
+                daySixDuration
+            )
+            .map(e => `<li>${e}</li>`)
+            .join("")}</ul>`
+        : isDaySevenClosed !== true || dayEightDuration === 0
+        ? `<ul>Pierwszy dzień: ${chosenModulesNames
+            .slice(0, dayOneDuration)
+            .map(
+              e => `<li>${e}</li>`
+            )}</ul><ul>Drugi dzień: ${chosenModulesNames
+            .slice(dayOneDuration, dayOneDuration + dayTwoDuration)
+            .map(e => `<li>${e}</li>`)
+            .join("")}</ul><ul>Trzeci dzień: ${chosenModulesNames
+            .slice(
+              dayOneDuration + dayTwoDuration,
+              dayOneDuration + dayTwoDuration + dayThreeDuration
+            )
+            .map(e => `<li>${e}</li>`)
+            .join("")}</ul><ul>Czwarty dzień: ${chosenModulesNames
+            .slice(
+              dayOneDuration + dayTwoDuration + dayThreeDuration,
+              dayOneDuration +
+                dayTwoDuration +
+                dayThreeDuration +
+                dayFourDuration
+            )
+            .map(e => `<li>${e}</li>`)
+            .join("")}</ul><ul>Piąty dzień: ${chosenModulesNames
+            .slice(
+              dayOneDuration +
+                dayTwoDuration +
+                dayThreeDuration +
+                dayFourDuration,
+              dayOneDuration +
+                dayTwoDuration +
+                dayThreeDuration +
+                dayFourDuration +
+                dayFiveDuration
+            )
+            .map(e => `<li>${e}</li>`)
+            .join("")}</ul><ul>Szósty dzień: ${chosenModulesNames
+            .slice(
+              dayOneDuration +
+                dayTwoDuration +
+                dayThreeDuration +
+                dayFourDuration +
+                dayFiveDuration,
+              dayOneDuration +
+                dayTwoDuration +
+                dayThreeDuration +
+                dayFourDuration +
+                dayFiveDuration +
+                daySixDuration
+            )
+            .map(e => `<li>${e}</li>`)
+            .join("")}</ul><ul>Siódmy dzień: ${chosenModulesNames
+            .slice(
+              dayOneDuration +
+                dayTwoDuration +
+                dayThreeDuration +
+                dayFourDuration +
+                dayFiveDuration +
+                daySixDuration,
+              dayOneDuration +
+                dayTwoDuration +
+                dayThreeDuration +
+                dayFourDuration +
+                dayFiveDuration +
+                daySixDuration +
+                daySevenDuration
+            )
+            .map(e => `<li>${e}</li>`)
+            .join("")}</ul>`
+        : isDayEightClosed !== true || dayNineDuration === 0
+        ? `<ul>Pierwszy dzień: ${chosenModulesNames
+            .slice(0, dayOneDuration)
+            .map(
+              e => `<li>${e}</li>`
+            )}</ul><ul>Drugi dzień: ${chosenModulesNames
+            .slice(dayOneDuration, dayOneDuration + dayTwoDuration)
+            .map(e => `<li>${e}</li>`)
+            .join("")}</ul><ul>Trzeci dzień: ${chosenModulesNames
+            .slice(
+              dayOneDuration + dayTwoDuration,
+              dayOneDuration + dayTwoDuration + dayThreeDuration
+            )
+            .map(e => `<li>${e}</li>`)
+            .join("")}</ul><ul>Czwarty dzień: ${chosenModulesNames
+            .slice(
+              dayOneDuration + dayTwoDuration + dayThreeDuration,
+              dayOneDuration +
+                dayTwoDuration +
+                dayThreeDuration +
+                dayFourDuration
+            )
+            .map(e => `<li>${e}</li>`)
+            .join("")}</ul><ul>Piąty dzień: ${chosenModulesNames
+            .slice(
+              dayOneDuration +
+                dayTwoDuration +
+                dayThreeDuration +
+                dayFourDuration,
+              dayOneDuration +
+                dayTwoDuration +
+                dayThreeDuration +
+                dayFourDuration +
+                dayFiveDuration
+            )
+            .map(e => `<li>${e}</li>`)
+            .join("")}</ul><ul>Szósty dzień: ${chosenModulesNames
+            .slice(
+              dayOneDuration +
+                dayTwoDuration +
+                dayThreeDuration +
+                dayFourDuration +
+                dayFiveDuration,
+              dayOneDuration +
+                dayTwoDuration +
+                dayThreeDuration +
+                dayFourDuration +
+                dayFiveDuration +
+                daySixDuration
+            )
+            .map(e => `<li>${e}</li>`)
+            .join("")}</ul><ul>Siódmy dzień: ${chosenModulesNames
+            .slice(
+              dayOneDuration +
+                dayTwoDuration +
+                dayThreeDuration +
+                dayFourDuration +
+                dayFiveDuration +
+                daySixDuration,
+              dayOneDuration +
+                dayTwoDuration +
+                dayThreeDuration +
+                dayFourDuration +
+                dayFiveDuration +
+                daySixDuration +
+                daySevenDuration
+            )
+            .map(e => `<li>${e}</li>`)
+            .join("")}</ul><ul>Ósmy dzień: ${chosenModulesNames
+            .slice(
+              dayOneDuration +
+                dayTwoDuration +
+                dayThreeDuration +
+                dayFourDuration +
+                dayFiveDuration +
+                daySixDuration +
+                daySevenDuration,
+              dayOneDuration +
+                dayTwoDuration +
+                dayThreeDuration +
+                dayFourDuration +
+                dayFiveDuration +
+                daySixDuration +
+                daySevenDuration +
+                dayEightDuration
+            )
+            .map(e => `<li>${e}</li>`)
+            .join("")}</ul>`
+        : isDayNineClosed !== true || dayTenDuration === 0
+        ? `<ul>Pierwszy dzień: ${chosenModulesNames
+            .slice(0, dayOneDuration)
+            .map(
+              e => `<li>${e}</li>`
+            )}</ul><ul>Drugi dzień: ${chosenModulesNames
+            .slice(dayOneDuration, dayOneDuration + dayTwoDuration)
+            .map(e => `<li>${e}</li>`)
+            .join("")}</ul><ul>Trzeci dzień: ${chosenModulesNames
+            .slice(
+              dayOneDuration + dayTwoDuration,
+              dayOneDuration + dayTwoDuration + dayThreeDuration
+            )
+            .map(e => `<li>${e}</li>`)
+            .join("")}</ul><ul>Czwarty dzień: ${chosenModulesNames
+            .slice(
+              dayOneDuration + dayTwoDuration + dayThreeDuration,
+              dayOneDuration +
+                dayTwoDuration +
+                dayThreeDuration +
+                dayFourDuration
+            )
+            .map(e => `<li>${e}</li>`)
+            .join("")}</ul><ul>Piąty dzień: ${chosenModulesNames
+            .slice(
+              dayOneDuration +
+                dayTwoDuration +
+                dayThreeDuration +
+                dayFourDuration,
+              dayOneDuration +
+                dayTwoDuration +
+                dayThreeDuration +
+                dayFourDuration +
+                dayFiveDuration
+            )
+            .map(e => `<li>${e}</li>`)
+            .join("")}</ul><ul>Szósty dzień: ${chosenModulesNames
+            .slice(
+              dayOneDuration +
+                dayTwoDuration +
+                dayThreeDuration +
+                dayFourDuration +
+                dayFiveDuration,
+              dayOneDuration +
+                dayTwoDuration +
+                dayThreeDuration +
+                dayFourDuration +
+                dayFiveDuration +
+                daySixDuration
+            )
+            .map(e => `<li>${e}</li>`)
+            .join("")}</ul><ul>Siódmy dzień: ${chosenModulesNames
+            .slice(
+              dayOneDuration +
+                dayTwoDuration +
+                dayThreeDuration +
+                dayFourDuration +
+                dayFiveDuration +
+                daySixDuration,
+              dayOneDuration +
+                dayTwoDuration +
+                dayThreeDuration +
+                dayFourDuration +
+                dayFiveDuration +
+                daySixDuration +
+                daySevenDuration
+            )
+            .map(e => `<li>${e}</li>`)
+            .join("")}</ul><ul>Ósmy dzień: ${chosenModulesNames
+            .slice(
+              dayOneDuration +
+                dayTwoDuration +
+                dayThreeDuration +
+                dayFourDuration +
+                dayFiveDuration +
+                daySixDuration +
+                daySevenDuration,
+              dayOneDuration +
+                dayTwoDuration +
+                dayThreeDuration +
+                dayFourDuration +
+                dayFiveDuration +
+                daySixDuration +
+                daySevenDuration +
+                dayEightDuration
+            )
+            .map(e => `<li>${e}</li>`)
+            .join("")}</ul><ul>Dziewiąty dzień: ${chosenModulesNames
+            .slice(
+              dayOneDuration +
+                dayTwoDuration +
+                dayThreeDuration +
+                dayFourDuration +
+                dayFiveDuration +
+                daySixDuration +
+                daySevenDuration +
+                dayEightDuration,
+              dayOneDuration +
+                dayTwoDuration +
+                dayThreeDuration +
+                dayFourDuration +
+                dayFiveDuration +
+                daySixDuration +
+                daySevenDuration +
+                dayEightDuration +
+                dayNineDuration
+            )
+            .map(e => `<li>${e}</li>`)
+            .join("")}</ul>`
+        : `<ul>Pierwszy dzień: ${chosenModulesNames
+            .slice(0, dayOneDuration)
+            .map(
+              e => `<li>${e}</li>`
+            )}</ul><ul>Drugi dzień: ${chosenModulesNames
+            .slice(dayOneDuration, dayOneDuration + dayTwoDuration)
+            .map(e => `<li>${e}</li>`)
+            .join("")}</ul><ul>Trzeci dzień: ${chosenModulesNames
+            .slice(
+              dayOneDuration + dayTwoDuration,
+              dayOneDuration + dayTwoDuration + dayThreeDuration
+            )
+            .map(e => `<li>${e}</li>`)
+            .join("")}</ul><ul>Czwarty dzień: ${chosenModulesNames
+            .slice(
+              dayOneDuration + dayTwoDuration + dayThreeDuration,
+              dayOneDuration +
+                dayTwoDuration +
+                dayThreeDuration +
+                dayFourDuration
+            )
+            .map(e => `<li>${e}</li>`)
+            .join("")}</ul><ul>Piąty dzień: ${chosenModulesNames
+            .slice(
+              dayOneDuration +
+                dayTwoDuration +
+                dayThreeDuration +
+                dayFourDuration,
+              dayOneDuration +
+                dayTwoDuration +
+                dayThreeDuration +
+                dayFourDuration +
+                dayFiveDuration
+            )
+            .map(e => `<li>${e}</li>`)
+            .join("")}</ul><ul>Szósty dzień: ${chosenModulesNames
+            .slice(
+              dayOneDuration +
+                dayTwoDuration +
+                dayThreeDuration +
+                dayFourDuration +
+                dayFiveDuration,
+              dayOneDuration +
+                dayTwoDuration +
+                dayThreeDuration +
+                dayFourDuration +
+                dayFiveDuration +
+                daySixDuration
+            )
+            .map(e => `<li>${e}</li>`)
+            .join("")}</ul><ul>Siódmy dzień: ${chosenModulesNames
+            .slice(
+              dayOneDuration +
+                dayTwoDuration +
+                dayThreeDuration +
+                dayFourDuration +
+                dayFiveDuration +
+                daySixDuration,
+              dayOneDuration +
+                dayTwoDuration +
+                dayThreeDuration +
+                dayFourDuration +
+                dayFiveDuration +
+                daySixDuration +
+                daySevenDuration
+            )
+            .map(e => `<li>${e}</li>`)
+            .join("")}</ul><ul>Ósmy dzień: ${chosenModulesNames
+            .slice(
+              dayOneDuration +
+                dayTwoDuration +
+                dayThreeDuration +
+                dayFourDuration +
+                dayFiveDuration +
+                daySixDuration +
+                daySevenDuration,
+              dayOneDuration +
+                dayTwoDuration +
+                dayThreeDuration +
+                dayFourDuration +
+                dayFiveDuration +
+                daySixDuration +
+                daySevenDuration +
+                dayEightDuration
+            )
+            .map(e => `<li>${e}</li>`)
+            .join("")}</ul><ul>Dziewiąty dzień: ${chosenModulesNames
+            .slice(
+              dayOneDuration +
+                dayTwoDuration +
+                dayThreeDuration +
+                dayFourDuration +
+                dayFiveDuration +
+                daySixDuration +
+                daySevenDuration +
+                dayEightDuration,
+              dayOneDuration +
+                dayTwoDuration +
+                dayThreeDuration +
+                dayFourDuration +
+                dayFiveDuration +
+                daySixDuration +
+                daySevenDuration +
+                dayEightDuration +
+                dayNineDuration
+            )
+            .map(e => `<li>${e}</li>`)
+            .join("")}</ul><ul>Dziesiąty dzień: ${chosenModulesNames
+            .slice(
+              dayOneDuration +
+                dayTwoDuration +
+                dayThreeDuration +
+                dayFourDuration +
+                dayFiveDuration +
+                daySixDuration +
+                daySevenDuration +
+                dayEightDuration +
+                dayNineDuration,
+              dayOneDuration +
+                dayTwoDuration +
+                dayThreeDuration +
+                dayFourDuration +
+                dayFiveDuration +
+                daySixDuration +
+                daySevenDuration +
+                dayEightDuration +
+                dayNineDuration +
+                dayTenDuration
+            )
+            .map(e => `<li>${e}</li>`)
+            .join("")}</ul>`
+    }`;
+
     //**** Preapere html request to be send ****\\
-    let myhtml =
-      `<p>Zamówienie od: <strong>${
-        this.senderName.value
-      }</strong></p><p>Telefon kontaktowy: <strong>${
-        this.senderPhoneNumber.value
-      }</p></strong></p><p>Adres e-mail: ${
-        email.sender
-      }</p><p>Miejsce szkolenia: <strong>${
-        this.senderPlaceOfTraining.value
-      }</strong></p><p>Wiadomość od zamawiającego: <p>"${this.senderMessage.value.replace(
-        /(\r\n\t|\n|\r\t)/gm,
-        ""
-      )}"</p></p><p><strong>Zamówienie:</strong> </p>` +
-      `${
-        isDayOneClosed !== true || dayTwoDuration === 0
-          ? `<ul>Pierwszy dzień:${chosenModulesNames
-              .slice(0, dayOneDuration)
-              .map(e => `<li>${e}</li>`)
-              .join("")}</ul>`
-          : isDayTwoClosed !== true || dayThreeDuration === 0
-          ? `<ul>Pierwszy dzień: ${chosenModulesNames
-              .slice(0, dayOneDuration)
-              .map(e => `<li>${e}</li>`)
-              .join("")}</ul><ul>Drugi dzień: ${chosenModulesNames
-              .slice(dayOneDuration, dayOneDuration + dayTwoDuration)
-              .map(e => `<li>${e}</li>`)
-              .join("")}</ul>`
-          : isDayThreeClosed !== true || dayFourDuration === 0
-          ? `<ul>Pierwszy dzień: ${chosenModulesNames
-              .slice(0, dayOneDuration)
-              .map(
-                e => `<li>${e}</li>`
-              )}</ul><ul>Drugi dzień: ${chosenModulesNames
-              .slice(dayOneDuration, dayOneDuration + dayTwoDuration)
-              .map(e => `<li>${e}</li>`)
-              .join("")}</ul><ul>Trzeci dzień: ${chosenModulesNames
-              .slice(
-                dayOneDuration + dayTwoDuration,
-                dayOneDuration + dayTwoDuration + dayThreeDuration
-              )
-              .map(e => `<li>${e}</li>`)
-              .join("")}</ul>`
-          : isDayFourClosed !== true || dayFiveDuration === 0
-          ? `<ul>Pierwszy dzień: ${chosenModulesNames
-              .slice(0, dayOneDuration)
-              .map(
-                e => `<li>${e}</li>`
-              )}</ul><ul>Drugi dzień: ${chosenModulesNames
-              .slice(dayOneDuration, dayOneDuration + dayTwoDuration)
-              .map(e => `<li>${e}</li>`)
-              .join("")}</ul><ul>Trzeci dzień: ${chosenModulesNames
-              .slice(
-                dayOneDuration + dayTwoDuration,
-                dayOneDuration + dayTwoDuration + dayThreeDuration
-              )
-              .map(e => `<li>${e}</li>`)
-              .join("")}</ul><ul>Czwarty dzień: ${chosenModulesNames
-              .slice(
-                dayOneDuration + dayTwoDuration + dayThreeDuration,
-                dayOneDuration +
-                  dayTwoDuration +
-                  dayThreeDuration +
-                  dayFourDuration
-              )
-              .map(e => `<li>${e}</li>`)
-              .join("")}</ul>`
-          : isDayFiveClosed !== true || daySixDuration === 0
-          ? `<ul>Pierwszy dzień: ${chosenModulesNames
-              .slice(0, dayOneDuration)
-              .map(
-                e => `<li>${e}</li>`
-              )}</ul><ul>Drugi dzień: ${chosenModulesNames
-              .slice(dayOneDuration, dayOneDuration + dayTwoDuration)
-              .map(e => `<li>${e}</li>`)
-              .join("")}</ul><ul>Trzeci dzień: ${chosenModulesNames
-              .slice(
-                dayOneDuration + dayTwoDuration,
-                dayOneDuration + dayTwoDuration + dayThreeDuration
-              )
-              .map(e => `<li>${e}</li>`)
-              .join("")}</ul><ul>Czwarty dzień: ${chosenModulesNames
-              .slice(
-                dayOneDuration + dayTwoDuration + dayThreeDuration,
-                dayOneDuration +
-                  dayTwoDuration +
-                  dayThreeDuration +
-                  dayFourDuration
-              )
-              .map(e => `<li>${e}</li>`)
-              .join("")}</ul><ul>Piąty dzień: ${chosenModulesNames
-              .slice(
-                dayOneDuration +
-                  dayTwoDuration +
-                  dayThreeDuration +
-                  dayFourDuration,
-                dayOneDuration +
-                  dayTwoDuration +
-                  dayThreeDuration +
-                  dayFourDuration +
-                  dayFiveDuration
-              )
-              .map(e => `<li>${e}</li>`)
-              .join("")}</ul>`
-          : isDaySixClosed !== true || daySevenDuration === 0
-          ? `<ul>Pierwszy dzień: ${chosenModulesNames
-              .slice(0, dayOneDuration)
-              .map(
-                e => `<li>${e}</li>`
-              )}</ul><ul>Drugi dzień: ${chosenModulesNames
-              .slice(dayOneDuration, dayOneDuration + dayTwoDuration)
-              .map(e => `<li>${e}</li>`)
-              .join("")}</ul><ul>Trzeci dzień: ${chosenModulesNames
-              .slice(
-                dayOneDuration + dayTwoDuration,
-                dayOneDuration + dayTwoDuration + dayThreeDuration
-              )
-              .map(e => `<li>${e}</li>`)
-              .join("")}</ul><ul>Czwarty dzień: ${chosenModulesNames
-              .slice(
-                dayOneDuration + dayTwoDuration + dayThreeDuration,
-                dayOneDuration +
-                  dayTwoDuration +
-                  dayThreeDuration +
-                  dayFourDuration
-              )
-              .map(e => `<li>${e}</li>`)
-              .join("")}</ul><ul>Piąty dzień: ${chosenModulesNames
-              .slice(
-                dayOneDuration +
-                  dayTwoDuration +
-                  dayThreeDuration +
-                  dayFourDuration,
-                dayOneDuration +
-                  dayTwoDuration +
-                  dayThreeDuration +
-                  dayFourDuration +
-                  dayFiveDuration
-              )
-              .map(e => `<li>${e}</li>`)
-              .join("")}</ul><ul>Szósty dzień: ${chosenModulesNames
-              .slice(
-                dayOneDuration +
-                  dayTwoDuration +
-                  dayThreeDuration +
-                  dayFourDuration +
-                  dayFiveDuration,
-                dayOneDuration +
-                  dayTwoDuration +
-                  dayThreeDuration +
-                  dayFourDuration +
-                  dayFiveDuration +
-                  daySixDuration
-              )
-              .map(e => `<li>${e}</li>`)
-              .join("")}</ul>`
-          : isDaySevenClosed !== true || dayEightDuration === 0
-          ? `<ul>Pierwszy dzień: ${chosenModulesNames
-              .slice(0, dayOneDuration)
-              .map(
-                e => `<li>${e}</li>`
-              )}</ul><ul>Drugi dzień: ${chosenModulesNames
-              .slice(dayOneDuration, dayOneDuration + dayTwoDuration)
-              .map(e => `<li>${e}</li>`)
-              .join("")}</ul><ul>Trzeci dzień: ${chosenModulesNames
-              .slice(
-                dayOneDuration + dayTwoDuration,
-                dayOneDuration + dayTwoDuration + dayThreeDuration
-              )
-              .map(e => `<li>${e}</li>`)
-              .join("")}</ul><ul>Czwarty dzień: ${chosenModulesNames
-              .slice(
-                dayOneDuration + dayTwoDuration + dayThreeDuration,
-                dayOneDuration +
-                  dayTwoDuration +
-                  dayThreeDuration +
-                  dayFourDuration
-              )
-              .map(e => `<li>${e}</li>`)
-              .join("")}</ul><ul>Piąty dzień: ${chosenModulesNames
-              .slice(
-                dayOneDuration +
-                  dayTwoDuration +
-                  dayThreeDuration +
-                  dayFourDuration,
-                dayOneDuration +
-                  dayTwoDuration +
-                  dayThreeDuration +
-                  dayFourDuration +
-                  dayFiveDuration
-              )
-              .map(e => `<li>${e}</li>`)
-              .join("")}</ul><ul>Szósty dzień: ${chosenModulesNames
-              .slice(
-                dayOneDuration +
-                  dayTwoDuration +
-                  dayThreeDuration +
-                  dayFourDuration +
-                  dayFiveDuration,
-                dayOneDuration +
-                  dayTwoDuration +
-                  dayThreeDuration +
-                  dayFourDuration +
-                  dayFiveDuration +
-                  daySixDuration
-              )
-              .map(e => `<li>${e}</li>`)
-              .join("")}</ul><ul>Siódmy dzień: ${chosenModulesNames
-              .slice(
-                dayOneDuration +
-                  dayTwoDuration +
-                  dayThreeDuration +
-                  dayFourDuration +
-                  dayFiveDuration +
-                  daySixDuration,
-                dayOneDuration +
-                  dayTwoDuration +
-                  dayThreeDuration +
-                  dayFourDuration +
-                  dayFiveDuration +
-                  daySixDuration +
-                  daySevenDuration
-              )
-              .map(e => `<li>${e}</li>`)
-              .join("")}</ul>`
-          : isDayEightClosed !== true || dayNineDuration === 0
-          ? `<ul>Pierwszy dzień: ${chosenModulesNames
-              .slice(0, dayOneDuration)
-              .map(
-                e => `<li>${e}</li>`
-              )}</ul><ul>Drugi dzień: ${chosenModulesNames
-              .slice(dayOneDuration, dayOneDuration + dayTwoDuration)
-              .map(e => `<li>${e}</li>`)
-              .join("")}</ul><ul>Trzeci dzień: ${chosenModulesNames
-              .slice(
-                dayOneDuration + dayTwoDuration,
-                dayOneDuration + dayTwoDuration + dayThreeDuration
-              )
-              .map(e => `<li>${e}</li>`)
-              .join("")}</ul><ul>Czwarty dzień: ${chosenModulesNames
-              .slice(
-                dayOneDuration + dayTwoDuration + dayThreeDuration,
-                dayOneDuration +
-                  dayTwoDuration +
-                  dayThreeDuration +
-                  dayFourDuration
-              )
-              .map(e => `<li>${e}</li>`)
-              .join("")}</ul><ul>Piąty dzień: ${chosenModulesNames
-              .slice(
-                dayOneDuration +
-                  dayTwoDuration +
-                  dayThreeDuration +
-                  dayFourDuration,
-                dayOneDuration +
-                  dayTwoDuration +
-                  dayThreeDuration +
-                  dayFourDuration +
-                  dayFiveDuration
-              )
-              .map(e => `<li>${e}</li>`)
-              .join("")}</ul><ul>Szósty dzień: ${chosenModulesNames
-              .slice(
-                dayOneDuration +
-                  dayTwoDuration +
-                  dayThreeDuration +
-                  dayFourDuration +
-                  dayFiveDuration,
-                dayOneDuration +
-                  dayTwoDuration +
-                  dayThreeDuration +
-                  dayFourDuration +
-                  dayFiveDuration +
-                  daySixDuration
-              )
-              .map(e => `<li>${e}</li>`)
-              .join("")}</ul><ul>Siódmy dzień: ${chosenModulesNames
-              .slice(
-                dayOneDuration +
-                  dayTwoDuration +
-                  dayThreeDuration +
-                  dayFourDuration +
-                  dayFiveDuration +
-                  daySixDuration,
-                dayOneDuration +
-                  dayTwoDuration +
-                  dayThreeDuration +
-                  dayFourDuration +
-                  dayFiveDuration +
-                  daySixDuration +
-                  daySevenDuration
-              )
-              .map(e => `<li>${e}</li>`)
-              .join("")}</ul><ul>Ósmy dzień: ${chosenModulesNames
-              .slice(
-                dayOneDuration +
-                  dayTwoDuration +
-                  dayThreeDuration +
-                  dayFourDuration +
-                  dayFiveDuration +
-                  daySixDuration +
-                  daySevenDuration,
-                dayOneDuration +
-                  dayTwoDuration +
-                  dayThreeDuration +
-                  dayFourDuration +
-                  dayFiveDuration +
-                  daySixDuration +
-                  daySevenDuration +
-                  dayEightDuration
-              )
-              .map(e => `<li>${e}</li>`)
-              .join("")}</ul>`
-          : isDayNineClosed !== true || dayTenDuration === 0
-          ? `<ul>Pierwszy dzień: ${chosenModulesNames
-              .slice(0, dayOneDuration)
-              .map(
-                e => `<li>${e}</li>`
-              )}</ul><ul>Drugi dzień: ${chosenModulesNames
-              .slice(dayOneDuration, dayOneDuration + dayTwoDuration)
-              .map(e => `<li>${e}</li>`)
-              .join("")}</ul><ul>Trzeci dzień: ${chosenModulesNames
-              .slice(
-                dayOneDuration + dayTwoDuration,
-                dayOneDuration + dayTwoDuration + dayThreeDuration
-              )
-              .map(e => `<li>${e}</li>`)
-              .join("")}</ul><ul>Czwarty dzień: ${chosenModulesNames
-              .slice(
-                dayOneDuration + dayTwoDuration + dayThreeDuration,
-                dayOneDuration +
-                  dayTwoDuration +
-                  dayThreeDuration +
-                  dayFourDuration
-              )
-              .map(e => `<li>${e}</li>`)
-              .join("")}</ul><ul>Piąty dzień: ${chosenModulesNames
-              .slice(
-                dayOneDuration +
-                  dayTwoDuration +
-                  dayThreeDuration +
-                  dayFourDuration,
-                dayOneDuration +
-                  dayTwoDuration +
-                  dayThreeDuration +
-                  dayFourDuration +
-                  dayFiveDuration
-              )
-              .map(e => `<li>${e}</li>`)
-              .join("")}</ul><ul>Szósty dzień: ${chosenModulesNames
-              .slice(
-                dayOneDuration +
-                  dayTwoDuration +
-                  dayThreeDuration +
-                  dayFourDuration +
-                  dayFiveDuration,
-                dayOneDuration +
-                  dayTwoDuration +
-                  dayThreeDuration +
-                  dayFourDuration +
-                  dayFiveDuration +
-                  daySixDuration
-              )
-              .map(e => `<li>${e}</li>`)
-              .join("")}</ul><ul>Siódmy dzień: ${chosenModulesNames
-              .slice(
-                dayOneDuration +
-                  dayTwoDuration +
-                  dayThreeDuration +
-                  dayFourDuration +
-                  dayFiveDuration +
-                  daySixDuration,
-                dayOneDuration +
-                  dayTwoDuration +
-                  dayThreeDuration +
-                  dayFourDuration +
-                  dayFiveDuration +
-                  daySixDuration +
-                  daySevenDuration
-              )
-              .map(e => `<li>${e}</li>`)
-              .join("")}</ul><ul>Ósmy dzień: ${chosenModulesNames
-              .slice(
-                dayOneDuration +
-                  dayTwoDuration +
-                  dayThreeDuration +
-                  dayFourDuration +
-                  dayFiveDuration +
-                  daySixDuration +
-                  daySevenDuration,
-                dayOneDuration +
-                  dayTwoDuration +
-                  dayThreeDuration +
-                  dayFourDuration +
-                  dayFiveDuration +
-                  daySixDuration +
-                  daySevenDuration +
-                  dayEightDuration
-              )
-              .map(e => `<li>${e}</li>`)
-              .join("")}</ul><ul>Dziewiąty dzień: ${chosenModulesNames
-              .slice(
-                dayOneDuration +
-                  dayTwoDuration +
-                  dayThreeDuration +
-                  dayFourDuration +
-                  dayFiveDuration +
-                  daySixDuration +
-                  daySevenDuration +
-                  dayEightDuration,
-                dayOneDuration +
-                  dayTwoDuration +
-                  dayThreeDuration +
-                  dayFourDuration +
-                  dayFiveDuration +
-                  daySixDuration +
-                  daySevenDuration +
-                  dayEightDuration +
-                  dayNineDuration
-              )
-              .map(e => `<li>${e}</li>`)
-              .join("")}</ul>`
-          : `<ul>Pierwszy dzień: ${chosenModulesNames
-              .slice(0, dayOneDuration)
-              .map(
-                e => `<li>${e}</li>`
-              )}</ul><ul>Drugi dzień: ${chosenModulesNames
-              .slice(dayOneDuration, dayOneDuration + dayTwoDuration)
-              .map(e => `<li>${e}</li>`)
-              .join("")}</ul><ul>Trzeci dzień: ${chosenModulesNames
-              .slice(
-                dayOneDuration + dayTwoDuration,
-                dayOneDuration + dayTwoDuration + dayThreeDuration
-              )
-              .map(e => `<li>${e}</li>`)
-              .join("")}</ul><ul>Czwarty dzień: ${chosenModulesNames
-              .slice(
-                dayOneDuration + dayTwoDuration + dayThreeDuration,
-                dayOneDuration +
-                  dayTwoDuration +
-                  dayThreeDuration +
-                  dayFourDuration
-              )
-              .map(e => `<li>${e}</li>`)
-              .join("")}</ul><ul>Piąty dzień: ${chosenModulesNames
-              .slice(
-                dayOneDuration +
-                  dayTwoDuration +
-                  dayThreeDuration +
-                  dayFourDuration,
-                dayOneDuration +
-                  dayTwoDuration +
-                  dayThreeDuration +
-                  dayFourDuration +
-                  dayFiveDuration
-              )
-              .map(e => `<li>${e}</li>`)
-              .join("")}</ul><ul>Szósty dzień: ${chosenModulesNames
-              .slice(
-                dayOneDuration +
-                  dayTwoDuration +
-                  dayThreeDuration +
-                  dayFourDuration +
-                  dayFiveDuration,
-                dayOneDuration +
-                  dayTwoDuration +
-                  dayThreeDuration +
-                  dayFourDuration +
-                  dayFiveDuration +
-                  daySixDuration
-              )
-              .map(e => `<li>${e}</li>`)
-              .join("")}</ul><ul>Siódmy dzień: ${chosenModulesNames
-              .slice(
-                dayOneDuration +
-                  dayTwoDuration +
-                  dayThreeDuration +
-                  dayFourDuration +
-                  dayFiveDuration +
-                  daySixDuration,
-                dayOneDuration +
-                  dayTwoDuration +
-                  dayThreeDuration +
-                  dayFourDuration +
-                  dayFiveDuration +
-                  daySixDuration +
-                  daySevenDuration
-              )
-              .map(e => `<li>${e}</li>`)
-              .join("")}</ul><ul>Ósmy dzień: ${chosenModulesNames
-              .slice(
-                dayOneDuration +
-                  dayTwoDuration +
-                  dayThreeDuration +
-                  dayFourDuration +
-                  dayFiveDuration +
-                  daySixDuration +
-                  daySevenDuration,
-                dayOneDuration +
-                  dayTwoDuration +
-                  dayThreeDuration +
-                  dayFourDuration +
-                  dayFiveDuration +
-                  daySixDuration +
-                  daySevenDuration +
-                  dayEightDuration
-              )
-              .map(e => `<li>${e}</li>`)
-              .join("")}</ul><ul>Dziewiąty dzień: ${chosenModulesNames
-              .slice(
-                dayOneDuration +
-                  dayTwoDuration +
-                  dayThreeDuration +
-                  dayFourDuration +
-                  dayFiveDuration +
-                  daySixDuration +
-                  daySevenDuration +
-                  dayEightDuration,
-                dayOneDuration +
-                  dayTwoDuration +
-                  dayThreeDuration +
-                  dayFourDuration +
-                  dayFiveDuration +
-                  daySixDuration +
-                  daySevenDuration +
-                  dayEightDuration +
-                  dayNineDuration
-              )
-              .map(e => `<li>${e}</li>`)
-              .join("")}</ul><ul>Dziesiąty dzień: ${chosenModulesNames
-              .slice(
-                dayOneDuration +
-                  dayTwoDuration +
-                  dayThreeDuration +
-                  dayFourDuration +
-                  dayFiveDuration +
-                  daySixDuration +
-                  daySevenDuration +
-                  dayEightDuration +
-                  dayNineDuration,
-                dayOneDuration +
-                  dayTwoDuration +
-                  dayThreeDuration +
-                  dayFourDuration +
-                  dayFiveDuration +
-                  daySixDuration +
-                  daySevenDuration +
-                  dayEightDuration +
-                  dayNineDuration +
-                  dayTenDuration
-              )
-              .map(e => `<li>${e}</li>`)
-              .join("")}</ul>`
-      }`;
+    let html = `<p>Zamówienie od: <strong>${
+      this.senderName.value
+    }</strong></p><p>Telefon kontaktowy: <strong>${
+      this.senderPhoneNumber.value
+    }</p></strong></p><p>Adres e-mail: ${
+      email.sender
+    }</p><p>Miejsce szkolenia: <strong>${
+      this.senderPlaceOfTraining.value
+    }</strong></p><p>Wiadomość od zamawiającego: <p>"${this.senderMessage.value.replace(
+      /(\r\n\t|\n|\r\t)/gm,
+      ""
+    )}</p></p><p><strong>Zamówienie:</strong> </p><br/>${userOrderedList}`;
+
     //**** Send an e-mail ****\\
     const emailData = {
-      recipient: email.recipient,
+      recipient: email.sender,
       subject: email.subject,
-      html: myhtml,
+      html: html,
       senderName: senderName
     };
     let formData = new FormData();
@@ -631,6 +632,7 @@ class SendOrderForm extends Component {
       .then(res => res.text())
       .then(text => text)
       .catch(error => console.log(error));
+
     //Info after sending e-mail;
     alert(`Zamówienie zostało wysłane!
 Wkrótce skontaktujemy się z Państwem!`);

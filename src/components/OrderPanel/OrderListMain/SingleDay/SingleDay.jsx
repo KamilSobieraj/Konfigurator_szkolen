@@ -1,7 +1,7 @@
 import React from "react";
 import "./SingleDay.scss";
 import { ListGroupItem } from "react-bootstrap";
-import RemoveButton from "../../../ui/icons/IconRemove.png";
+import Icon from "../../../ui/icons/icon";
 
 const SingleDay = props => {
   return (
@@ -19,7 +19,11 @@ const SingleDay = props => {
             className="single-day__module-remove-button"
           >
             {" "}
-            <img src={RemoveButton} alt="remove button" />
+            <Icon
+              className={"single-day__module-remove-icon"}
+              name={"icon-remove"}
+              alt="remove button"
+            />
           </div>
         </ListGroupItem>
       ))}
