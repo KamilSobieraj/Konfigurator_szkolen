@@ -30,13 +30,17 @@
     width: 1em;
     height: 2em;
     border: none;
-    & > img {
+    & > img,
+    .single-day__module-remove-icon {
       position: absolute;
       width: 100%;
       height: 100%;
       top: 50%;
       left: 50%;
       transform: translate(-50%, -50%);
+    }
+    & > .single-day__module-remove-icon {
+      fill: red;
     }
   }
 }

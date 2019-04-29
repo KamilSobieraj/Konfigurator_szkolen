@@ -2,7 +2,6 @@ import React, { Component } from "react";
 import "./Help.scss";
 import { Modal, Button } from "react-bootstrap";
 import Infographic from "../../../ui/media/HelpInfographic.PNG";
-import CloseButton from "../../../ui//icons/IconRemove.png";
 import Icon from "../../../ui/icons/icon";
 
 class Help extends Component {
@@ -33,7 +32,11 @@ class Help extends Component {
               onClick={this.handleClose}
               className="help-button__modal-close-button"
             >
-              <img src={CloseButton} alt="zamknij" />
+              <Icon
+                className={"single-day__module-remove-icon"}
+                name={"icon-remove"}
+                alt="zamknij"
+              />
             </Button>
             <img
               src={Infographic}
