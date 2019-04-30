@@ -7,14 +7,13 @@
   justify-content: center;
   width: 100%;
 }
-.modal-content {
-  margin-top: 0;
-  height: 95vh;
-  width: 67vw;
-}
-.modal-body {
+
+.help-modal__body {
+  display: flex;
+  flex-flow: column;
   height: 90vh;
   width: 65vw;
+  margin-bottom: 2vh;
 }
 
 .help-button {
@@ -44,6 +43,7 @@
   &__modal-close-button {
     position: relative;
     float: right;
+    justify-content: flex-end;
     width: 1em;
     height: 2em;
     border: none;
@@ -89,12 +89,7 @@
   }
 }
 @include for-phone {
-  .modal-content {
-    margin-top: 0;
-    height: 50vh;
-    width: 95vw;
-  }
-  .modal-body {
+  .help-modal__body {
     height: 45vh;
     width: 90vw;
   }

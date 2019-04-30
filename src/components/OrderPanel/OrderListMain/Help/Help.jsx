@@ -27,7 +27,7 @@ class Help extends Component {
           Jak skomponować szkolenie?
         </button>
         <Modal show={this.state.show} onHide={this.handleClose}>
-          <Modal.Body>
+          <Modal.Body className="help-modal__body">
             <Button
               onClick={this.handleClose}
               className="help-button__modal-close-button"
