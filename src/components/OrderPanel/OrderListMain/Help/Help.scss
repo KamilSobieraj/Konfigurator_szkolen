@@ -2,10 +2,8 @@
 @import "../../../ui/mixins.scss";
 
 .modal-dialog {
-  margin: 0;
   display: flex;
   justify-content: center;
-  width: 100%;
 }
 
 .help-modal__body {
