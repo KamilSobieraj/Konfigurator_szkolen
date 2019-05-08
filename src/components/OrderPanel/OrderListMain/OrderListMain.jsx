@@ -495,7 +495,10 @@ class OrderListMain extends Component {
       <div className="order-list">
         <h2 className="order-list__header">
           Twoje szkolenie:
-          <Help />
+          <Help
+            showHelpModal={this.props.showHelpModal}
+            closeHelpModal={this.props.closeHelpModal}
+          />
         </h2>
         <ListGroup>
           <CloseDayOneInfoModal

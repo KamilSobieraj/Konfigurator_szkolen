@@ -8,3 +8,50 @@
     width: 70vw;
   }
 }
+
+.modal__help {
+  position: fixed;
+  z-index: 500;
+  background-color: white;
+  border: 1px solid #ccc;
+  box-shadow: 1px 1px 1px black;
+  padding: 16px;
+  box-sizing: border-box;
+  transition: all 0.3s ease-out;
+}
+
+@include for-phone {
+  .modal__help {
+    padding: 0;
+  }
+}
+@include for-tablet-portrait-and-up {
+  .modal__help {
+    width: 500px;
+    height: 500px;
+    left: calc(50% - 250px);
+  }
+}
+@include for-tablet-landscape-and-up {
+  .modal__help {
+    width: 600px;
+    height: 500px;
+    left: calc(50% - 300px);
+    top: 20px;
+  }
+}
+@include for-desctop-and-up {
+  .modal__help {
+    width: 800px;
+    height: 700px;
+    left: calc(50% - 400px);
+  }
+}
+@include for-big-screen-and-up {
+  .modal__help {
+    top: 5%;
+    width: 1600px;
+    height: 1600px;
+    left: calc(50% - 800px);
+  }
+}

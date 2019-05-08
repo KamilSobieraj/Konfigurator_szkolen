@@ -10,6 +10,8 @@ import AdminMain from "../Admin/AdminMain";
 import Preloader from "../Preloader/Preloader";
 import Icons from "../ui/icons/icons";
 import Navbar from "../Navbar/Navbar";
+import Modal from "../ui/Modal/Modal";
+import Infographic from "../ui/media/HelpInfographic.PNG";
 
 let chosenModulesArray = [];
 
@@ -19,13 +21,16 @@ class Home extends Component {
     this.state = {
       holdClickedModulesNames: chosenModulesArray,
       modules: [],
-      loading: true
+      loading: true,
+      showHelpModal: false
     };
     this.addModuleNameToOrderList = this.addModuleNameToOrderList.bind(this);
     this.removeModuleNameFromOrderList = this.removeModuleNameFromOrderList.bind(
       this
     );
     this.getModules = this.getModules.bind(this);
+    this.showHelpModalHandler = this.showHelpModalHandler.bind(this);
+    this.closeHelpModalHandler = this.closeHelpModalHandler.bind(this);
   }
   addModuleNameToOrderList(nameFromAddModule) {
     chosenModulesArray = this.state.holdClickedModulesNames;
@@ -49,6 +54,12 @@ class Home extends Component {
       this.setState({ modules: this.response, loading: false });
     });
   }
+  showHelpModalHandler() {
+    this.setState({ showHelpModal: true });
+  }
+  closeHelpModalHandler() {
+    this.setState({ showHelpModal: false });
+  }
   componentDidMount() {
     this.getModules();
   }
@@ -65,6 +76,17 @@ class Home extends Component {
         {/*<LandingPage />
         <img src={Logo} />*/}
         <div className="main-layout">
+          <Modal
+            show={this.state.showHelpModal}
+            closeModal={this.closeHelpModalHandler}
+            modalClass="modal__help"
+          >
+            <img
+              src={Infographic}
+              alt="Inforgrafika - jak skomponować szkolenie"
+              className="help-button__modal-infograpgic"
+            />
+          </Modal>
           <Icons />
           <Navbar modules={modules} />
           <ThematicArea
@@ -78,6 +100,8 @@ class Home extends Component {
             clickedModuleNames={holdClickedModulesNames}
             chosenModulesNames={holdClickedModulesNames}
             removeModuleNameFromOrderList={this.removeModuleNameFromOrderList}
+            showHelpModal={this.showHelpModalHandler}
+            closeHelpModal={this.closeHelpModalHandler}
           />
         </div>
         <div className="footer">

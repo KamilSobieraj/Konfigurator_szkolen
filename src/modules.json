@@ -1,38 +1,1306 @@
 {
-  "modulesData": [
-    {
-      "thematicArea": "Obszar tematyczny 1",
-      "id": 1,
-      "name": "Budowanie postawy asertywnej",
-      "details": [
-        "Czym jest asertywność?",
-        "Asertywny Asertywny menedżer – charakterystyczne zachowania",
-        "Czy jestem asertywny? – diagnoza własnej postawy",
-        "Znaczenie i zalety zachowań asertywnych w komunikacji interpersonalnej",
-        "Rodzaje asertywności (miękka, twarda, negocjacyjna)",
-        "Dostosowanie rodzaju asertywności do rozmówcy",
-        "Wprowadzenie pojęcia - „Przesunięcie asertywne”",
-        "Rozpoznanie własnych zachowań - „Mapa asertywności”",
-        "Co to znaczy być biernym, manipulującym, agresywnym lub/i asertywnym?",
-        "Identyfikacja głównych blokad naszej asertywności",
-        "Społeczne konsekwencje asertywnego zachowania"
-      ]
+  "modulesData" : {
+    "-L_ClIHx0TADXBxn6Wnj" : {
+      "details" : [ "schemat procesu komunikacji", "\nproces komunikacji w relacjach interpersonalnych", "\nkomunikacja werbalna i niewerbalna - znaczenie", "\nskuteczne porozumiewanie się - techniki i narzędzia\n" ],
+      "id" : "-L_ClIHx0TADXBxn6Wnj",
+      "name" : "Proces komunikacji i jego etapy",
+      "thematicArea" : "Komunikacja"
     },
-    {
-      "thematicArea": "Obszar tematyczny 2",
-      "id": 2,
-      "name": "Asertywne narzędzia",
-      "details": [
-        "Asertywna odmowa – zastosowanie trzyetapowej procedury",
-        "Technika „Zdartej płyty”",
-        "Wyrażanie pochwał i próśb",
-        "Egzekwowanie własnych praw i ustanawianie granic psychologicznych w relacjach z innymi ludźmi",
-        "Wyrażanie uczuć negatywnych i pozytywnych – przekazywanie konstruktywnej informacji zwrotnej",
-        "Radzenie sobie z krytyką",
-        "Technika „Jestem słoniem”",
-        "Technika „Jujitsu”",
-        "Obrona przed atakiem werbalnym – asertywny model zachowania"
-      ]
+    "-L_ClxA14IqSzG1yauNo" : {
+      "details" : [ "podstawowe narzędzia skutecznej komunikacji", "\ntypy osobowości – poznaj swój typ", "\nkomunikacja z osobami o różnych typach osobowości", "\nczy znasz swój zespół – jakie typy osobowości posiadają twoi pracownicy", "\nco motywuje ludzi o określonych typach osobowości", "\n „nadawanie na tej samej fali” czyli wyłączamy alarmy", "\ndopasowanie na poziomie doświadczeń, zadań, poglądów, gestów\n" ],
+      "id" : "-L_ClxA14IqSzG1yauNo",
+      "name" : "Typy osobowości a efektywna komunikacja w grupie ",
+      "thematicArea" : "Komunikacja"
+    },
+    "-L_CmFZJBgJ27YgAAaR-" : {
+      "details" : [ "sukces w rozmowie a rola naszego nastawienia", "\nkontrola przebiegu rozmowy – jak się przygotować", "\nmój wizerunek w roli nadawcy i odbiorcy komunikatu", "\naktywne słuchanie jako narzędzie skutecznej komunikacji", "\nsztuka zadawania pytań", "\nkomunikacja bezpośrednia a komunikacja telefoniczna\n" ],
+      "id" : "-L_CmFZJBgJ27YgAAaR-",
+      "name" : "Budowanie relacji ",
+      "thematicArea" : "Komunikacja"
+    },
+    "-L_CohdwH-NeTgDNA7rm" : {
+      "details" : [ "które sytuacje są dla mnie trudne", "\nznaczenie inteligencji emocjonalnej", "\nrozmowa jako sposób rozładowania sytuacji stresujących i konfliktowych", "\nkomunikacja poprzez potrzeby", "\nnawyki ograniczające otwartość", "\nrutyna jako czynnik uniemożliwiający umiejętność przewidywania", "\nrola przekonań w budowaniu poczucia wartości pracowników\n" ],
+      "id" : "-L_CohdwH-NeTgDNA7rm",
+      "name" : "Emocje w procesie komunikacji",
+      "thematicArea" : "Komunikacja"
+    },
+    "-L_CpChYp7XocQ55DyIG" : {
+      "details" : [ "jak radzić sobie z negatywnymi emocjami", "\npanowanie nad emocjami w sytuacjach konfliktowych", "\nsztuka bycia asertywnym (postawa i komunikacja)", "\nświadome zarządzanie własnymi emocjami", "\nkomunikat “ja”", "\ntechnika FUKO", "\nzmiana ocen na opinie", "\nuprzedzanie krytyki i odpowiadanie na krytykę", "\nkonflikt w zespole i jego rola", "\nnarzędzia i reguły skutecznego dialogu\n" ],
+      "id" : "-L_CpChYp7XocQ55DyIG",
+      "name" : "Trudne sytuacje w komunikacji",
+      "thematicArea" : "Komunikacja"
+    },
+    "-L_CpSXm2ZyvSNslth5D" : {
+      "details" : [ "jak efektywnie udzielać informacji zwrotnej", "\nkonstruktywna informacja zwrotna", "\nutrzymanie relacji przez umiejętne korygowanie zachowań", "\nodzwierciedlenie jako element budowania kontaktu i dobrych relacji\n" ],
+      "id" : "-L_CpSXm2ZyvSNslth5D",
+      "name" : "Feedback jako kluczowa sprawność interpersonalna",
+      "thematicArea" : "Komunikacja"
+    },
+    "-L_CqMF_d4a5ezW9kDMF" : {
+      "details" : [ "podstawowe zasady interpretacji znaków ciała", "\nporozumiewanie się jako proces przekazywania i otrzymywania informacji", "\nkanał werbalny i niewerbalny procesu komunikacji", "\nznaczenie komunikacji niewerbalnej", "\nautoanaliza\n" ],
+      "id" : "-L_CqMF_d4a5ezW9kDMF",
+      "name" : "Nieproduktywne spotkania jak ich uniknąć",
+      "thematicArea" : "Komunikacja"
+    },
+    "-L_Cqky83DtQLIumkqYU" : {
+      "details" : [ "słuchanie marginalne", "\nsłuchanie uważne", "\nsłuchanie empatyczne", "\nfiltr sprawdzający potrzebę słuchania", "\nrady, które pomogą uzyskać zamierzone efekty spotkania\n" ],
+      "id" : "-L_Cqky83DtQLIumkqYU",
+      "name" : "Typy słuchania",
+      "thematicArea" : "Komunikacja"
+    },
+    "-L_Cr9NlOOdDrmJ7fJFq" : {
+      "details" : [ "ocena konieczności zwołania zebrania", "\ncztery kroki przygotowania skutecznego zebrania", "\nzdefiniowanie celu zebrania", "\nzdefiniowanie kryteriów sukcesu", "\nzdefiniowanie odbiorców", "\nzdefiniowanie kryteriów sukcesu zebrania\n" ],
+      "id" : "-L_Cr9NlOOdDrmJ7fJFq",
+      "name" : "Prowadzenie zebrań",
+      "thematicArea" : "Komunikacja"
+    },
+    "-L_CsZjsmjToj2dTePYh" : {
+      "details" : [ "przed zebraniem", "\nw czasie zebrania", "\npo zebraniu\n" ],
+      "id" : "-L_CsZjsmjToj2dTePYh",
+      "name" : "Techniki wzbudzania zaangażowania pracowników",
+      "thematicArea" : "Komunikacja"
+    },
+    "-L_Cycf_GGgF1qAswORP" : {
+      "details" : [ "cele komunikacji niewerbalnej", "\nzasady komunikacji niewerbalnej", "\nbariery w komunikacji", "\naranżowanie przestrzeni i dystansu", "\nkomunikaty indywidualne", "\nkomunikaty interakcyjne", "\nspójność przekazu jako element budowania własnej wiarygodności", "\ninterpretacja \"mowy ciała\"\n\n" ],
+      "id" : "-L_Cycf_GGgF1qAswORP",
+      "name" : "Reguły i zasady komunikacji niewerbalnej",
+      "thematicArea" : "Komunikacja"
+    },
+    "-L_CzYKukGqR60x3XO5g" : {
+      "details" : [ "cele komunikacji werbalnej", "\nzasady komunikacji werbalnej", "\npodstawowe narzędzia skutecznej komunikacji werbalnej", "\nbariery w komunikacji werbalnej", "\nzasady aktywnego i skutecznego słuchania", "\nudzielanie informacji zwrotnej" ],
+      "id" : "-L_CzYKukGqR60x3XO5g",
+      "name" : "Reguły i zasady komunikacji werbalnej",
+      "thematicArea" : "Komunikacja"
+    },
+    "-L_D-D-cO9Q4NMwREzp7" : {
+      "details" : [ "mój wizerunek jako nadawcy i odbiorcy komunikatu", "\nkomunikacja bezpośrednia czy komunikacja telefoniczna", "\nznaczenie mojego nastawienia na osiągnięcie sukcesu podczas rozmowy", "\nprzygotowanie do rozmowy warunkiem kontroli jej przebiegu", "\naktywne słuchanie warunkiem efektywnej i skutecznej komunikacji", "\nsztuka zadawania pytań\n" ],
+      "id" : "-L_D-D-cO9Q4NMwREzp7",
+      "name" : "Metody i techniki skutecznej komunikacji ",
+      "thematicArea" : "Komunikacja"
+    },
+    "-L_D-k_QhqC7zXRI5SCA" : {
+      "details" : [ "bariery i przeszkody skutecznej komunikacji", "\nsposoby na minimalizowanie i usuwanie barier", "\ngwarancja skutecznej komunikacji - metody i techniki", "\nkontrolowanie emocji gwarancją sukcesu \n" ],
+      "id" : "-L_D-k_QhqC7zXRI5SCA",
+      "name" : "Przeszkody skutecznej komunikacji",
+      "thematicArea" : "Komunikacja"
+    },
+    "-L_GqweR5dyKkT_mhwuF" : {
+      "details" : [ "impas w grupie", "\ngrupa milczy", "\npowracanie do omówionych kwestii", "\nkonflikt w grupie" ],
+      "id" : "-L_GqweR5dyKkT_mhwuF",
+      "name" : "Pobudzanie komunikacji w grupie",
+      "thematicArea" : "Komunikacja"
+    },
+    "-L_Gs7ybozn687bbCR32" : {
+      "details" : [ "burza mózgów", "\nRound-Robin Brainstroming", "\nStory Cubes", "\nMethod Kit", "\nStarbursting", "\nkapelusze myślowe Edwarda de Bono" ],
+      "id" : "-L_Gs7ybozn687bbCR32",
+      "name" : "Techniki pobudzania pracowników do twórczego działania",
+      "thematicArea" : "Komunikacja"
+    },
+    "-L_GsSTBBtXESb3IeaRT" : {
+      "details" : [ "poznajemy własny typ osobowości", "\npoznaj typy osobowości członków swojego zespołu", "\nkomunikacja z osobami o różnych typach osobowości", "\nmotywowanie osób o różnych typach osobowości", "\ndoświadczenie, słowa, gesty jako elementy dopasowania" ],
+      "id" : "-L_GsSTBBtXESb3IeaRT",
+      "name" : "Typy osobowości a efektywna komunikacja w grupie",
+      "thematicArea" : "Komunikacja"
+    },
+    "-L_Gshvu_t-4Xa0uRLvq" : {
+      "details" : [ "czynniki budujące autorytet kierownika", "\nrola komunikacji w zarządzaniu", "\nznaczenie współpracy i pracy zespołowej", "\njak zbudować swój autorytet – zasady budowania wizerunku" ],
+      "id" : "-L_Gshvu_t-4Xa0uRLvq",
+      "name" : "Budowanie wizerunku kierownika",
+      "thematicArea" : "Zarządzanie"
+    },
+    "-L_Gt4b8cvuz3b3TvRmr" : {
+      "details" : [ "informacja zwrotna jako kluczowa sprawność komunikacyjna kierownika", "\nkierownicza komunikacja asertywna", "\nmetody i techniki komunikacji nakierowanej na cele", "\nmetody i techniki komunikacji nakierowane na budowania relacji z pracownikami", "\ntechniki komunikacji perswazyjnej", "\nmetody i narzędzia prowadzenia trudnych rozmów\n" ],
+      "id" : "-L_Gt4b8cvuz3b3TvRmr",
+      "name" : "Metody i techniki skutecznej komunikacji",
+      "thematicArea" : "Zarządzanie"
+    },
+    "-L_GtJB2m1YquPJzLoyR" : {
+      "details" : [ "jak skutecznie usprawnić organizację pracy własnej", "\nmetody planowania i organizowania pracy własnej", "\nczynniki wspierające umiejętność pracy pod presją czasu", "\nnarzędzia efektywnego zarządzania czasem", "\npotencjał pracowników a podział zadań", "\nidentyfikacja i likwidowanie czynników zakłócających pracę", "\nnajczęstsze błędy popełniane podczas planowania i organizacji czasu pracy", "\nkorygowanie nawyków własnych i pracowników", "\nkontrola i monitorowanie postępów działań i realizacji zadań\n" ],
+      "id" : "-L_GtJB2m1YquPJzLoyR",
+      "name" : "Zarządzanie czasem własnym i pracowników ",
+      "thematicArea" : "Zarządzanie"
+    },
+    "-L_GtmiPiJwWU2O4r3Kn" : {
+      "details" : [ "przyczyny powstawania konfliktów - koło konfliktów", "\npostawy wobec sytuacji konfliktowych", "\nstrategie i metody rozwiązywania konfliktów", "\nzarządzanie \"trudnymi\" pracownikami", "\npostawa asertywna w procesie rozwiązywania konfliktów", " \nnarzędzia i techniki wywierania wpływu", "\nsposoby radzenia sobie z krytyką", "\nstrategie i techniki radzenia sobie ze stresem\n" ],
+      "id" : "-L_GtmiPiJwWU2O4r3Kn",
+      "name" : "Rozwiązywanie konfliktów jako element budowania współpracy",
+      "thematicArea" : "Zarządzanie"
+    },
+    "-L_Gu5h1X46cNIgps9Ic" : {
+      "details" : [ "wpływ kultury organizacyjnej na zaangażowanie pracownika", "\nmetody i techniku budowania zaangażowania", "\nwartości i potrzeby jako czynniki motywacyjne", "\nzasady procesu motywowania", "\ntrudne sytuacje a zaangażowanie pracowników w ich rozwiązanie                                                                                                                                                                                               \n" ],
+      "id" : "-L_Gu5h1X46cNIgps9Ic",
+      "name" : "Budowanie zaangażowania ",
+      "thematicArea" : "Zarządzanie"
+    },
+    "-L_GuWX2Q0aBOBIViJye" : {
+      "details" : [ "przywództwo a kierowanie", "\nwdrażanie strategii", "\nmetody budowania wspólnych zasad, norm, wizji i celów", "\ndiagnoza mocnych stron i obszarów wymagających rozwoju", "\nwpływ stylów kierowania na zaangażowanie i motywację pracowników", "\nefektywność stylów przewodzenia", "\nstyle kierowania i ich wpływ na osiąganie celów", "\ndelegowanie jako motywator", "\nodpowiedzialność i uprawnienia - zasady delegowania", "\nzarządzanie zmianą i oporem w zmianie\n" ],
+      "id" : "-L_GuWX2Q0aBOBIViJye",
+      "name" : "Przywództwo – od kierowania do przewodzenia",
+      "thematicArea" : "Zarządzanie"
+    },
+    "-L_GuoM2aFbc1vM4lHrj" : {
+      "details" : [ "rola i zadania kierownika w procesie rozwoju pracowników", "\nzasady wytyczania celów rozwojowych", "\ndobór metod rozwoju w zależności od predyspozycji i kompetencji pracownika", "\nustalanie celów i planu działania z uwzględnieniem miar i wskaźników realizacji\n" ],
+      "id" : "-L_GuoM2aFbc1vM4lHrj",
+      "name" : "Zarządzanie rozwojem pracowników  ",
+      "thematicArea" : "Zarządzanie"
+    },
+    "-L_Gv0bRRR6NMOdZjaqD" : {
+      "details" : [ "jak efektywnie udzielać informacji zwrotnej", "\nkonstruktywna informacja zwrotna", "\nutrzymanie relacji przez umiejętne korygowanie zachowań", "\nodzwierciedlenie jako element budowania kontaktu i dobrych relacji\n" ],
+      "id" : "-L_Gv0bRRR6NMOdZjaqD",
+      "name" : "Feedback jako kluczowa sprawność interpersonalna",
+      "thematicArea" : "Zarządzanie"
+    },
+    "-L_GvuvJiG2egebnyGId" : {
+      "details" : [ "obraz lidera XXI wieku", "\nlustro – odkryj w sobie lidera", "\nexpose menadżera – czyli moje wymagania, moje intencje\n" ],
+      "id" : "-L_GvuvJiG2egebnyGId",
+      "name" : "Katalog osobistych zasobów menadżerskich",
+      "thematicArea" : "Zarządzanie"
+    },
+    "-L_GwAKoAQZL05ofTT8u" : {
+      "details" : [ "jak dostosować swój komunikat, żeby wszyscy Cię słuchali", "\njak zbudować autorytet lidera", "\npoznaj swój styl zarządzania", "\nskuteczne posługiwanie się różnymi stylami zarządzania", "\nefektywne sposoby rozwijania podwładnych", "\nwspieranie samodzielności podwładnych – innowacyjność i elastyczność w podejściu \n" ],
+      "id" : "-L_GwAKoAQZL05ofTT8u",
+      "name" : "Style zarządzania – narzędzia ",
+      "thematicArea" : "Zarządzanie"
+    },
+    "-L_GwRUfp6-Q1LMHMB-G" : {
+      "details" : [ "narzędzia komunikacyjne w pracy menadżera nastawione na realizację celów \ni budowanie relacji", "\nfeedback, czyli konstruktywna krytyka jako podstawowa umiejętność interpersonalna", "\npanel sterowania – rodzaje narzędzi komunikacyjnych", "\ndobór zespołu marzeń i przewodzenie mu", "\nnarzędzia nieinwazyjnej kontroli\n" ],
+      "id" : "-L_GwRUfp6-Q1LMHMB-G",
+      "name" : "Komunikacja w pracy menadżera - najważniejszy element skuteczności",
+      "thematicArea" : "Zarządzanie"
+    },
+    "-L_Gwe7Bzfh3JhVY2aVO" : {
+      "details" : [ "modele przywództwa", "\nprzywództwo sytuacyjne zasady i możliwości wdrożenia", "\nstopnie rozwoju zawodowego pracownika", "\nelastyczność stylu przywództwa", "\ntypy osobowości a sposób kierowania\n" ],
+      "id" : "-L_Gwe7Bzfh3JhVY2aVO",
+      "name" : "Przywództwo i jego modele",
+      "thematicArea" : "Zarządzanie"
+    },
+    "-L_Gx55AwjsTV9oc2d8X" : {
+      "details" : [ "co motywuje ludzi? - źródła motywacji", "\nlider motywujący a lider demotywujący", "\npoziom motywacji a efektywność działania - jak motywacja wpływa na nasze zaangażowanie do wykonywania zadań", "\npięć podstawowych wymiarów motywacyjnych - psychologiczny opis człowieka", "\nanaliza i wykorzystanie własnych motywatorów i czynników demotywujących w celu skutecznego motywowania innych", "\nmetody i techniki motywowania członków zespołu", "\nzarządzanie kompetencjami pracowników", "\nanaliza czynników podnoszących poziom motywacji - czynniki higieniczne i motywatory", "\nproblem demotywacji - przeciwdziałanie przeciążeniu i wypaleniu zawodowemu\n" ],
+      "id" : "-L_Gx55AwjsTV9oc2d8X",
+      "name" : "Motywowanie i zarządzanie kompetencjami pracowników",
+      "thematicArea" : "Zarządzanie"
+    },
+    "-L_GxLMZdl091jHjOETZ" : {
+      "details" : [ "modele informacji zwrotnej", "\njak efektywnie dawać informację zwrotną pracownikom", "\nbudowanie kultury otwartej komunikacji poprzez konstruktywną informację zwrotną", "\njak korygować zachowania pracowników nie uderzając w ich motywację i nie niszcząc relacji - doskonalenie umiejętności\n" ],
+      "id" : "-L_GxLMZdl091jHjOETZ",
+      "name" : "Efektywny feedback motywujący",
+      "thematicArea" : "Zarządzanie"
+    },
+    "-L_Gxqx1buuJkZ4KiwnK" : {
+      "details" : [ "czas jako źródło sukcesu lub porażki", "\nindywidualne znaczenie czasu", "\nna co zużywamy nasz czas - sporządzanie budżetu czasu", "\nbezproduktywne spotkania - sposoby na efektywne wykorzystanie czasu", "\nporządek spotkania, czyli co zrobić, aby spotkanie nie było tylko pożeraczem czasu", "\ndelegowanie, czyli jak zdefiniować zadania, które mogą i powinny być przekazane", "\naktywne słuchanie jako element skutecznej realizacji zadań", "\nprzeciwdziałanie marnotrawieniu czasu i unikanie konfliktów", "\n„złodzieje czasu” - diagnoza pożeraczy czasu i sposoby ich redukcji \n" ],
+      "id" : "-L_Gxqx1buuJkZ4KiwnK",
+      "name" : "Czynniki ułatwiające i utrudniające zarządzanie sobą w czasie",
+      "thematicArea" : "Zarządzanie"
+    },
+    "-L_GyBO8w8yaNtOUxlOt" : {
+      "details" : [ "projekt a zadanie co je różni i dlaczego jest to ważne", "\ndelegowanie zadań jako najważniejszy element w realizacji terminów", "\nskuteczne narzędzia zarządzania projektami", "\nco może się nie udać i co zrobić, by nie być zaskoczonym", "\nco pomoże ci lepiej zarządzać swoim czasem - pomocne narzędzia", "\nalternatywne plany działania jako czynniki sukcesu w sytuacji kryzysowej \n" ],
+      "id" : "-L_GyBO8w8yaNtOUxlOt",
+      "name" : "Zarządzanie wieloma priorytetami i terminami ",
+      "thematicArea" : "Zarządzanie"
+    },
+    "-L_GymjEbJZUXK2GXB7p" : {
+      "details" : [ "ZPC, czyli zarządzanie przez cele", "\nzasady funkcjonowania systemu zarządzania przez cele", "\nwykorzystanie ZPC jako metody zarządzania", "\nuwzględnianie celów i strategii firmy", "\npojęcie kaskadowości celów\n" ],
+      "id" : "-L_GymjEbJZUXK2GXB7p",
+      "name" : "Proces zarządzanie przez cele",
+      "thematicArea" : "Zarządzanie"
+    },
+    "-L_Gz7sZn-ey4X_CnlGK" : {
+      "details" : [ "warunki organizacyjne wspierające działanie sytemu", "\nwspółpraca i praca zespołowa", "\nzasady pracy w systemie i zalety korzystania z systemu", "\nwarunki zarządzania przez cele po stronie pracownika i po stronie przełożonego", "\ncele przełożonego a pracowników", "\nnarzędzia interpersonalne do budowania relacji w zespole wspomagające proces zarządzania przez cele\n" ],
+      "id" : "-L_Gz7sZn-ey4X_CnlGK",
+      "name" : "Elementy systemu zarządzania przez cele",
+      "thematicArea" : "Zarządzanie"
+    },
+    "-L_GzRFHQ_bUx3a4fg95" : {
+      "details" : [ "rodzaje celów organizacyjnych", "\nkoncepcja zrównoważonej karty wyników w wyznaczaniu celów", "\nzasady określania kluczowych czynników sukcesu", "\nplanowanie zmian i proces zmian w realizacji celów", "\nbłędy w wyznaczaniu celów", "\nmodel SMART w wyznaczaniu celów i jego zastosowanie", "\nburza mózgów i inne metody kreatywne w wyznaczaniu celów", "\nintencje strategiczne i budowanie celów - model 6 kroków", "\nprzygotowanie planu działania i rozwój inicjatyw\n" ],
+      "id" : "-L_GzRFHQ_bUx3a4fg95",
+      "name" : "Wyznaczanie i określanie celów",
+      "thematicArea" : "Zarządzanie"
+    },
+    "-L_H0TMFzVwloIbMUhjG" : {
+      "details" : [ "jak stawiać i jak formułować cele - zasady twarde i miękkie", "\njak wyznaczać i komunikować cele indywidualne i zespołowe", "\nSMART - warunki i cechy dobrze postawionego celu", "\nzarządzanie priorytetami - co jest celem a co działaniem prowadzącym do realizacji celu", "\nstruktura rozmów na temat zadań i celów, ich terminowości w odniesieniu do możliwości pracowników", " \nrola i znaczenie monitorowania w realizacji celu\n" ],
+      "id" : "-L_H0TMFzVwloIbMUhjG",
+      "name" : "Relacja z pracownikiem w procesie zarządzania przez cele ",
+      "thematicArea" : "Zarządzanie"
+    },
+    "-L_H0pGKvlDkTGk2gStn" : {
+      "details" : [ "planowanie zmian i proces zmian jako elementy realizacji celów", "\nkoncentracja na właściwych celach - gradacja", "\njak dopasować cel - arkusz dopasowania celów", "\nprzygotowanie indywidualnego arkusza celów", "\nzasady prowadzenia spotkań z zespołem, ukierunkowanych na realizację celów \n" ],
+      "id" : "-L_H0pGKvlDkTGk2gStn",
+      "name" : "Określanie celów indywidualnych i zespołowych",
+      "thematicArea" : "Zarządzanie"
+    },
+    "-L_H10klkt3wZzNjxK6p" : {
+      "details" : [ "metody określania priorytetów - siatka priorytetów", "\nwkład własny w realizację celów", "\nodpowiedzialność indywidualna i zespołowa w realizacji celów", "\njak kaskadować cele - zasady kaskadowania celów\n" ],
+      "id" : "-L_H10klkt3wZzNjxK6p",
+      "name" : "Priorytety i podział odpowiedzialności w realizacji celów ",
+      "thematicArea" : "Zarządzanie"
+    },
+    "-L_H28lHiB33-1qTjF6a" : {
+      "details" : [ "pomiar realizacji celów - dobór wskaźników i jednostek", "\narkusz oceny realizacji celów", "\nkryteria i terminy oceny - rozmowy planujące, kontrolujące i oceniające", "\nkontrola i działania korygujące w realizacji celów indywidualnych i zespołowych\n" ],
+      "id" : "-L_H28lHiB33-1qTjF6a",
+      "name" : "Miary i wskaźniki realizacji celów",
+      "thematicArea" : "Zarządzanie"
+    },
+    "-L_H2znAzK1l5Duz5aby" : {
+      "details" : [ "określenie źródeł oporu i sposoby ich przełamywania", "\nmotywacja pracownika w procesie realizacji celów", "\noceniamy realizację celu, czyli jak trafnie i rzetelnie oceniać", "\npułapki percepcyjne (błędne priorytety, błędy atrybucji, “efekt aureoli”)", "\nwyrównywanie ocen (uśrednianie, równanie w górę, równanie w dół)", "\nsposoby działania, gdy pracownik nie zrealizował celu", "\nwykorzystanie trudnych sytuacji do wzmacniania własnego autorytetu w oczach pracowników", "\nrozmowa korygująca, dyscyplinująca i zapowiedź sankcji\n" ],
+      "id" : "-L_H2znAzK1l5Duz5aby",
+      "name" : "Źródła oporu pracowników w realizacji celów",
+      "thematicArea" : "Zarządzanie"
+    },
+    "-L_H57RZ9jTNsgn-tS3s" : {
+      "details" : [ "menadżer a lider - różnice w prowadzeniu zespołu", "\nzachowania przywódcy i menadżera", "\nbudowanie autorytetu lidera w sytuacji zmiany", "\nnazwanie atrybutów menadżera przyszłości", "\nwłasna wizja bycia liderem - podstawowe metafory lidera", "\nindywidualna analiza potencjału rozwojowego - mocne strony i obszary do rozwoju", "\nświadome zarządzanie swoim potencjałem w budowaniu sylwetki lidera", "\nlista cech liderów o dużej skuteczności - analiza profilu indywidualnego", "\nanaliza posiadanych kluczowych kompetencji i planów rozwoju kompetencji pożądanych w profilu menadżera i pracownika w sytuacji zmiany\n" ],
+      "id" : "-L_H57RZ9jTNsgn-tS3s",
+      "name" : "Rola menadżera/lidera w życiu zespołu - kompetencje kluczowe w sytuacji zmian w firmie ",
+      "thematicArea" : "Zarządzanie"
+    },
+    "-L_H5k-vLUQ6mJzIShbq" : {
+      "details" : [ "zakres struktury (organizacja, hierarchia, jednostki)", "\nzakres systemu (finanse, hr, obsługa klienta, zapewnienie jakości)", "\nzakres ludzi (umiejętności, wiedza, postawy)", "\ndwa aspekty procesu zmiany (strategiczny i psychologiczny)", "\nzachodzące zmiany w organizacji, obsłudze klienta i otoczeniu", "\njednostka w zmianie", "\nosobiste określenie podejścia do zmiany", "\nczynniki wpływające na efektywność wprowadzanych zmian - wiodąca rola innowacyjności\n" ],
+      "id" : "-L_H5k-vLUQ6mJzIShbq",
+      "name" : "Zrozumienie mechanizmu zmiany i emocji w zmianie",
+      "thematicArea" : "Zarządzanie"
+    },
+    "-L_HAvkS0Q2XzTQYofDF" : {
+      "details" : [ "model 4 faz zmiany", "\njednostka w zmianie - reakcje psychologiczne dla danej fazy", "\nosobista postawa wobec zmiany", "\nsporządzanie action planu zarządzania zmianą", "\ninnowacyjność i techniki twórczego myślenia jako wsparcie procesów zmiany", "\nwypracowanie metod pracy zwiększających innowacyjne podejście, akceptację \ni otwartość na zmiany w zespole i w organizacji", "\njak lider może wspierać proces zmian w organizacji - metoda action learning w pracy z zespołem", "\nsynergia w pracy zespołu \n" ],
+      "id" : "-L_HAvkS0Q2XzTQYofDF",
+      "name" : "Ja i mój zespół w procesie zmiany",
+      "thematicArea" : "Zarządzanie"
+    },
+    "-L_HBN-Yr4uD8e-lXkkH" : {
+      "details" : [ "analiza własnych zespołów i ich potencjałów - mapa kolorystyczna zespołu", "\njaki potencjał wnoszą różne typy osobowościowe", "\njak odpowiadać na ich różne potrzeby", "\nwykorzystanie własnego potencjału i potencjału zespołu w realizacji zadań", "\nczego obawiają się w sytuacji zmiany osoby o różnych typach osobowości i jak pomóc im zaangażować się w zmiany", "\npraca z oporem w sytuacji zmiany", "\nopór przeciwko zmianom a motywacje sprzyjające zmianom", "\nco motywuje nas pozytywnie w sytuacji zmiany", "\njakie szanse rozwoju dla pracowników i organizacji tworzy sytuacja zmiany", "\ninnowacyjność jako wsparcie procesów zmian w firmie\n" ],
+      "id" : "-L_HBN-Yr4uD8e-lXkkH",
+      "name" : "Każdy pracownik jest inny - czyli jak wykorzystać wiedzę o dynamice zmiany w motywowaniu zespołu ",
+      "thematicArea" : "Zarządzanie"
+    },
+    "-L_HBuYw5Cfr0gqbJlMB" : {
+      "details" : [ "przeprowadzanie innych przez fazy zmiany - diagnoza na bazie sytuacji zmiany \nw organizacji", "\nopis przejścia od fazy zaprzeczenia do fazy eksperymentowanie", "\nanaliza metod wsparcia pozytywnych postaw wobec zmiany w poszczególnych fazach", "\nmetody przeprowadzenia ludzi przez zmianę w zależności od zdiagnozowanego typu", "\nnarzędzia wykorzystywane w procesie zmiany - wsparcie podwładnych w procesie zmiany", "\nplan zaangażowania pracownika w proces zmiany", " \nkierowanie procesem zmiany", "\nbudowanie efektywnego komunikatu w sytuacji zmiany do różnych typów pracowników", "\nujawnienie potencjału rozwojowego liderów zmian w firmie", "\nzmiana jako akcelerator rozwoju ludzi i organizacji\n" ],
+      "id" : "-L_HBuYw5Cfr0gqbJlMB",
+      "name" : "Efektywna komunikacja w procesie zmiany - przeprowadzanie innych przez proces zmiany",
+      "thematicArea" : "Zarządzanie"
+    },
+    "-L_HCHbOUV0JTZ4uNRQR" : {
+      "details" : [ "zasady i metody wykorzystywane w rozwiązywaniu problemów", "\nzasady przeprowadzania sesji pomysłowości", "\ntechniki graficzne wspomagające proces rozwiązywania problemów", "\nmapy myśli - fenomenalna technika zwielokrotniania wydajności mózgu", "\nkreatywność w firmie - techniki twórczego myślenia w biznesie\n" ],
+      "id" : "-L_HCHbOUV0JTZ4uNRQR",
+      "name" : "Twórcze rozwiązywanie problemów w procesie zmiany ",
+      "thematicArea" : "Zarządzanie"
+    },
+    "-L_HDL6Q-n8DmWfELwGu" : {
+      "details" : [ "cele SMART sprzyjające rozwojowi potencjału liderów zespołów w sytuacji zmian w firmie", "\nanaliza SWOT w kontekście rozwoju własnego i zespołu", "\nwłasny plan wdrożenia w oparciu o model Dilts’a", "\nprzygotowanie kluczowych czynników dla wdrożenia zmiany", "\nrozpoczęcie procesu wdrażania zmiany", "\nkonsolidacja zmian, czyli zbieranie informacji zwrotnej i identyfikacja barier", "\nmetody aktywizacji twórczego myślenia w sytuacji zmiany\n" ],
+      "id" : "-L_HDL6Q-n8DmWfELwGu",
+      "name" : "Strategia własnego rozwoju i rozwoju zespołu w sytuacji zmiany - jak innowacyjnie podejść do zmiany",
+      "thematicArea" : "Zarządzanie"
+    },
+    "-L_HDlY3SxjfaN4Xr4b_" : {
+      "details" : [ "przywództwo sytuacyjne w procesie zmian", "\nelastyczność stylu zarządzania - planowanie działań lidera w sytuacji zmiany", "\nrola charyzmy w przywództwie - lider emocjonalny", "\nsytuacja zmiany w firmie a efektywny model przywództwa", "\nwykorzystanie analizy struktury zespołów do świadomego budowania efektywności i pozytywnych postaw w sytuacji zmiany - zmiana jako szansa", "\nstworzenie okazji do ujawnienia i rozwinięcia ról grupowych przydatnych w nowej sytuacji - zmiana jako inspiracja do kreatywnych rozwiązań", "\nanaliza stadium rozwoju własnego zespołu - dopasowanie efektywnego stylu przywódczego\n" ],
+      "id" : "-L_HDlY3SxjfaN4Xr4b_",
+      "name" : "Zarządzanie zespołem w zmieniającym się środowisku - dopasowanie stylu zarządzania zespołem ",
+      "thematicArea" : "Zarządzanie"
+    },
+    "-L_HEaUS_UHixG6NRaFM" : {
+      "details" : [ "przyczyny porażek we współpracy", "\nzindywidualizowane podejście do każdego pracownika", "\ntypologia podejścia do wyznaczania i dążenia do celu", "\nplanowanie działań - hierarchizacja i priorytetyzacja", "\nmapa zaangażowania jako technika diagnozowania stopnia zaangażowania członków zespołu w zmiany", "\ndlaczego jesteśmy różni - style społeczne i umiejętność ich zastosowania\n" ],
+      "id" : "-L_HEaUS_UHixG6NRaFM",
+      "name" : "Praktyczne zarządzanie zespołem",
+      "thematicArea" : "Zarządzanie"
+    },
+    "-L_HErIJl2kx04BQtuQO" : {
+      "details" : [ "sporządzanie budżetu czasu - na co zużywamy nasz czas", "\ndiagnozowanie tzw. złodziei czasu", "\nsposoby radzenia sobie z największymi złodziejami czasu \n" ],
+      "id" : "-L_HErIJl2kx04BQtuQO",
+      "name" : "Analiza czasu",
+      "thematicArea" : "Zarządzanie"
+    },
+    "-L_HG5stNUa3Nd8Bh2s3" : {
+      "details" : [ "definiowanie celów – warunki poprawnego sformułowania celu", "\nmetody i techniki wyznaczania celów i ustalania priorytetów", "\nformuła „warto”", "\nna co należy zwracać uwagę przy formułowaniu swoich celów", "\nwyznaczanie celów krótkoterminowych i perspektywicznych", "\npisemne ustalanie celów", "\nkontrola i weryfikacja celów\n" ],
+      "id" : "-L_HG5stNUa3Nd8Bh2s3",
+      "name" : "Proces wytyczania celów i priorytetów",
+      "thematicArea" : "Zarządzanie"
+    },
+    "-L_HGWPAQEc465YxhuXb" : {
+      "details" : [ "ile czasu należy poświęcać na planowanie swoich codziennych czynności", "\njak ustalać priorytety pod względem ich pilności i ważności", "\norganizacja pracy poprzez planowanie efektywnych bloków pracy", "\nkrzywa sprawności", "\nplan działania", "\ntabela spędzonego czasu\n" ],
+      "id" : "-L_HGWPAQEc465YxhuXb",
+      "name" : "Efektywne zarządzanie swoją pracą w planowaniu przebiegu dnia",
+      "thematicArea" : "Zarządzanie"
+    },
+    "-L_HGrPi30TWb3cWMQir" : {
+      "details" : [ "korzyści płynące z delegowania", "\nzasady dobrego delegowania", "\nco i komu mogę delegować w moim zespole", "\ndelegowanie jako inwestycja w czas", "\nco mogę usprawnić", "\nwarunki konieczne do efektywnego delegowania\n" ],
+      "id" : "-L_HGrPi30TWb3cWMQir",
+      "name" : "Delegowanie w procesie zarządzania",
+      "thematicArea" : "Zarządzanie"
+    },
+    "-L_HHGYZerfkAiGGctXo" : {
+      "details" : [ "zakres delegowania", "\nstopnie delegowania uprawnień", "\nstrefy delegowania zadań", "\nprzyczyny niepowodzeń w delegowaniu", "\nkarta zasad delegowania", "\netapy rozmowy delegującej", "\ndelegowanie jako element motywacji", "\ndelegowanie jako instrument rozwoju zespołu", "\nznaczenie odpowiedniego komunikowania delegowanych zadań", "\nprzydzielanie zadań i ich dopasowanie do poszczególnych pracowników", "\nzakres powierzonej odpowiedzialności a rodzaj sprawowanej kontroli wykonania\n" ],
+      "id" : "-L_HHGYZerfkAiGGctXo",
+      "name" : "Zakres delegowania i jego znaczenie ",
+      "thematicArea" : "Zarządzanie"
+    },
+    "-L_HHfe_8fLxiMIsZ23v" : {
+      "details" : [ "przyczyny oporu przed delegowaniem", "\nrodzaje barier w delegowaniu uprawnień i zadań", "\nstereotypy dotyczące delegowania uprawnień i zadań\n" ],
+      "id" : "-L_HHfe_8fLxiMIsZ23v",
+      "name" : "Bariery w delegowaniu uprawnień",
+      "thematicArea" : "Zarządzanie"
+    },
+    "-L_HIYpphaRjnFNLVm3z" : {
+      "details" : [ "znaczenie informacji zwrotnej", "\ntworzenie atmosfery rozmowy", "\ntechniki prowadzenia rozmowy", "\n „dekalog informacji zwrotnej”", "\nprzekazywanie informacji pozytywnej i negatywnej", "\njak efektywnie dawać i pozyskiwać informację zwrotną", "\nbudowanie klimatu zaufania przez konstruktywną informację zwrotną", "\nwpływ emocji na przebieg rozmowy oceniającej pracownika\n" ],
+      "id" : "-L_HIYpphaRjnFNLVm3z",
+      "name" : "Feedback jako impuls do rozwoju zawodowego i osobistego",
+      "thematicArea" : "Zarządzanie"
+    },
+    "-L_HJGeqqvR59U1nKz7e" : {
+      "details" : [ "jaka jest twoja rzeczywistość, czyli odkrywamy pod jaką kontrolą naprawdę jest twój dzień", "\n10 korzyści wynikających z lepszego zarządzania czasem", "\njak zarządzać sobą w czasie", "\njak stworzyć przestrzeń do pracy", "\njak odkryć swoje codzienne \"prime time\" i używać go na swoją korzyść", "\nprzezwyciężyć dezorganizację - prawdziwy wzór efektywności\n" ],
+      "id" : "-L_HJGeqqvR59U1nKz7e",
+      "name" : "Jak uzyskać przewagę nad czasem?",
+      "thematicArea" : "Zarządzanie"
+    },
+    "-L_HLjw2Q1npSCMi0Ce2" : {
+      "details" : [ "reguła 60/40", "\nzasada Parkinsona", "\nzasada Eisenhowera", "\nrealistyczne planowanie", "\nsprawy niezałatwione", "\ntermin wykonania", "\npriorytety", "\ndelegowanie\n" ],
+      "id" : "-L_HLjw2Q1npSCMi0Ce2",
+      "name" : "Zasady i reguły planowania i zarządzania czasem",
+      "thematicArea" : "Zarządzanie"
+    },
+    "-L_HLzkgdYYSEpSXXoOH" : {
+      "details" : [ "czym są dystraktory", "\ndystraktory wewnętrzne i zewnętrzne", "\nsposoby radzenia sobie z dystraktorami", "\nnajczęstsze błędy popełniane w zarządzaniu czasem", "\nwpływ otoczenia na realizację zadań \n" ],
+      "id" : "-L_HLzkgdYYSEpSXXoOH",
+      "name" : "Blokery zarządzania czasem",
+      "thematicArea" : "Zarządzanie"
+    },
+    "-L_HOrvTMdIILbO4Ingq" : {
+      "details" : [ "7 powodów, dla których planowanie jest najważniejszym czynnikiem w osobistej produktywności", "\n5 błędnych przekonań na temat planowania, które mogą sabotować Twój dzień", "\nsekret zarządzania czasem, który pozwoli Ci stać się gwiazdą efektywności", "\nstrategie planowania", "\nnarzędzia do motywowania samego siebie", "\njak się nie dać pokonać przy ustalaniu celów – bądź proaktywny\n" ],
+      "id" : "-L_HOrvTMdIILbO4Ingq",
+      "name" : "Planowanie pracy",
+      "thematicArea" : "Zarządzanie"
+    },
+    "-L_HQDyC9iupXW81V3_a" : {
+      "details" : [ "nawyki i przyzwyczajenia, czyli jak zmienić swój sposób myślenia i działania", "\ntechniki zmiany bezproduktywnych nawyków", "\nzmiana zachowania - technika jednego kroku", "\nstagnacja w miejscu pracy - metody jak się jej pozbyć", "\nodkładanie spraw na potem - jak przestać zwlekać", "\ndlaczego boimy się zmian", "\nadaptacja do zmian, czyli jak być elastycznym, gdy nie wszystko idzie zgodnie z planem \n" ],
+      "id" : "-L_HQDyC9iupXW81V3_a",
+      "name" : "Zmiana przyzwyczajeń i nawyków",
+      "thematicArea" : "Zarządzanie"
+    },
+    "-L_HRm362ONP_ijsR4u9" : {
+      "details" : [ "identyfikacja „pożeraczy czasu”", "\nrelaks i efektywne wykorzystanie czasu wolnego", "\nczym są urządzenia mobilne - oszczędność czy pochłaniacz czasu", "\njak przejrzeć i usunąć przepełnione skrzynki odbiorcze w ciągu kilku minut", "\nnarzędzia technologiczne, które są warte czasu i pieniędzy", "\nzarządzanie e-mail: podstawowe praktyki, zarządzanie rutyną", "\nczerwona kartka - jestem zajęty - święte nienaruszalne słowa", "\nracjonalne czytanie dokumentów", "\nuporządkowane otoczenie", "\njak eliminować czynniki rozpraszające", "\nskuteczny obieg informacji", "\nasertywna komunikacja i asertywna odmowa, czyli mój czas dla innych \n" ],
+      "id" : "-L_HRm362ONP_ijsR4u9",
+      "name" : "Czynniki rozpraszające i \"pożeracze czasu\"",
+      "thematicArea" : "Zarządzanie"
+    },
+    "-L_HSZWEj6iV8PAI2pwF" : {
+      "details" : [ "narzędzia do planowania czasu, których prawdopodobnie nie używasz, ale powinieneś", "\njak zarządzać i przyspieszyć efektywność dzięki codziennej liście rzeczy \"do zrobienia\"", "\nprzejęcie kontroli nad wieloma zadaniami z planu - codzienny nawyk", "\nkiedy wszystko wydaje się na liście najważniejsze - zasady ustalania priorytetów", "\n6 kroków do wyznaczania priorytetów, aby osiągnąć swoje cele w czasie rzeczywistym", "\nprzerwy i ich ważność w dobrym zarządzaniu czasem", "\nzestaw narzędzi do indywidualnego zarządzania czasem \n" ],
+      "id" : "-L_HSZWEj6iV8PAI2pwF",
+      "name" : "Plan pracy - rozwiązania zarządzania czasem",
+      "thematicArea" : "Zarządzanie"
+    },
+    "-L_HSw8Btcw-uX7smDkj" : {
+      "details" : [ "po co zarządzać czasem?", "\nmoje osobiste doświadczenia w zarządzaniu czasem", "\njak właściwie rozpocząć dzień pracy, żeby zrobić i skończyć wszystko co najważniejsze", "\nradzenie sobie z natłokiem zadań", "\nbariery efektywnego zarządzania czasem - jak je pokonać", "\ndiagnoza indywidualnych przeszkód zarządzania sobą w czasie \n" ],
+      "id" : "-L_HSw8Btcw-uX7smDkj",
+      "name" : "Diagnoza własnego stylu zarządzania sobą w czasie",
+      "thematicArea" : "Zarządzanie"
+    },
+    "-L_HTRALl4W_5RulQmFd" : {
+      "details" : [ "poznaj różnicę pomiędzy projektem i zadaniem", "\nnajważniejsze kroki w realizacji i dotrzymaniu terminów", "\nproste narzędzia do zarządzania projektami często pomijane i niewykorzystywane", "\nOutlook: o czym możesz nie wiedzieć, a co pomoże ci zarządzaj lepiej swoim czasem", "\nalternatywny plan działania receptą na kryzys", "\npowody, dla których projekty mogą się nie udać i co zrobić, żeby nie być zaskoczonym", "\nna co poświęcam najwięcej czasu, a na co go marnotrawię", " \nwyznaczanie priorytetów - metody ustalania priorytetów", "\nżeby mi się chciało tak jak mi się nie chce – jak skutecznie motywować się do działania?\n" ],
+      "id" : "-L_HTRALl4W_5RulQmFd",
+      "name" : "Zarządzanie terminami i priorytetami",
+      "thematicArea" : "Zarządzanie"
+    },
+    "-L_HU-_QPHvXXUAKP4uL" : {
+      "details" : [ "mapa celów codziennych", "\nbezproduktywne spotkania - sposoby na efektywne wykorzystanie czasu", "\nbrak planu spotkania jako pożeracz czasu", "\nnakazy i zakazy dla spotkań roboczych czy wideokonferencji", "\ndefiniowanie zadań i ich delegowanie", "\nunikanie nieporozumień, marnowania czasu i konfliktów, czyli aktywne słuchanie", "\nnowe podejście do pracy i wdrażanie innowacji", "\njak osiągnąć cel i potraktować go jako nagrodę \n" ],
+      "id" : "-L_HU-_QPHvXXUAKP4uL",
+      "name" : "Jak uprościć swój napięty harmonogram?",
+      "thematicArea" : "Zarządzanie"
+    },
+    "-L_HV2SFLlFw94IJ1Wc_" : {
+      "details" : [ "poznaj siebie: dowiedz się, co powoduje u ciebie stres i jak możesz z tym walczyć", "\nkontrolowanie wypalenia - na co powinieneś zwracać uwagę", "\nszybkie i proste sposoby, aby zmniejszyć napięcie i ciśnienie na biurku", "\nsekret zwolnię obroty w pracy - co zyskam", "\njak utrzymać zaangażowanie w pracy w przypadku toksycznych relacji w pracy", "\njak złagodzić stres związany z pracą, czyli jak uniknąć żonglerki w kontekście praca czy rodzina \n" ],
+      "id" : "-L_HV2SFLlFw94IJ1Wc_",
+      "name" : "Łagodzenie stresu we wszystkich dziedzinach życia",
+      "thematicArea" : "Zarządzanie"
+    },
+    "-L_HXqkCc_VH1ie1NETL" : {
+      "details" : [ "cele oceniania pracowników", "\ntrudności w zastosowaniu procedury oceniania", "\nopracowanie kryteriów ocen", "\nocenianie a motywowanie pracowników\n" ],
+      "id" : "-L_HXqkCc_VH1ie1NETL",
+      "name" : "Jak motywująco oceniać osiągnięcia pracowników? ",
+      "thematicArea" : "Motywowanie"
+    },
+    "-L_HYOqZWG5JZe7sEf5l" : {
+      "details" : [ "psychologiczne prawidłowości postrzegania ludzi", "\nspołeczne i kulturowe uwarunkowania postrzegania ludzi i ich zachowań", "\nekonomiczne uwarunkowania oceny efektywności pracy", "\nczynniki wpływające na efektywność pracy zespołowej", "\nbariery efektywności zespołu", "\nmetody stymulowania efektywności zespołu\n" ],
+      "id" : "-L_HYOqZWG5JZe7sEf5l",
+      "name" : "Jak rozwinąć efektywność zespołu? ",
+      "thematicArea" : "Motywowanie"
+    },
+    "-L_HZTereCuHfGy67ML2" : {
+      "details" : [ "rola i znaczenie nagród w procesie motywowania", "\nrola i znaczenie kar w procesie motywowania", "\ndecyzyjny model motywacji pracowników", "\nmotywatory finansowe i pozafinansowe", "\nwpływ informacji zwrotnej na wydajność pracy", "\nmetody skutecznego oddziaływania motywacyjnego\n" ],
+      "id" : "-L_HZTereCuHfGy67ML2",
+      "name" : "Rola i znaczenie motywowania",
+      "thematicArea" : "Motywowanie"
+    },
+    "-L_HZz-S2UBOJa6ZonTW" : {
+      "details" : [ "dlaczego musimy zaspakajać nasze potrzeby - teoria potrzeb Maslowa", "\nteoria potrzeb wyuczonych Mc Clellanda – dlaczego poddajemy się wpływowi innych", "\ndlaczego wybieramy te, a nie inne zachowania - teoria oczekiwań V. Grooma", "\npotrzeba nagród i kar - teoria wzmocnień B. Skinnera", "\nteoria motywacyjnego DNA T. Lowe\n" ],
+      "id" : "-L_HZz-S2UBOJa6ZonTW",
+      "name" : "Teorie motywowania ",
+      "thematicArea" : "Motywowanie"
+    },
+    "-L_H_OToN8kjL5_4ggLD" : {
+      "details" : [ "potrzeby pracownika, a sposoby ich zaspokojenia", "\nmotywowanie zadaniowe", "\nmotywowanie systemowe\n" ],
+      "id" : "-L_H_OToN8kjL5_4ggLD",
+      "name" : "Psychologiczne podstawy procesu motywacyjnego",
+      "thematicArea" : "Motywowanie"
+    },
+    "-L_H_jZsCYhot4gM7ozT" : {
+      "details" : [ "wynagrodzenie a wyniki pracy", "\nuznanie przełożonych, kolegów, rodziny, otoczenia (np. klientów)", "\nklimat organizacyjny a efektywność pracy", "\nzadania i samodzielność ich realizacji", "\nnagrody niematerialne a skuteczność działania", "\nsamorealizacja a zadowolenie pracownika\n" ],
+      "id" : "-L_H_jZsCYhot4gM7ozT",
+      "name" : "Czynniki systemu motywacyjnego a efektywność pracy w organizacji",
+      "thematicArea" : "Motywowanie"
+    },
+    "-L_Ha-XDkXYuLxhjghuH" : {
+      "details" : [ "asertywna ocena", "\nasertywna krytyka", "\nasertywne odbieranie krytyki", "\nasertywne udzielanie informacji zwrotnej\n" ],
+      "id" : "-L_Ha-XDkXYuLxhjghuH",
+      "name" : "Umiejętność przekazywania i przyjmowania krytycznych opinii",
+      "thematicArea" : "Motywowanie"
+    },
+    "-L_Hb72y1726svaoJsoe" : {
+      "details" : [ "teorie motywowania siebie i zespołu", "\nrola i znaczenie nagród i kar w procesie motywowania", "\ndecyzyjny model motywacji pracowników", "\nwpływ informacji zwrotnej na wydajność pracy\n" ],
+      "id" : "-L_Hb72y1726svaoJsoe",
+      "name" : "Jak motywować pracowników do pracy? ",
+      "thematicArea" : "Motywowanie"
+    },
+    "-L_HbRZgWLpPcwW1_pz_" : {
+      "details" : [ "samoświadomość - zrozumienie siebie", "\nSWOT indywidualny", "\nco oznacza dla ciebie sukces", "\njak wyznaczać cele, aby je osiągnąć", "\nwartości i ich wpływ na nasze życie osobiste i zawodowe", "\nokreślenie mocnych i słabych stron osobowości", "\nstudium własnego rozwoju\n" ],
+      "id" : "-L_HbRZgWLpPcwW1_pz_",
+      "name" : "Zrozumienie ludzkiej natury podstawą skutecznej motywacji",
+      "thematicArea" : "Motywowanie"
+    },
+    "-L_HbydjN8zLoTRMsfZu" : {
+      "details" : [ "co budzi w tobie motywację do działania", "\nczym jest dla ciebie motywacja", "\nmoje motywacyjne DNA", "\n„dwie rzeczy motywują ludzi do działania: inspiracja i desperacja”", "\nkierunki motywacji\n" ],
+      "id" : "-L_HbydjN8zLoTRMsfZu",
+      "name" : "Jak skutecznie motywować się do działania?",
+      "thematicArea" : "Motywowanie"
+    },
+    "-L_HcWGyx2cyFznzc0JP" : {
+      "details" : [ "demotywatory i „mordercy” motywacji", "\nopinie krytyczne a sposób radzenia sobie z nimi", "\nznaczenie automotywacji dla efektywności działań", "\nokreślenie osobistych motywatorów i demotywatorów", "\nograniczające przekonania, założenia i postawy – wszystko to, co blokuje nasz system motywacyjny\n" ],
+      "id" : "-L_HcWGyx2cyFznzc0JP",
+      "name" : "Diagnoza przyczyny spadku motywacji",
+      "thematicArea" : "Motywowanie"
+    },
+    "-L_Hci7QdPLLHW38Lz4G" : {
+      "details" : [ "asertywne radzenie sobie z krytyką", "\nkoło wpływu", "\npobudzanie własnego potencjału", "\nrozwój kreatywności i elastyczności w myśleniu i działaniu", "\nautomotywacja w sytuacjach trudnych", "\ntechniki i narzędzia automotywacji", "\nkierowanie własnymi emocjami w procesie automotywacji", "\nzmiana jako element motywacyjny\n" ],
+      "id" : "-L_Hci7QdPLLHW38Lz4G",
+      "name" : "Metody zwiększania poziomu motywacji",
+      "thematicArea" : "Motywowanie"
+    },
+    "-L_HdTFncGp-f2KwV2tB" : {
+      "details" : [ "asertywna ocena", "\nasertywne odbieranie krytyki", "\nkonstruktywna informacja zwrotna", "\njak efektywnie udzielać informacji zwrotnej", "\nmetody i techniki udzielania pozytywnej i negatywnej informacji zwrotnej", "\nutrzymanie relacji przez umiejętne korygowanie zachowań\n" ],
+      "id" : "-L_HdTFncGp-f2KwV2tB",
+      "name" : "Przyjmowanie i przekazywanie informacji ",
+      "thematicArea" : "Motywowanie"
+    },
+    "-L_Hex0jfQ1lM989QSG8" : {
+      "details" : [ "poziom motywacji a efektywność działania", "\nanaliza czynników podnoszących poziom motywacji – czynniki higieniczne i motywatory", "\nmetody motywowania członków zespołu m.in. nagradzania wkładu osób i świętowania sukcesu zespołu", "\nwybrane sposoby motywowania pracowników", "\njak efektywnie motywować pracowników?", "\nrola motywatorów finansowych w budowaniu zaangażowania", "\nmotywowanie w sytuacji przekroczenia „indywidualnego progu wydolności pracowników”", "\nmenedżer motywujący vs menedżer demotywujący\n" ],
+      "id" : "-L_Hex0jfQ1lM989QSG8",
+      "name" : "Budowanie zaangażowania pracowników",
+      "thematicArea" : "Motywowanie"
+    },
+    "-L_HfmMY-1Vk66sItgip" : {
+      "details" : [ "poszukiwanie czynników motywacyjnych w pracy i życiu osobistym", "\nformułowanie celów pomagających w osiąganiu sukcesów", "\nentuzjazm i pasja - motorem osiągania niemożliwego", "\nwykreślanie własnej mapy życia" ],
+      "id" : "-L_HfmMY-1Vk66sItgip",
+      "name" : "Pokonywanie własnej rutyny i niechęci",
+      "thematicArea" : "Motywowanie"
+    },
+    "-L_HgIGJrdkTXxQWXbAf" : {
+      "details" : [ "rola przekonań w psychologii osiągnięć", "\nprzekonania powstrzymujące podejmowanie skutecznych działań", "\nmobilizująca i motywująca funkcja przekonań", "\nsiła nawyków w warunkowaniu naszych sukcesów lub porażek", "\neliminacja „złych” nawyków - metody\n" ],
+      "id" : "-L_HgIGJrdkTXxQWXbAf",
+      "name" : "Przekonania i nawyki",
+      "thematicArea" : "Motywowanie"
+    },
+    "-L_Hgda-LgbaY0sHkfqj" : {
+      "details" : [ "typowe sposoby reagowania na sytuacje trudne", "\nmechanizmy ucieczki i walki", "\nmyślenie autodestrukcyjne", "\nkomunikaty afirmujące\n" ],
+      "id" : "-L_Hgda-LgbaY0sHkfqj",
+      "name" : "Automotywacja w sytuacjach trudnych",
+      "thematicArea" : "Motywowanie"
+    },
+    "-L_HhMFRkyZKat6v7WtP" : {
+      "details" : [ "zasady motywowania finansowego", "\nzasady motywowania pozafinansowego", "\nnarzędzia motywowania finansowego", "\nnarzędzia motywowania pozafinasowego" ],
+      "id" : "-L_HhMFRkyZKat6v7WtP",
+      "name" : "Jak zbudować skuteczny system motywowania?",
+      "thematicArea" : "Motywowanie"
+    },
+    "-L_Hj1NCdScgQ3l9ecez" : {
+      "details" : [ "znaczenie automotywacji dla efektywności działań", "\ntechniki automotywacyjne (wyznaczanie osobistych celów, monitorowanie postępów, przełamywanie rutyny)", "\nmoje osobiste motywatory i demotywatory", "\nwpływ przekonań na poziom motywacji", "\nrola stylu wyjaśniania porażek i sukcesów", "\nautodiagnoza stylu wyjaśniania zdarzeń", "\nuwarunkowania zachowania równowagi w sytuacjach trudnych\n" ],
+      "id" : "-L_Hj1NCdScgQ3l9ecez",
+      "name" : "Automotywacja - czyli jak zmotywować siebie do działania?",
+      "thematicArea" : "Motywowanie"
+    },
+    "-L_HnLrEoS00wRhixYQ6" : {
+      "details" : [ "budowanie wiary we własne możliwości", "\nenergia życiowa jako osobista bateria dająca możliwość działania", "\nobjawy świadczące o deficycie \"energetycznym\"", "\nskąd czerpać energię - naładuj swoje akumulatory", "\npoznanie swoich reakcji emocjonalnych w różnych sytuacjach zawodowych i prywatnych", "\npraca jako źródło satysfakcji i samorealizacji\n" ],
+      "id" : "-L_HnLrEoS00wRhixYQ6",
+      "name" : "Kierowanie swoimi emocjami i energią ",
+      "thematicArea" : "Motywowanie"
+    },
+    "-L_HxjwOGeB-caJ2Zduw" : {
+      "details" : [ "pierwsze wrażenie i jego znaczenie", "\nindywidualne podejście do klienta i jego rola", "\nnawiązywanie kontaktu i podtrzymywanie relacji", "\nstrategie otwarcia rozmowy i przełamywanie lodów", "\njak określić i zrozumieć potrzeby klienta", "\ncechy dobrego negocjatora - prawdy i mity \n" ],
+      "id" : "-L_HxjwOGeB-caJ2Zduw",
+      "name" : "Nawiązanie kontaktu z klientem",
+      "thematicArea" : "Negocjacje"
+    },
+    "-L_Hy1QWDhH7Ms45HE-Y" : {
+      "details" : [ "atmosfera i emocje - ich rola i znaczenie", "\nwpływ emocji na przebieg i wynik negocjacji", "\noptymalny klimat w negocjacjach - jak go osiągnąć i utrzymać", "\njak reagować na emocjonalne zachowania partnerów negocjacji\n" ],
+      "id" : "-L_Hy1QWDhH7Ms45HE-Y",
+      "name" : "Budowanie klimatu w procesie negocjacji",
+      "thematicArea" : "Negocjacje"
+    },
+    "-L_HyTnTLQFVxdMDgbTF" : {
+      "details" : [ "czym jest negocjowanie i jego elementy", "\nwpływ atmosfery na przebieg negocjacji", "\nstyle negocjacji i techniki wywierania wpływu", "\nmetody wywierania wpływu oparte na współpracy", "\nstrategie wywierania wpływu i ich skuteczność", "\nnasze miejsce przy stole a techniki wywierania wpływu", "\ntrudne sytuacje w negocjacjach \n" ],
+      "id" : "-L_HyTnTLQFVxdMDgbTF",
+      "name" : "Kiedy negocjować, a kiedy nie?",
+      "thematicArea" : "Negocjacje"
+    },
+    "-L_HyxR4wa4yqY7AGVDR" : {
+      "details" : [ "negocjacje w procesie sprzedaży", "\nnegocjacje cenowe i strategie obrony ceny", "\nnegocjacje z dostawcami zewnętrznymi i wewnętrznymi", "\nźródła komunikacji w negocjacjach", "\ndostosowanie techniki negocjacji do sytuacji", "\nparametry dające przewagę w negocjacjach", "\nelastyczność czy uległość - którą metodę wybrać", "\nrozpoznanie potrzeb partnerów negocjacji, czyli jak sprawdzać, o co chodzi drugiej stronie", "\njak radzić sobie z impasami", "\nbudowanie porozumienia negocjacyjnego", "\nwrażliwość na potrzeby drugiej strony, przy zachowaniu własnego stanowiska\n" ],
+      "id" : "-L_HyxR4wa4yqY7AGVDR",
+      "name" : "Typy i strategie negocjacji",
+      "thematicArea" : "Negocjacje"
+    },
+    "-L_HzKAG3Zqv0TpzGkX3" : {
+      "details" : [ "sens negocjacji o interesy", "\npodział negocjacji na twarde i miękkie", "\nzarządzanie ustępstwami", "\ntwarde techniki negocjacyjne - praktyczne zastosowanie", "\nbariery komunikacyjne - rozpoznawanie i uniknie", "\nanaliza transakcyjna a komunikacja w negocjacjach", "\nodkrywaj stanowiska drugiej strony, czyli staraj się, aby wynik rozmów oparty był \no obiektywne kryteria\n" ],
+      "id" : "-L_HzKAG3Zqv0TpzGkX3",
+      "name" : "Negocjacje oparte na zasadach ",
+      "thematicArea" : "Negocjacje"
+    },
+    "-L_HzUjiTumzLznHp8p_" : {
+      "details" : [ "sztuka negocjacji eksperckich", "\nnegocjuj nie negocjując", "\nstworzenie „neutralnych” parametrów dających przewagę w negocjacjach\n" ],
+      "id" : "-L_HzUjiTumzLznHp8p_",
+      "name" : "Negocjacje eksperckie",
+      "thematicArea" : "Negocjacje"
+    },
+    "-L_HzjQUAIMnuaAlCp39" : {
+      "details" : [ "planowanie i role uczestników procesu negocjacji", "\nanaliza i poznanie drugiej strony", "\njakie są nasze aspiracje i oferty wyjściowe", "\njakie rezultaty zamierzamy osiągnąć", "\nopracowanie i analiza możliwych scenariuszy", "\nwybór właściwej strategii negocjacyjnej", "\nprzygotowanie planu działania i argumentowania", "\npsychologia tworzenia pierwszego wrażenia i zarządzanie nim", "\nrozpoczęcie negocjacji", "\nprezentacja ofert", "\nfaza środkowa negocjacji", "\nzakończenie negocjacji\n" ],
+      "id" : "-L_HzjQUAIMnuaAlCp39",
+      "name" : "Etapy negocjacji, czyli planowanie i prowadzenie rozmów ",
+      "thematicArea" : "Negocjacje"
+    },
+    "-L_I-QGppxRHVz5cyEM1" : {
+      "details" : [ "podstawowe prawa wywierania wpływu", "\nwywieranie wpływu a manipulacja", "\nreguły wywierania wpływu", "\ntechniki wywierania wpływu na poziomie faktów", "\ntechniki wywierania wpływu czasem", "\ntechniki wywierania wpływu na poziomie relacjami i emocji", "\ntechniki wywierania wpływu na poziomie wizerunku", "\nzasady doboru najskuteczniejszych technik wywierania wpływu\n" ],
+      "id" : "-L_I-QGppxRHVz5cyEM1",
+      "name" : "Wywieranie wpływu w negocjacjach",
+      "thematicArea" : "Negocjacje"
+    },
+    "-L_I-mksWZzztIiv13zo" : {
+      "details" : [ "podstawowe prawa wywierania wpływu", "\nwywieranie wpływu a manipulacja", "\nreguły wywierania wpływu", "\ntechniki wywierania wpływu na poziomie faktów", "\ntechniki wywierania wpływu czasem", "\ntechniki wywierania wpływu na poziomie relacjami i emocji", "\nzasady doboru najskuteczniejszych technik wywierania wpływu\n" ],
+      "id" : "-L_I-mksWZzztIiv13zo",
+      "name" : "Wywieranie wpływu ",
+      "thematicArea" : "Zarządzanie"
+    },
+    "-L_I0Y6q7nXg5hsa-XG5" : {
+      "details" : [ "lider zarządzający zespołem zróżnicowanym wiekowo - korzyści i zagrożenia", "\nzespół różnorodny - jego role , relacje i konflikty", "\njak pokonać stereotypy związane z wiekiem?", "\nbudowanie autorytetu i efektywność lidera w zespole \n" ],
+      "id" : "-L_I0Y6q7nXg5hsa-XG5",
+      "name" : "Lider w zespole zróżnicowanym wiekowo",
+      "thematicArea" : "Zarządzanie"
+    },
+    "-L_I0mhjbnwxWPSDaTlq" : {
+      "details" : [ "pokolenie X,Y,Z - co je łączy a co różni", "\nkomunikacja międzypokoleniowa", "\ninnowacyjność i doświadczenie – jak wykorzystać potencjał różnorodności", "\n" ],
+      "id" : "-L_I0mhjbnwxWPSDaTlq",
+      "name" : "Rodzaje pokoleń i ich potencjały",
+      "thematicArea" : "Zarządzanie"
+    },
+    "-L_I1BY_TUbcqoQmM4wj" : {
+      "details" : [ "definicja zarządzania wiekiem", "\npotrzeby, wyzwania i motywacja pracowników", "\nanaliza SWOT pracowników w różnym wieku", "\nprzepływ wiedzy w organizacji a zarządzanie wiekiem", "\npo co organizacji zarządzanie wiekiem?", "\nkorzyści dla organizacji wynikające z zarządzania różnorodnością\n" ],
+      "id" : "-L_I1BY_TUbcqoQmM4wj",
+      "name" : "Zarządzanie wiekiem ",
+      "thematicArea" : "Zarządzanie"
+    },
+    "-L_I1lWWr0DvyeQQudTq" : {
+      "details" : [ "różnice które mogą nam sprzyjać - różnice w stylu życia, celach, motywacji i komunikacji", "\njakich błędów należy unikać, a jakie błędy popełniają organizacje przy zarządzaniu różnymi generacjami", "\npotencjał młodego pokolenia - narzędzia wykorzystujące zasoby", "\npracownik mentor czyli wykorzystujemy wiedzę z kraju „ kwitnącej wiśni”", "\nsposoby na motywację i zaangażowanie pracowników w różnych przedziałach wiekowych\n\n" ],
+      "id" : "-L_I1lWWr0DvyeQQudTq",
+      "name" : "Różnorodność w kontekście wykorzystywania potencjałów pokoleniowych",
+      "thematicArea" : "Zarządzanie"
+    },
+    "-L_I2A5ZGxPGVNYshSan" : {
+      "details" : [ "efektywne metody i narzędzia motywacji pracowników z różnych pokoleń", "\npostawa lidera a motywacja do pracy", "\nmentoring i coaching  - rozwój dla pracownika", "\nczynniki demotywujące - zmiana i stres", "\nmodele i koncepcje zarządzania zmianą", "\nmetody przezwyciężania oporu dla zmian", "\ntworzenie indywidualnych planów rozwoju\n" ],
+      "id" : "-L_I2A5ZGxPGVNYshSan",
+      "name" : "Jak motywować i rozwijać pracowników w zespole zróżnicowanym wiekowo",
+      "thematicArea" : "Zarządzanie"
+    },
+    "-L_I3gWc3D2mWId2JE3q" : {
+      "details" : [ "zbudowanie integracji zespołowej", "\nposzukiwanie wspólnych doświadczeń i poglądów", "\ncele grupowe a motywacje własne", "\nnastawienia uczestników na współdziałanie z grupą i w grupie", "\nbudowanie nastawienia na „wspólną pracę drużynową”", "\njak zbudować zespół emocjonalnie i psychologicznie zrównoważony?", "\nrole zespołowe a rola lidera w budowaniu grupy" ],
+      "id" : "-L_I3gWc3D2mWId2JE3q",
+      "name" : "Integracja a indywidualność",
+      "thematicArea" : "Zarządzanie"
+    },
+    "-L_I4kIWUvGWbisCZW5B" : {
+      "details" : [ "podstawowe techniki antymanipulacji", "\ntechniki skutecznej obrony przed atakami i oskarżeniami\n" ],
+      "id" : "-L_I4kIWUvGWbisCZW5B",
+      "name" : "Jak się bronić przed oskarżeniami",
+      "thematicArea" : "Negocjacje"
+    },
+    "-L_I50pp6Bd9skJvwAQ9" : {
+      "details" : [ "indywidualny potencjał negocjacyjny poszczególnych uczestników", "\nzespół to siła, czyli synergia zespołów negocjacyjnych\n" ],
+      "id" : "-L_I50pp6Bd9skJvwAQ9",
+      "name" : "Ja negocjator",
+      "thematicArea" : "Negocjacje"
+    },
+    "-L_I5BAo96gGV2He4j0S" : {
+      "details" : [ "asertywne odmawianie i proszenie", "\nkiedy można, a kiedy nawet trzeba powiedzieć „nie”", "\nkulturalne upominanie klienta", "\nprzekazywanie klientowi złych wiadomości\n" ],
+      "id" : "-L_I5BAo96gGV2He4j0S",
+      "name" : "Jak zachować postawę asertywną w kontakcie z klientem",
+      "thematicArea" : "Negocjacje"
+    },
+    "-L_I5U9lzdHcqL9tKCUm" : {
+      "details" : [ "poznaj swój typ osobowości", "\nbudowanie przewagi poprzez znajomość własnego typu osobowości", "\nrozpoznawanie typów osobowości uczestników procesu", "\nwywieranie wpływu i dobór reakcji", "\nSWOT, czyli silne i słabe strony poszczególnych typów osobowości \n" ],
+      "id" : "-L_I5U9lzdHcqL9tKCUm",
+      "name" : "Osobowość w negocjacjach",
+      "thematicArea" : "Negocjacje"
+    },
+    "-L_I6RUGE6gYJ71zYWUk" : {
+      "details" : [ "jak uniknąć impasu", "\nkiedy ustępować i jak nie popełnić błędu", "\nskuteczna finalizacja", "\nkontrola nad domykaniem sprzedaży", "\nelementy wywieranie wpływu na etapie finalizacji", "\ntechniki finalizacji\ntrening umiejętności i informacja zwrotna" ],
+      "id" : "-L_I6RUGE6gYJ71zYWUk",
+      "name" : "Satysfakcjonująca finalizacja",
+      "thematicArea" : "Negocjacje"
+    },
+    "-L_IFbMjn4vMQjnSs9N7" : {
+      "details" : [ "czym jest asertywność?", "\nznaczenie zachowań asertywnych w negocjacjach", "\npomiędzy uległością agresją - gra symulacyjna", "\ndlaczego dochodzi do konfliktów?", "\nsposoby diagnozowania sytuacji konfliktowych", "\nstrategie i metody rozwiązywania konfliktów", "\nefektywne zachowania Negocjatora w sytuacjach konfliktowych", "\ntechniki przeciwdziałania presji, manipulacji i agresji", "\nprzede wszystkim profilaktyka", "\nkorzyści i konsekwencje asertywnego zachowania negocjatora\n" ],
+      "id" : "-L_IFbMjn4vMQjnSs9N7",
+      "name" : "Asertywność w negocjacjach",
+      "thematicArea" : "Negocjacje"
+    },
+    "-L_IGY9LY7luJqrNmIG_" : {
+      "details" : [ "podstawy dobrego kontaktu", "\nbudowanie efektywnych relacji", "\nstyle komunikacyjne w negocjacjach", "\nreguły podobieństwa i sympatii", "\nnadawanie na tej samej fali", "\njęzyk faktów a język emocji", "\ndziałania zabezpieczające relacje\n" ],
+      "id" : "-L_IGY9LY7luJqrNmIG_",
+      "name" : "Budowanie wiarygodności negocjatora",
+      "thematicArea" : "Negocjacje"
+    },
+    "-L_IJ--Hh_XgPvg0pG_J" : {
+      "details" : [ "określ punkt wyjścia: potrzeba czy produkt?", "\ntrzy strategie układu treści w komunikacie do klienta", "\nprezentacja metodą P-CKMA (potrzeba - cecha - korzyść - mankament - argument)", "\nstrategia BBC", "\npostawa prezentacyjna dostosowana do sytuacji oraz typu klienta", "\ntechniki wpływu społecznego podczas wizyty handlowej", "\nsiła persfazji i zasady posługiwania się językiem perswazji", "\nstosowanie słów kluczy", "\ntechniki manipulacji w komunikacji językowej" ],
+      "id" : "-L_IJ--Hh_XgPvg0pG_J",
+      "name" : "Struktura prezentacji handlowej",
+      "thematicArea" : "Negocjacje"
+    },
+    "-L_IKO8wpFyiYcS-zPpl" : {
+      "details" : [ "przełożony (zleceniodawca)", "\nkierownik zespołu", "\nrzecznik zespołu", "\n“twardy facet” a “sympatyczny facet” jaką rolę przyjąć", " \nanalityk zachowań", "\nanalityk informacji", "\ndoradca specjalistyczny\n" ],
+      "id" : "-L_IKO8wpFyiYcS-zPpl",
+      "name" : "Role uczestników zespołu negocjacyjnego",
+      "thematicArea" : "Negocjacje"
+    },
+    "-L_IL6-aLXwzyKPjjHow" : {
+      "details" : [ "tworzenie strategii negocjacyjnych", "\ndostosowanie do sytuacji, czyli jaką wybrać technikę negocjacji", " \njakie parametry dają przewagę w negocjacjach", "\nstanowiska a interesy", "\ninteres musi być chroniony - różne drogi dojścia do celu", "\njak być elastycznym, a nie uległym", "\njak sprawdzać, o co naprawdę chodzi drugiej stronie - sposoby na realizację celów poprzez zrozumienie potrzeb", "\njak radzić sobie z impasami", "\nbudowanie porozumienia negocjacyjnego\n" ],
+      "id" : "-L_IL6-aLXwzyKPjjHow",
+      "name" : "Strategia negocjacji",
+      "thematicArea" : "Negocjacje"
+    },
+    "-L_IOlQkp2Y10AFg2PF_" : {
+      "details" : [ "świadoma budowa wizerunku - kogo lub co chcę pokazać", "\nprzełamywanie barier komunikacyjnych i łamanie stereotypowych zachowań", "\nstrategia oparta na analizie obszaru rozmowy: handlowiec - menedżerem klienta lub handlowiec - doradcą klienta\n" ],
+      "id" : "-L_IOlQkp2Y10AFg2PF_",
+      "name" : "Komunikacja w procesie sprzedaży",
+      "thematicArea" : "Sprzedaż"
+    },
+    "-L_IP0ilD0dptXzy3SSv" : {
+      "details" : [ "potrzeba czy produkt", "\nstrategia BBC", "\nspójność i najważniejsze szczegóły decydujące o sukcesie wizyty handlowej", "\nsztuka budowania pierwszego wrażenia", "\npostawa sprzedawcy jako kluczowy element sukcesu\n" ],
+      "id" : "-L_IP0ilD0dptXzy3SSv",
+      "name" : "Strategia sprzedaży",
+      "thematicArea" : "Sprzedaż"
+    },
+    "-L_IR-Elel4LVHgv5a0i" : {
+      "details" : [ "analiza potrzeb deklaratywnych", "\nanaliza potrzeb podstawowych", "\nanaliza potrzeb ukrytych klienta", "\nprezentacja metodą PCKMA (potrzeba - cecha - korzyść - mankament - argument)", "\ndopasowanie", "\nmowa językiem korzyści \n" ],
+      "id" : "-L_IR-Elel4LVHgv5a0i",
+      "name" : "Analiza potrzeb i nie tylko",
+      "thematicArea" : "Sprzedaż"
+    },
+    "-L_IR9g_8XaH-eSuSwvN" : {
+      "details" : [ "postawa i komunikacja niewerbalna", "\ntempo mówienia", "natężenie głosu wykorzystywanie pauz", "\nkontakt wzrokowy z audytorium", "\npostawa ciała", "\ngestykulacja", "\ndynamika – ruch", "\nzwracanie się do słuchaczy", "\npewność wypowiedzi\n" ],
+      "id" : "-L_IR9g_8XaH-eSuSwvN",
+      "name" : "Komunikacja niewerbalna a sprzedaż sugestywna",
+      "thematicArea" : "Sprzedaż"
+    },
+    "-L_IRbmt_bFaWyQMprww" : {
+      "details" : [ "techniki wpływu społecznego w sprzedaży", "\nbudowanie pozytywnego wrażenia i wywieranie wpływu na rozmówców", "\nzasady posługiwania się językiem perswazji i stosowanie słów kluczy", "\ntajniki siły perswazji", "\nwybrane techniki manipulacji w komunikacji językowej", "\nsztuka perswazji i negocjacji", "\ndobór argumentów - prowadzenie sporu i debaty publicznej", "\nkomunikacja a wywieranie wpływu", "\npaleta technik manipulacji i wywierania wpływu", "\nkomunikacja a wywieranie wpływu", "\nperswazja, manipulacja i wpływ", "\npodstawowe techniki manipulacji", "\npierwsze wrażenie i budowanie wiarygodności", "\t\nperswazja w trakcie prezentacji handlowej", "\njak wykrywać kłamstwo w rozmowie z klientem\n" ],
+      "id" : "-L_IRbmt_bFaWyQMprww",
+      "name" : "Efektywna perswazja i wywieranie wpływu",
+      "thematicArea" : "Sprzedaż"
+    },
+    "-L_IRsCNGVeNYVCEPiw9" : {
+      "details" : [ "standardowe sposoby finalizacji", "\nnieszablonowe strategie finalizacji", "\n„nie” warunkowe i „nie” rozstrzygające kiedy klient odmawia", "a kiedy nie jest przekonany?", "\njak zmienić „nie” warunkowe na „tak”? \n" ],
+      "id" : "-L_IRsCNGVeNYVCEPiw9",
+      "name" : "Finalizacja rozmowy handlowej",
+      "thematicArea" : "Sprzedaż"
+    },
+    "-L_ITUg4bo8XjLqgqjYW" : {
+      "details" : [ "rozpoznawanie typów osobowościowych klientów", "\nświadomość przewagi ograniczeń własnego typu osobowości w procesie sprzedaży", "\nmotywowanie i dobór reakcji - czterostrefowy model zachowań", "\nsamo postrzeganie i ocena innych w zależności od typu osobowości", "\nefektywne wywieranie wpływu na osoby o różnych typach osobowości\n" ],
+      "id" : "-L_ITUg4bo8XjLqgqjYW",
+      "name" : "Skuteczna sprzedaż a osobowość",
+      "thematicArea" : "Sprzedaż"
+    },
+    "-L_IUC31YltzaQ5bdKaE" : {
+      "details" : [ "rozwinięcie umiejętności budowania relacji poprzez dopasowanie sposobu komunikacji do klienta", "\nwypracowanie modelu postępowania i strategii działania, które ułatwią dotarcie do klientów różnego typu", "\nzwiększenie szans na powodzenie w sprzedaży poprzez umiejętność dopasowania się do typu osobowości klienta", "\ntechniki wywierania wpływu i antymanipulacje w sprzedaży\n" ],
+      "id" : "-L_IUC31YltzaQ5bdKaE",
+      "name" : "Nowoczesna psychologia sprzedaży ",
+      "thematicArea" : "Sprzedaż"
+    },
+    "-L_IUY2Uo3WfkwBDwJbv" : {
+      "details" : [ "poznanie i przećwiczenie narzędzi badania potrzeb i oczekiwań klientów", "\nrozwinięcie umiejętności zadawania pytań i zbierania informacji o oczekiwaniach klienta", "\nzwiększenie szans na powodzenie w sprzedaży poprzez umiejętne słuchanie swoich klientów", "\nidentyfikacja potrzeb klienta - zbieranie informacji o klientach, preferencjach i oczekiwaniach", "\nrozpoznanie budżetu zakupowego z podziałem na potrzeby", "\nprzyzwyczajenia sprzedażowe klientów i dostosowanie do nich oferty", "\ndecyzyjność - czynniki wpływające na podejmowanie decyzji", "\nokreślenie swojej pozycji i możliwości sprzedażowych\n" ],
+      "id" : "-L_IUY2Uo3WfkwBDwJbv",
+      "name" : "Analiza potrzeb klienta  ",
+      "thematicArea" : "Sprzedaż"
+    },
+    "-L_IUtGLaOvB_vUWAraz" : {
+      "details" : [ "zrozumienie potrzeb klienta", "\nnauka mówienia językiem korzyści", "\nuświadomienie uczestnikom faktu, że cena i inne cechy nie sprzedają", "\nrozwój umiejętności mówienia korzyściami - za którymi stoi wartość dla klienta", "\nprzeniesienie pola prezentacji z cech produktu na korzyści", "\nprzekonanie klienta do zakupu tego a nie innego produktu", "\nzastosowanie struktury przekazu perswazyjnego\n" ],
+      "id" : "-L_IUtGLaOvB_vUWAraz",
+      "name" : "Perswazyjny język sprzedaży ",
+      "thematicArea" : "Sprzedaż"
+    },
+    "-L_IVAWTkIJkyA1D_Wip" : {
+      "details" : [ "sposoby sprzedaży i ich dopasowanie do potrzeb klienta", "\nistniejące modele sprzedaży i możliwości ich zastosowania", "\nsposoby prezentacji oferty handlowej", "\nustalenie mocnych stron oferty", "\nprezentacja językiem korzyści dla klienta", "\nwykorzystanie środków perswazyjnych dla zwiększenia efektu prezentacji\n" ],
+      "id" : "-L_IVAWTkIJkyA1D_Wip",
+      "name" : "Prezentacja oferty",
+      "thematicArea" : "Sprzedaż"
+    },
+    "-L_IVSCMnDJDNTYnKetU" : {
+      "details" : [ "rozwój umiejętności wywierania wpływu na decyzje klientów", "\nzwiększenie pewności siebie podczas negocjacji z klientami", "\nudoskonalenie umiejętności negocjowania z partnerami biznesowymi", "\nwzmocnienie pozycji negocjacyjnej i poczucia własnej wartości we współpracy", "\nprzepracowanie ograniczeń oraz lęków w relacjach z klientami biznesowymi", "\nszybsze i skuteczniejsze osiąganie celów biznesowych we współpracy z klientami", "\nzamykanie procesu sprzedaży", "\nzarządzanie relacjami z klientami\n" ],
+      "id" : "-L_IVSCMnDJDNTYnKetU",
+      "name" : "Techniki wywierania wpływu i antymanipulacje w sprzedaży ",
+      "thematicArea" : "Sprzedaż"
+    },
+    "-L_LzGeBXiamXoaKBO8k" : {
+      "details" : [ "co nam daje baza danych, czyli korzyści wynikające z jej posiadania", " \nzasady i metody tworzenia baz danych", "\nktóre dane są optymalne - wybór optymalnych danych dla utworzenia bazy danych", "\nprawne uwarunkowania tworzenia bazy danych", "\ntypy baz danych klientów", "\nzasady prospectingu - czym jest i do czego służy", "\nbudowanie własnej bazy i generowanie leadów sprzedażowych", "\nzasady zarządzania portfelem klientów - lejek sprzedaży\n" ],
+      "id" : "-L_LzGeBXiamXoaKBO8k",
+      "name" : "Znajdź i poznaj swojego klienta ",
+      "thematicArea" : "Sprzedaż"
+    },
+    "-L_LzcCEJyC2mJCthzy2" : {
+      "details" : [ "pierwotne i wtórne źródła informacji", "\nwykorzystywanie informacji przydatnych w tworzeniu baz danych", " \nmożliwości zdobywania informacji o nowych klientach", "\nzwiększanie efektywności pozyskiwania klientów", "\nprzejmowanie klientów konkurencji sposobem na wzrost konwersji sprzedaży", "\nodzyskiwanie klientów biernych - sposoby odnawiania relacji handlowych", "\nbudowanie długofalowych relacji z klientami oraz budowanie swojego autorytetu i zaangażowania klienta", "\nrekomendacje - klient poleca klienta\n" ],
+      "id" : "-L_LzcCEJyC2mJCthzy2",
+      "name" : "Waga pierwotnych i wtórnych źródeł informacji",
+      "thematicArea" : "Sprzedaż"
+    },
+    "-L_Lzzz6kfxeQ1pQOLOt" : {
+      "details" : [ "pozyskiwanie klientów przez pryzmat korzyści", "\nstereotypy w postrzeganiu klientów", "\npodstawowe zachowania klienta - typologia klienta", "\nzdefiniowanie profilu klienta (idealnego klienta): segmentacja rynku, target, grupa docelowa", "\npodział klientów ze względu na możliwość zakupu", "\nklienci kluczowi i indywidualni\n" ],
+      "id" : "-L_Lzzz6kfxeQ1pQOLOt",
+      "name" : "Kryteria oceny klienta",
+      "thematicArea" : "Sprzedaż"
+    },
+    "-L_M-GzZHFqWxwvjshNk" : {
+      "details" : [ "zalety i wady komunikacji jawnej i ukrytej", "\nschematy prowadzenia rozmów z klientem", "\njak aktywnie pokierować rozmową", "\nmetajęzyk", "\nelastyczność w kontaktach z klientami", "\npodstawy efektywnego umawiania spotkań handlowych", "\nkreatywność w sprzedaży - praktyczne wskazówki i potencjalne rozwiązania\n" ],
+      "id" : "-L_M-GzZHFqWxwvjshNk",
+      "name" : "Efektywna komunikacja z klientem",
+      "thematicArea" : "Sprzedaż"
+    },
+    "-L_M-b19JUgyvnvGzqeh" : {
+      "details" : [ "nastawienie - fundament pozytywnych relacji", "\nco pożądane, a co niedozwolone w kontaktach z klientami", "\njakie cechy posiadają najlepsi sprzedawcy - wskaźniki psychologiczne", "\nkryteria sukcesu w sprzedaży, czyli analiza wyników własnej pracy (ilość, jakość, czas, zysk)\n" ],
+      "id" : "-L_M-b19JUgyvnvGzqeh",
+      "name" : "Budowanie pozytywnych relacji w kontakcie z klientem",
+      "thematicArea" : "Sprzedaż"
+    },
+    "-L_M1YiRV10yFqMQgQuY" : {
+      "details" : [ "kategorie potrzeb klientów", "\njak i dlaczego ludzie kupują - motywacje", "\nrodzaje potrzeb, które decydują o zakupie", "\nnarzędzia badania potrzeb klienta", "\npoznanie oczekiwań klienta a umiejętność zadawania pytań", "\nsłuchanie kluczem do sukcesu\n" ],
+      "id" : "-L_M1YiRV10yFqMQgQuY",
+      "name" : "Poznaj klienta, czyli jakie ma potrzeby ",
+      "thematicArea" : "Sprzedaż"
+    },
+    "-L_M2H-XOldnY3-vgSEA" : {
+      "details" : [ "poznaj kategorie stresu zakupowego klientów", "\nproces podejmowania decyzji i jego zrozumienie", "\nzarządzanie ceną w relacjach z klientami", "\nobrona ceny - jak ją obronić", "\nwiarygodna oferta - rozwój umiejętności uwiarygodnienia oferty", "\ntechniki radzenia sobie z obiekcjami", "\nprzełamywanie oporu klienta - strategie", "\nzaspokojenie potrzeb emocjonalnych klientów, czyli jak prezentować korzyści ze współpracy\n" ],
+      "id" : "-L_M2H-XOldnY3-vgSEA",
+      "name" : "Trudne sytuacje w pracy z klientami ",
+      "thematicArea" : "Sprzedaż"
+    },
+    "-L_M3-U3nfI_CQTo9Laa" : {
+      "details" : [ "sygnały zakupowe i zasady ich rozpoznawania", "\nanaliza mowy ciała podczas finalizacji transakcji", "\nrola finalizowania sprzedaży", "\ntechniki zamykania sprzedaży - praktyczne przykłady", "\njak zastosować asertywną prośbę, aby uzyskać zamówienie", "\nradzenie sobie z lękiem przed odrzuceniem i odmową", "\nmotywacja do zamykania sprzedaży z sukcesem", "\njak wykorzystać wiedzę w zakresie komunikacji w praktyce\n" ],
+      "id" : "-L_M3-U3nfI_CQTo9Laa",
+      "name" : "Zamykanie procesu sprzedaży",
+      "thematicArea" : "Sprzedaż"
+    },
+    "-L_M3i24jbm3TIxFKR73" : {
+      "details" : [ "mechanizmy stojące za decyzjami klientów", "\ndiagnozowanie i prezentowanie optymalnych rozwiązań", "\nreklamacje - jak na nie reagować", "\nciągła praca nad utrzymaniem lojalności klienta\n" ],
+      "id" : "-L_M3i24jbm3TIxFKR73",
+      "name" : "Zarządzanie relacjami z klientami ",
+      "thematicArea" : "Sprzedaż"
+    },
+    "-L_M4NwhMM7wHBzWosuW" : {
+      "details" : [ "zawodowa sprzedaż doradcza", "\njak pracować na konkurencyjnym rynku", "\nproces planowania i przygotowania sprzedaży", "\nkluczowe mechanizmy sprzedaży", "\n5 etapów sprzedaży i proces sprzedaży a specyfika branży \n" ],
+      "id" : "-L_M4NwhMM7wHBzWosuW",
+      "name" : "Zaawansowane techniki sprzedaży",
+      "thematicArea" : "Sprzedaż"
+    },
+    "-L_M4f1MeF2jXX8kszvb" : {
+      "details" : [ "jak radzić sobie z obawami przed i podczas spotkania czy prezentacji", "\nstruktura prezentacji", "\njak przykuć uwagę słuchaczy", "\nbudowanie autorytetu i umiejętności reagowania na negatywne uwagi uczestników prezentacji\n" ],
+      "id" : "-L_M4f1MeF2jXX8kszvb",
+      "name" : "Sztuka prezentacji handlowej",
+      "thematicArea" : "Sprzedaż"
+    },
+    "-L_M5EC4iNRIWMstwvgd" : {
+      "details" : [ "poznaj typy klientów i ich cechy charakterystyczne", "\nskąd biorą się różnice w stylu kupowania", "\nbudowanie relacji a dopasowanie sposobu komunikacji do klienta", "\nstrategia działania i postępowania ułatwiająca kontakt z różnymi typami klientów", "\nzwiększenie szans na sprzedaż poprzez dopasowanie do osobowości klienta\n" ],
+      "id" : "-L_M5EC4iNRIWMstwvgd",
+      "name" : "Psychologia sprzedaży",
+      "thematicArea" : "Sprzedaż"
+    },
+    "-L_MFz3gkd8TxsoVKxAt" : {
+      "details" : [ "zasady profesjonalnej obsługi klienta", "\njakość obsługi klienta, a pozycja firmy na rynku", "\nwłaściwa i niewłaściwa obsługa klienta", "\nsposoby odkrywania i zaspokajania potrzeb klientów\n" ],
+      "id" : "-L_MFz3gkd8TxsoVKxAt",
+      "name" : "Nawiązywanie kontaktu z klientem ",
+      "thematicArea" : "Obsługa klienta"
+    },
+    "-L_MGMDU7Pq0Qn4jUJmH" : {
+      "details" : [ "jak nawiązać pierwszy kontakt", "\njakie podejście do klienta sprawi, że klient ze mną porozmawia", "\nco sprawia, że ludzie kupują", "\nsłowa klucze w kontaktach z klientem", "\nkomunikacja werbalna i niewerbalna", "\ngestykulacja, czyli co zrobić z rękoma", "\npołączenie umiejętności komunikacji\n" ],
+      "id" : "-L_MGMDU7Pq0Qn4jUJmH",
+      "name" : "Pierwsze wrażenie w obsłudze klienta ",
+      "thematicArea" : "Obsługa klienta"
+    },
+    "-L_MGnbMuVd4kwbFTK7g" : {
+      "details" : [ "proces rozmowy z klientem i zasady budowania relacji", "\notwarcie, czyli początek budowy relacji z nowym klientem", "\notwarcie jako wzmocnienie relacji przy i po każdorazowym kontakcie", "\nelementy rozmowy decydujące o jej powodzeniu", "\nokazywanie zainteresowania - techniki", "\njak budować zaufanie, czyli praktyczne metody i techniki", "\nwzmacnianie satysfakcji klienta przy każdorazowym kontakcie", "\nnarzędzia utrwalania satysfakcji klienta i wzmacniania relacji", "\nzasada spójności, czyli to co mówisz powinno być zgodne z tym jak się zachowujesz", "\nzasada podobieństwa, czyli lubimy ludzi podobnych do nas\nzasady prowadzenia spotkań z klientem\n" ],
+      "id" : "-L_MGnbMuVd4kwbFTK7g",
+      "name" : "Budowanie relacji z klientem",
+      "thematicArea" : "Obsługa klienta"
+    },
+    "-L_MH6Xa72gFOkMbEcsR" : {
+      "details" : [ "struktura rozmowy telefonicznej", "\nbudowanie atmosfery - przez telefon „słychać” czy się uśmiechasz", "\nmetody potwierdzania, że słucham i słyszę co mówi klient", "\npodsumowywanie uzyskanych informacji", "\nograniczenia telefonu i ich wpływ na postawę rozmówców \n" ],
+      "id" : "-L_MH6Xa72gFOkMbEcsR",
+      "name" : "Rozmowa telefoniczna",
+      "thematicArea" : "Obsługa klienta"
+    },
+    "-L_MHlL_o8y8VESyjGvl" : {
+      "details" : [ "umiejętność zadawania pytań", "\npodstawowe typy pytań", "\nużyteczne rodzaje pytań", "\npytania zawiązujące rozmowę", "\nprzykłady pytań pozwalających zdobyć wiele informacji", "\nefektywne słuchanie odpowiedzi\n" ],
+      "id" : "-L_MHlL_o8y8VESyjGvl",
+      "name" : "Sztuka zadawania pytań",
+      "thematicArea" : "Obsługa klienta"
+    },
+    "-L_MI6Ggtd2Wsm1nxEBV" : {
+      "details" : [ "co możesz zyskać dzięki zbadaniu potrzeb klienta", "\npytania, dzięki którym otrzymamy informacje, które pomogą podać klientowi odpowiednie rozwiązanie", "\nsprzedaż korzyści, czyli zbadaj potrzeby klienta - ludzie nie chcą słyszeć, jakie są cechy produktu, ale jaką mogą odnieść korzyść, jeśli go kupią", "\nwiedza branżowa jako podstawa profesjonalnej obsługi klienta", "\nelementy konieczne do dobrej prezentacji\n" ],
+      "id" : "-L_MI6Ggtd2Wsm1nxEBV",
+      "name" : "Określenie oczekiwań klienta ",
+      "thematicArea" : "Obsługa klienta"
+    },
+    "-L_MIgUxM8EVSwZ6UFQg" : {
+      "details" : [ "czym są obiekcje", "\njak rozprawić się z obiekcjami klienta - techniki", "\njak odróżnić zastrzeżenia typu \"fakt\", od zastrzeżeń typu \"mit\"", "\nprzyjęcie postawy asertywnej, agresywnej lub uległej - korzyści i ryzyko z nimi związane", "\nreagowanie na krytykę - asertywne techniki reagowania na krytykę", "\nmówienie „nie” - kiedy mogę, a kiedy należy powiedzieć „nie”", "\njak kulturalne upomnieć klienta", "\nprzekazywanie klientowi negatywnych informacji", "\nsposoby na uchylanie obiekcji", "\nmetody i techniki postępowania w trudnych i konfliktowych sytuacjach\n" ],
+      "id" : "-L_MIgUxM8EVSwZ6UFQg",
+      "name" : "Techniki reagowania na zastrzeżenia klienta",
+      "thematicArea" : "Obsługa klienta"
+    },
+    "-L_MJHKrG31yOgd8I4Xl" : {
+      "details" : [ "po czym poznać, że klient jest trudny", "\nprzyczyny niezadowolenia klientów", "\njak być asertywnym", "\nreagowanie na emocje i zażalenia, czyli profesjonalizm w radzeniu sobie z obiekcjami i sprzeciwem", "\nradzenie sobie z manipulacją i krytyką", "\nwyjaśnianie obiekcji klienta", "\nempatia i jak ją stosować", "\numiejętność zachowania się w sytuacjach konfliktowych", "\ndruga szansa, czyli spojrzenie pod innym kątem \n" ],
+      "id" : "-L_MJHKrG31yOgd8I4Xl",
+      "name" : "Jak sobie radzić z trudnym klientem",
+      "thematicArea" : "Obsługa klienta"
+    },
+    "-L_MXw8d_w0iSz6_G6qV" : {
+      "details" : [ "miejsce obsługi klienta i efektywnej sprzedaży w walce o pozycję firmy na rynku", "\nokreślenie stylu i atmosfery pracy z klientem", "\nokreślenie procedur obsługi klienta", "\nprofil psychologiczny skutecznego handlowca", "\njakość obsługi klienta - kryteria i wzory\n" ],
+      "id" : "-L_MXw8d_w0iSz6_G6qV",
+      "name" : "Specyfika zawodu sprzedawcy i standardy obsługi klienta",
+      "thematicArea" : "Obsługa klienta"
+    },
+    "-L_MZeLIvESQy8adSOeI" : {
+      "details" : [ "jak chciałbym być obsługiwany jako klient", "\ngłówne grzechy sprzedawcy w procesie sprzedaży", "\nkodeks dobrych praktyk handlowych i consultingowych\n" ],
+      "id" : "-L_MZeLIvESQy8adSOeI",
+      "name" : "Dobre praktyki w sprzedaży  i doradztwie",
+      "thematicArea" : "Obsługa klienta"
+    },
+    "-L_M_UziRk-5pP2HdWF3" : {
+      "details" : [ "nawiązanie kontaktu z klientem - jak tworzyć pozytywne pierwsze wrażenie pokazując swą życzliwość, otwartość i profesjonalizm", "\nposzukiwanie wspólnego pola z klientem - synchronizacja w obsłudze klienta", "\nmetody otwartego wyrażania pozytywnych intencji", "\nzachowania wzbudzające zaufanie klienta", "\nkształtowanie postawy zorientowanej na klienta", "\nelementarne zasady savoir-vivre w kontakcie z klientem", "\ntypowe błędy uniemożliwiające zbudowanie pozytywnych relacji z klientem", "\nzachowania jakich należy unikać" ],
+      "id" : "-L_M_UziRk-5pP2HdWF3",
+      "name" : "Postawa zorientowana na klienta",
+      "thematicArea" : "Obsługa klienta"
+    },
+    "-L_MaEBJ61VTTto3Kl0o" : {
+      "details" : [ "metody odkrywania motywów zachowań klienta", "\nzrozumieć i uszanować świat klienta (postawy, wartości, przekonania i jego tok rozumowania)", "\nconsulting - oferowanie pomocy w rozwiązywaniu problemów klienta", "\npozytywne emocje klienta - jak do nich dotrzeć i je podtrzymać", "\nnegatywne emocje klienta - jak je zrozumieć i neutralizować", "\nzarządzanie informacją od klientów i proponowanie optymalnych rozwiązań\n" ],
+      "id" : "-L_MaEBJ61VTTto3Kl0o",
+      "name" : "Jak zrozumieć motywacje i problemy klientów",
+      "thematicArea" : "Obsługa klienta"
+    },
+    "-L_MbaKKETbbrSO1bUq_" : {
+      "details" : [ "reguły prowadzenia skutecznego dialogu w procesie sprzedaży", "\nkomunikacja niewerbalna - pierwsze informacje przekazywane klientowi", "\nreguły wywierania pierwszego wrażenia i wywierania wpływu", "\ndystans psychologiczny", "\nwpływ komunikacji niewerbalnej na zachowanie klienta", "\nniewerbalne umiejętności aktywnego słuchania", "\nwerbalne techniki aktywnego słuchania", "\nzadawanie pytań - pytania otwarte", "\ntechnika „lejka pytań”", "\nschematy i stereotypy - zniekształcenia utrudniające kontakt z klientem", "\nbariery komunikacyjne\n" ],
+      "id" : "-L_MbaKKETbbrSO1bUq_",
+      "name" : "Techniki skutecznej komunikacji",
+      "thematicArea" : "Obsługa klienta"
+    },
+    "-L_McrFScDj2Q5f_Iczx" : {
+      "details" : [ "powszechność procesu sprzedaży", "\npotrzeby klienta, a cechy produktu/usługi i korzyści z zakupu", "\nnawiązanie przyjacielskiego kontaktu", "\nrozpoznanie potrzeb klienta - jego interesów", "\nprezentacja produktu", "\nprzekonanie klienta/wywołanie chęci zakupu/negocjacje", "\nzamknięcie sprzedaży\n" ],
+      "id" : "-L_McrFScDj2Q5f_Iczx",
+      "name" : "Proces sprzedaży i jego etapy",
+      "thematicArea" : "Obsługa klienta"
+    },
+    "-L_Md89iVwgPB6v45vi8" : {
+      "details" : [ "typologia klienta jako mapa prowadząca do budowy pozytywnych relacji i zrozumienia klienta", "\nźródła satysfakcji i problemów poszczególnych typów klienta", "\nzasady współpracy z różnymi typami klientów", "\ntypologia kolorystyczna F. Littauer", "\nsynchronizacja i dopasowanie się do potrzeb oraz stylu funkcjonowania klienta\n" ],
+      "id" : "-L_Md89iVwgPB6v45vi8",
+      "name" : "Typologia zachowań klientów",
+      "thematicArea" : "Obsługa klienta"
+    },
+    "-L_Mdchp1CbzECtQmoU6" : {
+      "details" : [ "metody aktywnego słuchania - klucz do zdobycia zaufania klienta", "\nsztuka stosowania pozytywnych zwrotów", "\ntrening języka korzyści i nawiązywania do zmysłów klienta", "\nustalanie i rozpoznawanie potrzeb klienta - uwypuklanie zalet produktu", "\n„klient zawsze kupuje korzyści wynikające z cech produktu”", "\nmetody kierowania i podtrzymywania rozmowy", "\numiejętne zadawanie pytań gwarantujących powodzenie \nw rozmowie z klientem", "\nprzekazywanie informacji zwrotnej", "\nreguły i zasady profesjonalnego wykorzystywania „mowy ciała”", "\npozawerbalne symptomy kłamstwa, niezadowolenia, zdenerwowania oraz wrogości\n" ],
+      "id" : "-L_Mdchp1CbzECtQmoU6",
+      "name" : "Rozmowa z klientem w praktyce",
+      "thematicArea" : "Obsługa klienta"
+    },
+    "-L_MeMeygtUMep9Ef6a_" : {
+      "details" : [ "obiekcje - skargi i uwagi klientów - jak na nie optymalnie odpowiedzieć", "\ntechniki odpierania zarzutów", "\npomoc w sytuacjach beznadziejnych - proponowanie alternatyw odpowiadających potrzebom niezadowolonych klientów", "\n„stanowczo, bez lęku” - podstawowe zasady kształtujące asertywną postawę i komunikację", "\nświadome zarządzanie własnymi emocjami na poziomie sygnałów fizycznych \ni emocjonalnych", "\nosłabianie emocji klienta i radzenie sobie z negatywnymi emocjami klienta", "\nzastosowanie komunikatu “ja”", "\ntechnika FUKO i zalety jej zastosowania w praktyce", "\nrozpoznanie indywidualnych postaw w sytuacjach konfliktowych", "\nmetody efektywnego rozwiązywania konfliktów w sytuacjach sprzedażowych\n" ],
+      "id" : "-L_MeMeygtUMep9Ef6a_",
+      "name" : "Trudne sytuacje w obsłudze klienta",
+      "thematicArea" : "Obsługa klienta"
+    },
+    "-L_Mfu-ZdOrFCQPAH9V1" : {
+      "details" : [ "prywatny ambasador klienta w firmie", "\nbudowanie stałego przepływu my - klient", "\nnarzędzia indywidualnego podejścia do obsługi klienta", "\ntechniczne metody budowania lojalności z klientem", "\njak nie brać „zakładników”? - zgubne praktyki w budowaniu lojalności klientów", "\nwsparcie pozakupowe, a zadowolenie klienta \n" ],
+      "id" : "-L_Mfu-ZdOrFCQPAH9V1",
+      "name" : "Budowanie lojalności klienta ",
+      "thematicArea" : "Obsługa klienta"
+    },
+    "-L_MiXjKi9ZSyrpJpulo" : {
+      "details" : [ "kim jest współczesny klient", "\nprofesjonalna obsługa, a oczekiwania klientów", "\nwpływ jakości obsługi klienta na postrzeganie firmy", "\nbudowanie wizerunku firmy i profesjonalnego pracownika", "\njak wykorzystać momenty kontaktu z klientem do wzrostu satysfakcji z jakości obsługi klienta", "\nrola przekonań w podejściu do klienta i standardów obsługi", "\npoziomy satysfakcji klientów", "\ntypowe zachowania trudnego klienta - czynniki sprzyjające\n" ],
+      "id" : "-L_MiXjKi9ZSyrpJpulo",
+      "name" : "Wyzwania współczesnego klienta ",
+      "thematicArea" : "Obsługa klienta"
+    },
+    "-L_MiwQSnl1v0sKGq-Ew" : {
+      "details" : [ "savoir- vivre", "\nprawo pierwszego wrażenia", "\nwizytówki", "\nrozmowa telefoniczna", "\nkorespondencja listowa i e-mailowa", "\nzasady procedencji, czyli zastosowanie protokołu dyplomatycznego w biznesie", "\nmowa ciała podczas spotkania biznesowego", "\ndress code - ubiór biznesowy kobiet i mężczyzn\n" ],
+      "id" : "-L_MiwQSnl1v0sKGq-Ew",
+      "name" : "Mój wizerunek to wizerunek firmy",
+      "thematicArea" : "Obsługa klienta"
+    },
+    "-L_MjTUBVJNB7Q6TLxim" : {
+      "details" : [ "powitanie i nawiązanie kontaktu z klientem", "\nmówienie „językiem” klienta", "\ndostosowanie stylu komunikacji do temperamentu rozmówcy", "\npomoc w rozpatrzeniu sprawy klienta", "\nrozpoznanie rzeczywistych potrzeb klienta", "\npropozycja rozwiązań w oparciu o rozpoznane potrzeby", "\nzakończenie rozmowy", "\npożegnanie z klientem", "\nnajczęstsze błędy popełniane w procesie obsługi i sposoby ich eliminowania\n" ],
+      "id" : "-L_MjTUBVJNB7Q6TLxim",
+      "name" : "Od powitania do pożegnania ",
+      "thematicArea" : "Obsługa klienta"
+    },
+    "-L_Mji0Ch7GMaawkKTzO" : {
+      "details" : [ "etapy rozmowy telefonicznej", "\ncel rozmowy telefonicznej", "\nnastawienie", "\nparafraza", "\npodstawowe zasady (co należy, a czego nie należy robić i mówić)\n" ],
+      "id" : "-L_Mji0Ch7GMaawkKTzO",
+      "name" : "Zasady pracy z telefonem",
+      "thematicArea" : "Obsługa klienta"
+    },
+    "-L_Mkp0goA9hzL1dFxWK" : {
+      "details" : [ "skąd się biorą trudni klienci i trudne sytuacje", "\ntrudny klient czy trudna sytuacja, jak je rozróżnić", "\nidentyfikacja trudnych sytuacji z klientem", "\nprzyczyny powstawania trudnych sytuacji w obsłudze klienta", "\nrola postaw i sposobu myślenia w kontakcie z klientem", "\ndefiniowanie rzeczywistych problemów w pracy z klientem", "\nrodzaje zachowań i ich charakterystyka", "\nidentyfikacja zachowań w relacjach międzyludzkich              \n" ],
+      "id" : "-L_Mkp0goA9hzL1dFxWK",
+      "name" : "Geneza trudnych sytuacji w obsłudze klienta",
+      "thematicArea" : "Obsługa klienta"
+    },
+    "-L_MlDl60IM8Bq4zNbfE" : {
+      "details" : [ "najczęstsze błędy i problemy związane z obsługą klienta", "\nsposoby unikania i rozwiązywania problemów", "\nzasady postępowania w trudnych sytuacjach z klientem", "\nbank trudnych sytuacji - sposoby ich rozwiązywania", "\nasertywne techniki ułatwiające reagowanie w trudnych sytuacjach z klientami", "\nreagowanie na emocje i zażalenia", "\nprofesjonalizm w radzeniu sobie z obiekcjami i sprzeciwem", "\nradzenie sobie z manipulacją i krytyką", "\nwyjaśnianie obiekcji klienta", "\nkomunikacja z poziomu „Ja”", "\nw jaki sposób doprowadzić do eskalacji konfliktu z konfliktu", "\nsposoby na wygaszenie emocji, gdy już konflikt już zaistniał", "\njak i kiedy przyznać klientowi rację\n" ],
+      "id" : "-L_MlDl60IM8Bq4zNbfE",
+      "name" : "Postępowanie w trudnych sytuacjach ",
+      "thematicArea" : "Obsługa klienta"
+    },
+    "-L_Mm_SlKNq7EPlSTcLe" : {
+      "details" : [ "asertywne odmawianie i proszenie", "\nkiedy można, a kiedy nawet trzeba powiedzieć „nie”", "\nobrona własnego terytorium, czyli jak egzekwować swoje prawa bez poczucia winy", "\nprzekazywanie klientowi złych wiadomości", "\nrodzaje postaw asertywnych", "\nkorzyści i ryzyko związane z przyjęciem konkretnej postawy", "\nzestawy technik postępowania w trudnych, konfliktowych sytuacjach", "\njak bezpiecznie wdrażać postawę asertywną w codziennych sytuacjach", "\nprzygotowanie własnego katalogu sposobów radzenia z \"trudnymi\" klientami", "\nnarzędzia wspierające asertywność \n" ],
+      "id" : "-L_Mm_SlKNq7EPlSTcLe",
+      "name" : "Postawa asertywna w kontakcie z klientem",
+      "thematicArea" : "Obsługa klienta"
+    },
+    "-L_MnIjSd-ycCZ5AK3Ft" : {
+      "details" : [ "obrona własnego terytorium, czyli jak egzekwować swoje prawa bez poczucia winy", "\nprocedura czterech kroków", "\nzasłona dymna (mgła)", "\nasertywna odmowa", "\nzdarta płyta", "\njak bezpiecznie wdrażać postawę asertywną w codziennych sytuacjach \n" ],
+      "id" : "-L_MnIjSd-ycCZ5AK3Ft",
+      "name" : "Techniki zachowań asertywnych",
+      "thematicArea" : "Obsługa klienta"
+    },
+    "-L_MnXK3qqtfYhsJPaNI" : {
+      "details" : [ "sposoby radzenia sobie ze stresem", "\nczterostopniowa procedura wyrażania emocji", "\ndiagnoza własnego potencjału i mocnych stron w sytuacjach konfliktowych \n" ],
+      "id" : "-L_MnXK3qqtfYhsJPaNI",
+      "name" : "Stres i negatywne emocje w pracy z klientami",
+      "thematicArea" : "Obsługa klienta"
+    },
+    "-L_MpEc_IJqdtIh-ggJN" : {
+      "details" : [ "techniki relaksacyjne", "\nkotwiczenie pozytywnych stanów emocjonalnych", "\ntechniki doraźnego redukowania stresu \n" ],
+      "id" : "-L_MpEc_IJqdtIh-ggJN",
+      "name" : "Techniki antystresowe",
+      "thematicArea" : "Obsługa klienta"
+    },
+    "-L_MuTiC-EFLF9Wqn5fe" : {
+      "details" : [ "wyznaczanie celów realnych do realizacji", "\nkreatywność w pracy, czyli dostosowanie do sytuacji", "\nautomotywacja a gotowość do zmiany", "\nproaktywna postawa w sprzedaży\n" ],
+      "id" : "-L_MuTiC-EFLF9Wqn5fe",
+      "name" : "Automotywacja w pracy handlowca",
+      "thematicArea" : "Sprzedaż"
+    },
+    "-L_MvRDdEBeRnt5cmwcY" : {
+      "details" : [ "jak przygotować się do rozmowy", "\nschemat rozmowy handlowej", "\nprzygotowanie oferty i kluczowe elementy oferty", "\nefektywne przedstawienie oferty - jak się przygotować", " \nskuteczne zamknięcie sprzedaży \n" ],
+      "id" : "-L_MvRDdEBeRnt5cmwcY",
+      "name" : "Etapy sprzedaży",
+      "thematicArea" : "Sprzedaż"
+    },
+    "-L_Mwuvk8ZBL-F832VW_" : {
+      "details" : [ "bariery w komunikacji", "\nrodzaje pytań, kiedy i jak je stosować", "\nnakierowanie na potrzeby - pytania odkrywające potrzeby", "\nparafraza i inne techniki aktywnego słuchania", "\nkomunikacja werbalna i niewerbalna", "\nzastosowanie wybranych metod  (analiza transakcyjna, metamodel, metaprogramy)\n" ],
+      "id" : "-L_Mwuvk8ZBL-F832VW_",
+      "name" : "Aktywne słuchanie i techniki komunikacji",
+      "thematicArea" : "Sprzedaż"
+    },
+    "-L_MxP-q0tua3wj8eULD" : {
+      "details" : [ "cechy skutecznego handlowca", "\npodstawowe zadania handlowca", "\nwartości i przekonania \n" ],
+      "id" : "-L_MxP-q0tua3wj8eULD",
+      "name" : "Tożsamość handlowca",
+      "thematicArea" : "Sprzedaż"
+    },
+    "-L_MxbJXlbLQp9Hs63m6" : {
+      "details" : [ "pierwsze spotkanie", "\nspotkania formalne", "\nspotkania nieformalne\n" ],
+      "id" : "-L_MxbJXlbLQp9Hs63m6",
+      "name" : "Savoir-vivre w biznesie",
+      "thematicArea" : "Sprzedaż"
+    },
+    "-L_My73g9P80Yg_MXR2J" : {
+      "details" : [ "planowanie czasu pracy", "\npriorytetyzacja zadań", "\npożeracze czasu i ich identyfikacja \n" ],
+      "id" : "-L_My73g9P80Yg_MXR2J",
+      "name" : "Zarządzanie czasem",
+      "thematicArea" : "Sprzedaż"
+    },
+    "-L_MyMdj3GV9j6Tm3BEL" : {
+      "details" : [ "przyczyny i źródła stresu", "\nmyśli i emocje w stresie - jak sobie z nimi poradzić", " \nsposoby niwelowania poziomu stresu  \n" ],
+      "id" : "-L_MyMdj3GV9j6Tm3BEL",
+      "name" : "Radzenie sobie z emocjami",
+      "thematicArea" : "Sprzedaż"
+    },
+    "-L_MyUlgsWggCuOnnQFt" : {
+      "details" : [ "syndromy wypalenia zawodowego jak je rozpoznać", "\nsposoby i metody zapobiegania wypaleniu zawodowemu", "\nsamodyscyplina w rozwijaniu indywidualnej odporności \n" ],
+      "id" : "-L_MyUlgsWggCuOnnQFt",
+      "name" : "Wypalenie zawodowe",
+      "thematicArea" : "Sprzedaż"
+    },
+    "-L_N-DLM1G8-RqzhV5Ml" : {
+      "details" : [ "style zarządzania menadżerów sprzedaży", "\nkluczowe funkcje zarządzania sprzedażą", "\noczekiwania wobec zespołów sprzedażowych i rola menadżera sprzedaży", "\nsiatka celów – narzędzie coachingowe", "\nkluczowe obszary pracy z zespołem\n" ],
+      "id" : "-L_N-DLM1G8-RqzhV5Ml",
+      "name" : "Ja menadżer - rola menadżera sprzedaży",
+      "thematicArea" : "Sprzedaż"
+    },
+    "-L_N-h_KdJtLDYugCzrM" : {
+      "details" : [ "co motywuje mój zespół handlowców", "\nwyniki sprzedaży i jego powiązanie z systemem wynagrodzeń", "\ndelegowanie jako motywator", "\nrozwój i adaptacja nowozatrudnionych handlowców, czyli jak uczyć wiedzy sprzedażowej i rozwijać pożądane umiejętności sprzedażowe", "\nzasady i metody prowadzenia coachingu", "\npodstawowe różnice pomiędzy coachingiem, a treningiem zespołu sprzedażowego", "\nbłędy popełniane podczas coachingowania zespołu\n" ],
+      "id" : "-L_N-h_KdJtLDYugCzrM",
+      "name" : "Koło motywacji handlowca i coaching sprzedażowy",
+      "thematicArea" : "Sprzedaż"
+    },
+    "-L_N0GVUxFO04RMxFke8" : {
+      "details" : [ "zarządzanie przez cele", "\nzasady ustalania celów pracy zespołu sprzedażowego", "\ndefiniowanie celów sprzedażowych", "\nbudowanie świadomości współodpowiedzialności handlowców za realizację planów sprzedażowych", "\netapy budowania współodpowiedzialności za plan sprzedażowy", "\nkontrola realizacji zadań zespołu sprzedażowego", "\nbadanie przyczyn niepowodzeń zespołu sprzedażowego\n" ],
+      "id" : "-L_N0GVUxFO04RMxFke8",
+      "name" : "Skuteczne przekazywanie zadań, czyli jak rozwijać swój zespół sprzedażowy",
+      "thematicArea" : "Sprzedaż"
+    },
+    "-L_N0qP_si12iCcugMCU" : {
+      "details" : [ "czym jest feedback – pojęcie, cele i zasady przekazywania informacji zwrotnej", "\nefektywne narzędzia przekazywania feedbacku", "\njak udzielać informacji zwrotnej w trudnej sytuacji i sposoby radzenia sobie z trudną sytuacją", " \npochwała jako narzędzie budowania motywacji dla pracowników", "\nkonstruktywny feedback element rozwoju nowozatrudnionych pracowników", "\nnajważniejsze zasady i najczęściej popełniane błędy podczas udzielania informacji zwrotnej", " \nrozmowy dyscyplinujące", "\nmonitorowanie działań i pomiar wyników\n" ],
+      "id" : "-L_N0qP_si12iCcugMCU",
+      "name" : "Ocena rezultatów, czyli zasady udzielania feedback’u zespołowi sprzedażowemu",
+      "thematicArea" : "Sprzedaż"
+    },
+    "-L_N1ehks5BjxV5pFmEi" : {
+      "details" : [ "miejsce obsługi klienta i efektywnej sprzedaży w walce o pozycję firmy na rynku", "\nokreślenie stylu i atmosfery pracy z klientem", "\nokreślenie procedur obsługi klienta", "\nprofil psychologiczny skutecznego handlowca", "\njakość obsługi klienta - kryteria i wzory\n" ],
+      "id" : "-L_N1ehks5BjxV5pFmEi",
+      "name" : "Specyfika zawodu sprzedawcy",
+      "thematicArea" : "Obsługa klienta"
+    },
+    "-L_N2jt50nzmFbuqLEwb" : {
+      "details" : [ "reguły prowadzenia skutecznego dialogu w procesie sprzedaży", "\nkomunikacja niewerbalna - pierwsze informacje przekazywane klientowi", "\nreguły wywierania pierwszego wrażenia i wywierania wpływu", "\ndystans psychologiczny", "\nwpływ komunikacji niewerbalnej na zachowanie klienta", "\nniewerbalne umiejętności aktywnego słuchania", "\nwerbalne techniki aktywnego słuchania", "\nzadawanie pytań - pytania otwarte", "technika „lejka pytań”", "\nschematy i stereotypy - zniekształcenia utrudniające kontakt z klientem", "\nbariery komunikacyjne", "\ntypowe błędy uniemożliwiające zbudowanie pozytywnych relacji z klientem\n" ],
+      "id" : "-L_N2jt50nzmFbuqLEwb",
+      "name" : "Techniki komunikacyjne w sprzedaży",
+      "thematicArea" : "Sprzedaż"
+    },
+    "-L_NCwDCo89QeB7we-fj" : {
+      "details" : [ "czym jest asertywność", "\ndlaczego warto być asertywnym", "\npostawa asertywna - praktyczne aspekty", "\ndlaczego nie zawsze lubimy ludzi asertywnych", "\nw jakich sytuacjach asertywność nie jest dobrym rozwiązaniem\n" ],
+      "id" : "-L_NCwDCo89QeB7we-fj",
+      "name" : "Asertywność - prawdy i mity",
+      "thematicArea" : "Komunikacja"
+    },
+    "-L_NDAPV52kslWGSeb9G" : {
+      "details" : [ "techniki asertywności", "\nnarzędzia służące efektywnej asertywnej komunikacji", "\ntajniki sztuki mówienia „nie” bez poczucia winy", "\nznaczenie komunikacji werbalnej\n" ],
+      "id" : "-L_NDAPV52kslWGSeb9G",
+      "name" : "Techniki asertywności",
+      "thematicArea" : "Komunikacja"
+    },
+    "-L_NEfWFPdoQGTutGBZz" : {
+      "details" : [ "radzenie sobie z pracownikiem demotywującym grupę", "\nradzenie sobie z pracownikiem obniżającym jakość pracy", "\nradzenie sobie z pracownikiem rywalizującym", "\nradzenie sobie z pracownikiem nie potrafiącym słuchać", "\nradzenie sobie z pracownikiem posiadającym niską motywację", "\nradzenie sobie z pracownikiem i wysokiej motywacji i niskich kwalifikacjach", "\nradzenie sobie z pracownikiem konfliktogennym", "\nradzenie sobie z pracownikiem usprawiedliwiającym się\n" ],
+      "id" : "-L_NEfWFPdoQGTutGBZz",
+      "name" : "Trudne sytuacje z pracownikami",
+      "thematicArea" : "Zarządzanie"
+    },
+    "-L_NL6Wo10wlA-NcdgIF" : {
+      "details" : [ "definicja mobbingu", "\npsychologiczne uwarunkowania mobbingu", "\njak odróżnić mobbing od innych zjawisk", "\nstyle rozwiązywania konfliktów", "\nrozpoznawanie i konstruktywne rozwiązywanie konfliktów w celu  zapobiegania utrwalaniu się destrukcyjnych procesów i relacji -  mobbingu i dyskryminacji\n\n" ],
+      "id" : "-L_NL6Wo10wlA-NcdgIF",
+      "name" : "Zjawisko mobbingu",
+      "thematicArea" : "Mobbing i dyskryminacja"
+    },
+    "-L_NLheUXhdliFrLFJtF" : {
+      "details" : [ "mobbing, a funkcjonowanie zespołu", "\nrole zespołowe a relacje interpersonalne", "\npraca dotycząca relacji w zespole", "\ndziałania destrukcyjne: oddziaływania zaburzające możliwości komunikowania się, oddziaływania zaburzające relacje społeczne, ataki na reputację", "\nudrażnianie procesów komunikacji w zespole", "\nróżnicowanie faktów od opinii", "\nrozpoznanie zachowań noszących znamiona działań mobbingowych \n" ],
+      "id" : "-L_NLheUXhdliFrLFJtF",
+      "name" : "Wpływ relacji interpersonalnych na rozwój mobbingu",
+      "thematicArea" : "Mobbing i dyskryminacja"
+    },
+    "-L_NM1_5J6RtCWLRuM9L" : {
+      "details" : [ "fazy mobbingu", "\nosobowość w ujęciu teorii Eysencka, a zachowanie ofiary mobbingu", "\nuprawnienia ofiary mobbingu", "\nkonsekwencje zdrowotne", "\npsychologiczny portret mobbera", "\ntypologia sprawców - chroniczny, przypadkowy, oportunista", "\nochrona godności i innych dóbr osobistych pracownika\n" ],
+      "id" : "-L_NM1_5J6RtCWLRuM9L",
+      "name" : "Mobbing jako proces",
+      "thematicArea" : "Mobbing i dyskryminacja"
+    },
+    "-L_NMQO6RJP2DP3FYBvM" : {
+      "details" : [ "przeciwdziałanie mobbingowi", "\nprocedura antymobbingowa", "\ndyskryminacja i molestowanie a mobbing", "\nbadanie satysfakcji zawodowej", "\npraca nad kulturą organizacji", "\nkonsekwencje prawne mobbingu i dyskryminacji\n" ],
+      "id" : "-L_NMQO6RJP2DP3FYBvM",
+      "name" : "Zapobieganie mobbingowi",
+      "thematicArea" : "Mobbing i dyskryminacja"
+    },
+    "-L_NNMg9kyoG0vmujxqe" : {
+      "details" : [ "definicja asertywności", "\nmapa asertywności", "\nasertywność jako ochrona godności i innych dóbr osobistych", "\nmobbing a spór i konflikt", "\nstyle rozwiązywania konfliktów", "\nrozpoznawanie i konstruktywne rozwiązywanie konfliktów w celu zapobiegania utrwalaniu się destrukcyjnych procesów i relacji - mobbingu i dyskryminacji\n" ],
+      "id" : "-L_NNMg9kyoG0vmujxqe",
+      "name" : "Kiedy w pracy pojawia się konflikt",
+      "thematicArea" : "Mobbing i dyskryminacja"
+    },
+    "-L_NO-WnmETyEGKJ9AVz" : {
+      "details" : [ "różnicowanie mobbingu i dyskryminacji", "\ndefinicje dyskryminacji i nierównego traktowania w zatrudnieniu", "\nkatalog cech (przesłanki ustawowe i inne), ze względu na które może dojść do dyskryminacji", "\ndyskryminacja bezpośrednia - algorytm rozpoznawania i zapobieganie wystąpieniu zjawiska", "\ndyskryminacja pośrednia - algorytm rozpoznawania i zapobieganie wystąpieniu zjawiska", "\ninne postacie dyskryminacji\n" ],
+      "id" : "-L_NO-WnmETyEGKJ9AVz",
+      "name" : "Dyskryminacja w pracy",
+      "thematicArea" : "Mobbing i dyskryminacja"
+    },
+    "-L_NOSChnLs4InD1_s8R" : {
+      "details" : [ "odpowiedzialność pracodawcy i kadry kierowniczej za przeciwdziałanie mobbingowi \ni dyskryminacji", "\nwykazanie należytej staranności pracodawcy w przeciwdziałaniu mobbingowi \ni dyskryminacji", "\nodpowiedzialność pracowników za przeciwdziałanie mobbingowi i dyskryminacji", "\nkonsekwencje prawne mobbingu: roszczenia osób poszkodowanych, kary porządkowe, regres w stosunku do mobbera \n" ],
+      "id" : "-L_NOSChnLs4InD1_s8R",
+      "name" : "Odpowiedzialność za mobbing i dyskryminację",
+      "thematicArea" : "Mobbing i dyskryminacja"
+    },
+    "-L_NOtzr4AzD_S4dRHOV" : {
+      "details" : [ "czynniki profilaktyki mobbingu i innych form przemocy", "\npotrzeby pracowników w zakresie zapobiegania przemocy psychicznej", "\nwewnętrzne regulacje - polityka antymobbingowa", "\nprocedury antymobbingowe – zasady i działanie", "\nzespoły antymobbingowe - komisja antymobbingowa", "\ninne narzędzia antymobbingowe i antydyskryminacyjne", "\nmediacja\n" ],
+      "id" : "-L_NOtzr4AzD_S4dRHOV",
+      "name" : "Organizacyjne środki przeciwdziałania mobbingowi i dyskryminacji",
+      "thematicArea" : "Mobbing i dyskryminacja"
+    },
+    "-L_NP6tJ5SObo8J3zoYt" : {
+      "details" : [ "psychologiczny pakiet bezpieczeństwa", "\nradzenie sobie w sytuacji stawania się ofiarą ataku prześladowcy", "\nrola świadków w sytuacji przemocy psychicznej\n" ],
+      "id" : "-L_NP6tJ5SObo8J3zoYt",
+      "name" : "Indywidualne środki ochrony przed przemocą psychiczną",
+      "thematicArea" : "Mobbing i dyskryminacja"
+    },
+    "-L_NPTPbYSDJgRCpwkGA" : {
+      "details" : [ "jak skutecznie uzupełniają się style osobowości w działaniu ", "\nsamopostrzeganie i ocena innych w zależności od typu osobowości", " \nnarzędzia łagodzenia negatywnego postrzegania przez osoby o określonych stylach społecznych ", "\nbudowa systemu tolerancji oraz świadomość konieczności kooperacji osób o odmiennych stylach społecznych\n" ],
+      "id" : "-L_NPTPbYSDJgRCpwkGA",
+      "name" : "Różnice w postrzeganiu i tolerancja wobec odmiennych stylów społecznych",
+      "thematicArea" : "Mobbing i dyskryminacja"
+    },
+    "-L_NQ2MvtKdZNVrmO0UV" : {
+      "details" : [ "istota", "\nzakres", "\ndefinicje mobbingu a praktyka", "\nzjawisko mobbingu - próba uchwycenia kluczowych elementów", "\ntendencje w prawie pracy - w stronę procedur" ],
+      "id" : "-L_NQ2MvtKdZNVrmO0UV",
+      "name" : "Przyczyny i uwarunkowania mobbingu",
+      "thematicArea" : "Mobbing i dyskryminacja"
+    },
+    "-L_NQacYzsQmcpDfPTEo" : {
+      "details" : [ "cel procedury antymobbingowej (antydyskryminacyjnej) - realne możliwości oddziaływania", "\nzakres procedury i jej szczegółowość", "\npodział zadań", "\nniezbędne uzgodnienia", "\njak wdrożyć procedurę antymobbingową (antydyskryminacyjną)", "\nprzestrzeganie zapisów - wytyczne dla działu personalnego i kierowników w zakładzie pracy", "\nstosowanie sankcji wobec sprawców - w jakim zakresie", "\nprawne aspekty związane z mobbingiem po stronie pracodawcy i pracownika \n" ],
+      "id" : "-L_NQacYzsQmcpDfPTEo",
+      "name" : "Procedury antymobbingowe w miejscu pracy",
+      "thematicArea" : "Mobbing i dyskryminacja"
+    },
+    "-L_NSuOXe5BHDU9z7QUU" : {
+      "details" : [ "definicja asertywności", "\nmobbing a spór i konflikt", "\nstyle rozwiązywania konfliktów", "\nrozpoznawanie i konstruktywne rozwiązywanie konfliktów w celu zapobiegania utrwalaniu się destrukcyjnych procesów i relacji - mobbingu i dyskryminacji\n" ],
+      "id" : "-L_NSuOXe5BHDU9z7QUU",
+      "name" : "Kiedy w pracy pojawia się konflikt",
+      "thematicArea" : "Rozwiązywanie konfliktów"
+    },
+    "-L_NT5RyHREDBFMQPWG8" : {
+      "details" : [ "czym jest konflikt i skąd się bierze", "\nobiektywne warunki powstania konfliktu", "\npsychologiczne warunki powstania konfliktu", "\nrodzaje konfliktów", "\nstrategie rozwiązywania konfliktów\n" ],
+      "id" : "-L_NT5RyHREDBFMQPWG8",
+      "name" : "Rola konfliktów",
+      "thematicArea" : "Rozwiązywanie konfliktów"
+    },
+    "-L_NT_R9ZDdL1mIp26RY" : {
+      "details" : [ "mapa asertywności", "\npsychologiczny portret osoby asertywnej, agresywnej, uległej", "\nasertywność a samoocena", "\nasertywność jako ochrona godności i innych dóbr osobistych pracownika\n" ],
+      "id" : "-L_NT_R9ZDdL1mIp26RY",
+      "name" : "Asertywność jako zachowanie ",
+      "thematicArea" : "Rozwiązywanie konfliktów"
+    },
+    "-L_NTjU8wz_lUEdJYeA3" : {
+      "details" : [ "czym jest asertywność", "\ndlaczego warto być asertywnym", "\npostawa asertywna - praktyczne aspekty", "\ndlaczego nie zawsze lubimy ludzi asertywnych", "\nw jakich sytuacjach asertywność nie jest dobrym rozwiązaniem\n" ],
+      "id" : "-L_NTjU8wz_lUEdJYeA3",
+      "name" : "Asertywność - prawdy i mity",
+      "thematicArea" : "Rozwiązywanie konfliktów"
+    },
+    "-L_NU4NFvz4DhFkkj8sN" : {
+      "details" : [ "techniki asertywności", "\nnarzędzia służące efektywnej asertywnej komunikacji", "\ntajniki sztuki mówienia „nie” bez poczucia winy", "\nznaczenie komunikacji werbalnej\n" ],
+      "id" : "-L_NU4NFvz4DhFkkj8sN",
+      "name" : "Techniki asertywności",
+      "thematicArea" : "Rozwiązywanie konfliktów"
+    },
+    "-L_NUUrx3YYstaKFU3Sl" : {
+      "details" : [ "rywalizacja i jej możliwe zastosowania", "\nłagodzenie (przystosowanie)", "\nunikanie - korzyści i ograniczenia", " \nkompromis, czyli znalezienie rozwiązania - jego wady i zalety", "\nwspółdziałanie - zaspokojenie interesów wszystkich zainteresowanych", "\npoznaj swój styl rozwiązywania konfliktów\n" ],
+      "id" : "-L_NUUrx3YYstaKFU3Sl",
+      "name" : "Style rozwiązywania konfliktów",
+      "thematicArea" : "Rozwiązywanie konfliktów"
+    },
+    "-L_NVtUBrSMeLiykKKKE" : {
+      "details" : [ "pięć zasad prowadzenia trudnych rozmów", "\nzasady formułowania informacji zwrotnych", "\nreakcja na atak i krytykę", "\nokreślenie istoty problemu", "\nposzukiwanie możliwych rozwiązań\n" ],
+      "id" : "-L_NVtUBrSMeLiykKKKE",
+      "name" : "Postępowanie w sytuacjach konfliktowych",
+      "thematicArea" : "Rozwiązywanie konfliktów"
+    },
+    "-L_NWDvcZ-1UiAqLtyi6" : {
+      "details" : [ "jak efektywnie pokierować konfliktem", "\nmetody  rozwiązywania  konfliktów", "\n „demaskowanie konfliktów”", "\nrodzaje  technik  wspomagających  efektywne  zarządzanie  konfliktem", "\njak konstruktywnie rozwiązywać konflikt", "\nnowoczesne style kierowania konfliktem", "\ntechniki pomocne w rozwiązywaniu sytuacji konfliktowych\n" ],
+      "id" : "-L_NWDvcZ-1UiAqLtyi6",
+      "name" : "Strategie i metody rozwiązywania konfliktów ",
+      "thematicArea" : "Rozwiązywanie konfliktów"
+    },
+    "-L_NWc13TjVDpka2-pZC" : {
+      "details" : [ "wyrażanie uczuć i komunikacja własnych oczekiwań i opinii", "\nkreowanie świadomej komunikacji ułatwiającej niwelowanie konfliktów", "\nprzyjmowanie komplementów", "\nreakcja na manipulację oraz obrona przed psychologicznym poniżeniem\n" ],
+      "id" : "-L_NWc13TjVDpka2-pZC",
+      "name" : "Gdy emocje biorą górę...",
+      "thematicArea" : "Rozwiązywanie konfliktów"
+    },
+    "-L_NX2zq1bIneOEoFcoI" : {
+      "details" : [ "asertywna odmowa - model odmowy", "\nodkrycie swoich mocnych stron - diagnoza własnego potencjału", "\nstawianie granic", "\nobrona swoich praw i przekonań", "\nasertywne radzenie sobie w sytuacjach trudnych", "\nasertywność w informacji zwrotnej\n" ],
+      "id" : "-L_NX2zq1bIneOEoFcoI",
+      "name" : "Obrona swoich praw w sytuacjach społecznych",
+      "thematicArea" : "Rozwiązywanie konfliktów"
+    },
+    "-L_NXOnDttcEsnGor9pb" : {
+      "details" : [ "istota  i typy konfliktów", "\ngłówne źródła konfliktów w środowisku pracy", "\nteoria sytuacji konfliktowych według Lewina", "\nstyle zachowania  przy opanowywaniu konfliktów", "\nwłaściwe zachowanie w sporze", "\nasertywne i rozwojowe wykorzystanie konfliktów w pracy zespołu\n" ],
+      "id" : "-L_NXOnDttcEsnGor9pb",
+      "name" : "Sytuacje konfliktowe",
+      "thematicArea" : "Rozwiązywanie konfliktów"
+    },
+    "-L_NXkGmAC-tnlhaGwXh" : {
+      "details" : [ "spotkanie konfrontacyjne", "\nwymiana wizerunków", "\ndepersonalizacja problemu", "\ntwórcze zasady rozwiązywania konfliktów\n" ],
+      "id" : "-L_NXkGmAC-tnlhaGwXh",
+      "name" : "Zarządzanie konfliktem",
+      "thematicArea" : "Rozwiązywanie konfliktów"
+    },
+    "-L_RhhMg7lRun3m5iDfV" : {
+      "details" : [ "dlaczego dochodzi do konfliktów?", "\nczy konflikt zawsze jest zjawiskiem negatywnym?\nistota  i typy konfliktów", "\ngłówne źródła konfliktów w środowisku pracy", "\ncykl konfliktów", "\nstyle zachowania  przy opanowywaniu konfliktów", "\nwłaściwe zachowanie w sporze", "\nsposoby diagnozowania sytuacji konfliktowych", "\nkonstruktywne radzenie sobie z sytuacją konfliktu", "\njak wykorzystać pozytywne i negatywne efekty konfliktów?", "\nstrategie i metody rozwiązywania konfliktów", "\nnarzędzia i techniki wywierania wpływu w trudnych, konfliktowych sytuacjach", "\ntechniki przeciwdziałania presji, manipulacji i agresji\n" ],
+      "id" : "-L_RhhMg7lRun3m5iDfV",
+      "name" : "Istota  i typy konfliktów",
+      "thematicArea" : "Rozwiązywanie konfliktów"
+    },
+    "-L_RiiNzyef7XZ8lVTr0" : {
+      "details" : [ "efektywne zachowania lidera w sytuacjach konfliktowych", "\npostawy społeczne wobec sytuacji konfliktowych", "\nprzyczyny powstawania konfliktów - koło konfliktów", "\nzarządzanie \"trudnymi\" współpracownikami w sytuacji konfliktu", "\npostawa asertywna w procesie rozwiązywania konfliktów", "\nnarzędzia i techniki wywierania wpływu w trudnych, konfliktowych sytuacjach", "\nsposoby radzenia sobie z krytyką\n" ],
+      "id" : "-L_RiiNzyef7XZ8lVTr0",
+      "name" : "Konflikt w zespole ",
+      "thematicArea" : "Rozwiązywanie konfliktów"
+    },
+    "-L_RjFtLz5g6fA8xtDzl" : {
+      "details" : [ "ja wygrywam - ty tracisz", "\nty wygrywasz - ja tracę", "\nbez przegranego - zamiana konfliktu we współpracę", "\nefektywne zarządzanie konfliktem\n" ],
+      "id" : "-L_RjFtLz5g6fA8xtDzl",
+      "name" : "Strategie zarządzania konfliktem",
+      "thematicArea" : "Rozwiązywanie konfliktów"
+    },
+    "-L_Rjq-d17pu5LCs8bkS" : {
+      "details" : [ "mechanizmy utrudniające porozumienie w sytuacji konfliktowej", "\nbariery komunikacyjne a rozwiązywanie konfliktów", "\nkomunikacja werbalna i niewerbalna", "\nkodowanie i odkodowywanie komunikatów", "\nrola pytań otwartych i zamkniętych", "\nkierowanie rozmową", "\nwykorzystanie parafrazy" ],
+      "id" : "-L_Rjq-d17pu5LCs8bkS",
+      "name" : "Efektywna komunikacja jako niezbędne narzędzie zarządzania konfliktem",
+      "thematicArea" : "Rozwiązywanie konfliktów"
+    },
+    "-L_Rm6SYFL5-DfcpxMRQ" : {
+      "details" : [ "ile czasu należy poświęcać na planowanie swoich codziennych czynności?", "\njak ustalać priorytety pod względem ich pilności i ważności?", "\norganizacja pracy poprzez planowanie efektywnych bloków pracy", "\nkrzywa sprawności", "\nplan działania", "\ntabela spędzonego czasu\n" ],
+      "id" : "-L_Rm6SYFL5-DfcpxMRQ",
+      "name" : "Planowanie przebiegu dnia",
+      "thematicArea" : "Zarządzanie"
+    },
+    "-L_RmzphjyhOzi3mIU32" : {
+      "details" : [ "zlecanie zadań", "\ndopasowanie zadań do poszczególnych pracowników", "\nzakres powierzonej odpowiedzialności a rodzaj sprawowanej kontroli wykonania", "\nstopnie delegowania uprawnień", "\nstrefy delegowania zadań", "\nznaczenie odpowiedniego komunikowania delegowanych zadań i uprawnień\n" ],
+      "id" : "-L_RmzphjyhOzi3mIU32",
+      "name" : "Delegowanie zadań i uprawnień",
+      "thematicArea" : "Zarządzanie"
+    },
+    "-L_Sf6dw1KPBvvvZnQ5f" : {
+      "details" : [ "wyjaśnienie czym są zastrzeżenia i dlaczego klient je zgłasza", "\npokazanie na jakich etapach mogą pojawić się zastrzeżenia i obiekcje klienta", "\nzapoznanie się z różnymi typami zastrzeżeń i obiekcji", "\nwybrane metody ujawniania zastrzeżeń i obiekcji i jak je stosować\n" ],
+      "id" : "-L_Sf6dw1KPBvvvZnQ5f",
+      "name" : "Zastrzeżenia jawne i ukryte",
+      "thematicArea" : "Sprzedaż"
+    },
+    "-L_SfdtL8nZ_-qCkkpRs" : {
+      "details" : [ "definicja manipulacji", "\nmanipulacje najczęściej stosowane przez klientów", "\nomówienie najczęściej stosowanych technik manipulacyjnych - analiza z perspektywy kupującego i sprzedającego", "\nw czym emocje pomagają a w czym przeszkadzają", "\ndemonstracje, przykłady i ich analiza" ],
+      "id" : "-L_SfdtL8nZ_-qCkkpRs",
+      "name" : "Manipulacje klienta",
+      "thematicArea" : "Sprzedaż"
+    },
+    "-L_Shs3c95luqF1zK99Z" : {
+      "details" : [ "faza utajona", "\nfaza przed konfliktowa", "\nfaza pojawiania się negatywnych emocji", "\njawny konflikt", "\nfaza pokonfliktowa", "\neliminowanie zniekształceń percepcyjnych ( efekt lustra, efekt Kalego, polaryzacja oceny, efekt szkła powiększającego)" ],
+      "id" : "-L_Shs3c95luqF1zK99Z",
+      "name" : "Dynamika konfliktu",
+      "thematicArea" : "Rozwiązywanie konfliktów"
+    },
+    "-L_SnKlpfSwD24KyIeuN" : {
+      "details" : [ "co to jest elastyczne myślenie i elastyczne podejście do problemu?", "\nrola elastyczności, zmiany, twórczości i innowacji w realiach funkcjonowania nowoczesnych firm", "\nidea \"skąpca poznawczego\" - możliwości i ograniczenia ludzkiego umysłu, mechanizmy powstawania schematów i stereotypów", "\nwpływ opisywanych mechanizmów na praktykę działania firm i ich pracowników", "\nnarzędzia sprzyjające kwestionowaniu ograniczających założeń", "\nwpływ stylu postrzegania świata i osobowości na elastyczność", "\nczynniki ograniczające kreatywne myślenie\n" ],
+      "id" : "-L_SnKlpfSwD24KyIeuN",
+      "name" : "Elastyczność w zmianie",
+      "thematicArea" : "Zarządzanie"
+    },
+    "-L_Sp-ZEbaICO9m5kBwf" : {
+      "details" : [ "poszukiwanie przyczyn źródłowych", "\nburza mózgów jako wielofunkcyjne narzędzie kreatywnego myślenia", "\nwykres przyczynowo skutkowy Ishikawy", "\nanaliza 5 WHY", "\nMethod Kit", "\npriorytetyzacja problemów - metoda punktowa i porównywanie parami", "\nocena i selekcja pomysłów: samoprzylepne książki, macierz", "\ntechnika - Fiszki Craforda", "\ntechnika 9 kropek - wyjście poza schemat myślenia\n" ],
+      "id" : "-L_Sp-ZEbaICO9m5kBwf",
+      "name" : "Generowanie i analiza pomysłów",
+      "thematicArea" : "Zarządzanie"
     }
-  ]
+  }
 }

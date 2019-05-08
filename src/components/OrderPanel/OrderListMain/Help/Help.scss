@@ -1,6 +1,10 @@
 @import "../../../ui/variables.scss";
 @import "../../../ui/mixins.scss";
 
+.addAbsolute {
+  position: absolute;
+  z-index: 5;
+}
 .modal-dialog {
   display: flex;
   justify-content: center;
