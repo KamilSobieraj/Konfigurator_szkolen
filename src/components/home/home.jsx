@@ -77,9 +77,9 @@ class Home extends Component {
         <img src={Logo} />*/}
         <div className="main-layout">
           <Modal
+            modalClass="modal__help"
             show={this.state.showHelpModal}
             closeModal={this.closeHelpModalHandler}
-            modalClass="modal__help"
           >
             <img
               src={Infographic}
@@ -87,6 +87,7 @@ class Home extends Component {
               className="help-button__modal-infograpgic"
             />
           </Modal>
+
           <Icons />
           <Navbar modules={modules} />
           <ThematicArea

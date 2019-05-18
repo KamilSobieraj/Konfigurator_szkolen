@@ -49,9 +49,10 @@
   }
 }
 .single-module--not-added {
+  position: relative;
 }
-
 .single-module--added {
+  position: relative;
   transform: scale(0.9);
   background-color: $color-cp-yellow-light;
 }

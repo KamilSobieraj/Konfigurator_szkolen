@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import "./SingleModuleDetails.scss";
-import { Modal, Button } from "react-bootstrap";
 import Icon from "../../ui/icons/icon";
+import Modal from "../../ui/Modal/Modal";
 
 class SingleModuleDetails extends Component {
   constructor(props, context) {
@@ -31,26 +31,18 @@ class SingleModuleDetails extends Component {
             name={"icon-details"}
           />
         </button>
-        <Modal show={this.state.show} onHide={this.handleClose}>
-          <Modal.Header closeButton>
-            <Modal.Title className="single-module__details-modal-header">
-              {this.props.name}
-            </Modal.Title>
-          </Modal.Header>
-          <Modal.Body>
-            {details.map(e => (
-              <li
-                className="single-module__details-modal-single-detail"
-                key={e}
-              >
-                {e}
-              </li>
-            ))}
-            <p />
-          </Modal.Body>
-          <Modal.Footer>
-            <Button onClick={this.handleClose}>Zamknij</Button>
-          </Modal.Footer>
+        <Modal
+          modalClass="modal__help"
+          show={this.state.show}
+          closeModal={this.handleClose}
+        >
+          <h2>{this.props.name}</h2>
+          {details.map(e => (
+            <li className="single-module__details-modal-single-detail" key={e}>
+              {e}
+            </li>
+          ))}
+          <p />
         </Modal>
       </React.Fragment>
     );
