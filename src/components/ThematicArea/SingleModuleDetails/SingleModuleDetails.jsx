@@ -38,10 +38,14 @@ class SingleModuleDetails extends Component {
         >
           <h2>{this.props.name}</h2>
           {details.map(e => (
-            <li className="single-module__details-modal-single-detail" key={e}>
+            <li
+              className="single-module__details-modal-single-detail"
+              key={this.props.name + e + Math.random()}
+            >
               {e}
             </li>
           ))}
+
           <p />
         </Modal>
       </React.Fragment>

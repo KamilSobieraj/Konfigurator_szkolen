@@ -8,16 +8,36 @@
     width: 70vw;
   }
 }
-
-.modal__help {
-  position: fixed;
-  z-index: 500;
-  background-color: white;
-  border: 1px solid #ccc;
-  box-shadow: 1px 1px 1px black;
-  padding: 16px;
-  box-sizing: border-box;
-  transition: all 0.3s ease-out;
+.modal {
+  &__help {
+    position: fixed;
+    z-index: 500;
+    background-color: white;
+    border: 1px solid #ccc;
+    box-shadow: 1px 1px 1px black;
+    padding: 16px;
+    box-sizing: border-box;
+    transition: all 0.3s ease-out;
+  }
+  &__composition-notification {
+    position: fixed;
+    top: 20%;
+    left: 10%;
+    min-width: 80vw;
+    z-index: 500;
+    background-color: white;
+    border: 1px solid #ccc;
+    box-shadow: 1px 1px 1px black;
+    padding-top: 0;
+    box-sizing: border-box;
+    transition: all 0.3s ease-out;
+    text-align: center;
+    padding: 2em;
+    & p:first-child {
+      font-size: 1.2em;
+      font-weight: bold;
+    }
+  }
 }
 
 @include for-phone {

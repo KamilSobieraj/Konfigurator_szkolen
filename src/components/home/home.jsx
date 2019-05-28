@@ -31,6 +31,14 @@ class Home extends Component {
     this.getModules = this.getModules.bind(this);
     this.showHelpModalHandler = this.showHelpModalHandler.bind(this);
     this.closeHelpModalHandler = this.closeHelpModalHandler.bind(this);
+    this.showCompositionNotificationModalHandler = this.showCompositionNotificationModalHandler.bind(
+      this
+    );
+    this.closeCompositionNotificationModalHandler = this.closeCompositionNotificationModalHandler.bind(
+      this
+    );
+    this.showCompositionNotificationModal = false;
+    this.shouldCompositionNotificationShow = true;
   }
   addModuleNameToOrderList(nameFromAddModule) {
     chosenModulesArray = this.state.holdClickedModulesNames;
@@ -60,12 +68,32 @@ class Home extends Component {
   closeHelpModalHandler() {
     this.setState({ showHelpModal: false });
   }
+  showCompositionNotificationModalHandler() {
+    this.showCompositionNotificationModal = true;
+  }
+  closeCompositionNotificationModalHandler() {
+    this.shouldCompositionNotificationShow = false;
+    this.showCompositionNotificationModal = false;
+    this.forceUpdate();
+  }
   componentDidMount() {
     this.getModules();
   }
   render() {
-    const { modules, loading, holdClickedModulesNames } = this.state;
+    const {
+      modules,
+      loading,
+      holdClickedModulesNames,
+      showHelpModal
+    } = this.state;
     const { orderedModules } = this.props;
+    if (
+      holdClickedModulesNames.length === 1 &&
+      this.shouldCompositionNotificationShow === true
+    ) {
+      this.showCompositionNotificationModalHandler();
+    } else {
+    }
     return loading ? (
       <Preloader />
     ) : (
@@ -78,14 +106,31 @@ class Home extends Component {
         <div className="main-layout">
           <Modal
             modalClass="modal__help"
-            show={this.state.showHelpModal}
+            show={showHelpModal}
             closeModal={this.closeHelpModalHandler}
+            key={"asd"}
           >
             <img
               src={Infographic}
               alt="Inforgrafika - jak skomponować szkolenie"
               className="help-button__modal-infograpgic"
             />
+          </Modal>
+
+          <Modal
+            modalClass="modal__composition-notification"
+            show={this.showCompositionNotificationModal}
+            closeModal={this.closeCompositionNotificationModalHandler}
+            key={"asdd"}
+          >
+            <p>
+              Pamiętaj, aby przy komponowaniu szkolenia, w ramach jednego dnia
+              dobierać moduły z tego samego obszaru tematycznego!
+            </p>
+            <p>
+              Np. w pierwszym dniu szkolenia dobieraj moduły z obszaru
+              tematycznego "Komunikacja", a drugiego z "Negocjacje"{" "}
+            </p>
           </Modal>
 
           <Icons />
