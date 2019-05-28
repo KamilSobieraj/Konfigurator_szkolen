@@ -32,7 +32,7 @@ class SingleModuleDetails extends Component {
           />
         </button>
         <Modal
-          modalClass="modal__help"
+          modalClass="single-module__details-modal"
           show={this.state.show}
           closeModal={this.handleClose}
         >
