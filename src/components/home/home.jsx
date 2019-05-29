@@ -108,7 +108,6 @@ class Home extends Component {
             modalClass="modal__help"
             show={showHelpModal}
             closeModal={this.closeHelpModalHandler}
-            key={"asd"}
           >
             <img
               src={Infographic}
@@ -121,7 +120,6 @@ class Home extends Component {
             modalClass="modal__composition-notification"
             show={this.showCompositionNotificationModal}
             closeModal={this.closeCompositionNotificationModalHandler}
-            key={"asdd"}
           >
             <p>
               Pamiętaj, aby przy komponowaniu szkolenia, w ramach jednego dnia

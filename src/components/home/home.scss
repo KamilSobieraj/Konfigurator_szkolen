@@ -23,7 +23,7 @@
     position: fixed;
     top: 20%;
     left: 10%;
-    min-width: 80vw;
+    width: 80%;
     z-index: 500;
     background-color: white;
     border: 1px solid #ccc;
@@ -41,8 +41,15 @@
 }
 
 @include for-phone {
-  .modal__help {
-    padding: 0;
+  .modal {
+    &__help {
+      padding: 0;
+    }
+    &__composition-notification {
+      top: 15%;
+      left: 0;
+      width: 100%;
+    }
   }
 }
 @include for-tablet-portrait-and-up {
