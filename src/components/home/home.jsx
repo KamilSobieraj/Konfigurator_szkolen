@@ -108,7 +108,7 @@ class Home extends Component {
         </Router>
         {/*<LandingPage />
         <img src={Logo} />*/}
-        <div className="main-layout">
+        <main className="main-layout">
           {/***********************************************************************
            *************************** -- Modals -- *******************************
            ************************************************************************/}
@@ -157,10 +157,10 @@ class Home extends Component {
             showHelpModal={this.showHelpModalHandler}
             closeHelpModal={this.closeHelpModalHandler}
           />
-        </div>
-        <div className="footer">
+        </main>
+        <footer className="footer">
           <Footer />
-        </div>
+        </footer>
       </React.Fragment>
     );
   }
