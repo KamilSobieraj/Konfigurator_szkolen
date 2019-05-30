@@ -82,3 +82,34 @@
     left: calc(50% - 800px);
   }
 }
+
+.modal__close-day-one-notification {
+  position: fixed;
+  top: 20%;
+  left: 10%;
+  width: 80%;
+  z-index: 500;
+  background-color: white;
+  border: 1px solid #ccc;
+  box-shadow: 1px 1px 1px black;
+  padding-top: 0;
+  box-sizing: border-box;
+  transition: all 0.3s ease-out;
+  text-align: center;
+  padding: 2em;
+  & p:first-child {
+    font-size: 1.2em;
+    font-weight: bold;
+  }
+}
+
+@include for-phone {
+  .modal__close-day-one-notification {
+    top: 15%;
+    left: 0;
+    width: 100%;
+  }
+}
+.wrap {
+  position: relative;
+}

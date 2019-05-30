@@ -492,6 +492,15 @@ class OrderListMain extends Component {
             this.dayEightDuration +
             this.dayNineDuration));
     return (
+      <React.Fragment>
+      <CloseDayOneInfoModal
+            showCloseDayOneInfo={this.state.showCloseDayOneInfo}
+            handleCloseCloseDayOneInfo={this.handleCloseCloseDayOneInfo}
+          />
+          <CloseDayInfoModal
+            showCloseDayInfo={this.state.showCloseDayInfo}
+            handleCloseCloseDayInfo={this.handleCloseCloseDayInfo}
+          />
       <div className="order-list">
         <h2 className="order-list__header">
           Twoje szkolenie:
@@ -501,14 +510,6 @@ class OrderListMain extends Component {
           />
         </h2>
         <ListGroup>
-          <CloseDayOneInfoModal
-            showCloseDayOneInfo={this.state.showCloseDayOneInfo}
-            handleCloseCloseDayOneInfo={this.handleCloseCloseDayOneInfo}
-          />
-          <CloseDayInfoModal
-            showCloseDayInfo={this.state.showCloseDayInfo}
-            handleCloseCloseDayInfo={this.handleCloseCloseDayInfo}
-          />
           {this.props.chosenModulesNames.toString() === "" ? (
             <ListGroupItem className="order-list__add-first-module-info">
               {" "}
@@ -1696,6 +1697,7 @@ class OrderListMain extends Component {
           isDayTenClosed={this.isDayTenClosed}
         />
       </div>
+      </React.Fragment>
     );
   }
 }

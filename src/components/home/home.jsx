@@ -87,6 +87,8 @@ class Home extends Component {
       showHelpModal
     } = this.state;
     const { orderedModules } = this.props;
+
+    //Notification after first module added
     if (
       holdClickedModulesNames.length === 1 &&
       this.shouldCompositionNotificationShow === true
@@ -98,12 +100,18 @@ class Home extends Component {
       <Preloader />
     ) : (
       <React.Fragment>
+        {/***********************************************************************
+         *************************** -- Admin Panel -- **************************
+         ************************************************************************/}
         <Router>
           <AdminMain path="/admin" />
         </Router>
         {/*<LandingPage />
         <img src={Logo} />*/}
         <div className="main-layout">
+          {/***********************************************************************
+           *************************** -- Modals -- *******************************
+           ************************************************************************/}
           <Modal
             modalClass="modal__help"
             show={showHelpModal}
@@ -115,7 +123,6 @@ class Home extends Component {
               className="help-button__modal-infograpgic"
             />
           </Modal>
-
           <Modal
             modalClass="modal__composition-notification"
             show={this.showCompositionNotificationModal}
@@ -131,6 +138,9 @@ class Home extends Component {
             </p>
           </Modal>
 
+          {/***********************************************************************
+           *************************** -- Content -- *******************************
+           ************************************************************************/}
           <Icons />
           <Navbar modules={modules} />
           <ThematicArea
