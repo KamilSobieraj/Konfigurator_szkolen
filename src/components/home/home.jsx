@@ -9,6 +9,7 @@ import Footer from "../Footer/Footer";
 import AdminMain from "../Admin/AdminMain";
 import Preloader from "../Preloader/Preloader";
 import Icons from "../ui/icons/icons";
+import Icon from "../ui/icons/icon";
 import Navbar from "../Navbar/Navbar";
 import Modal from "../ui/Modal/Modal";
 import Infographic from "../ui/media/HelpInfographic.PNG";
@@ -22,7 +23,8 @@ class Home extends Component {
       holdClickedModulesNames: chosenModulesArray,
       modules: [],
       loading: true,
-      showHelpModal: false
+      showHelpModal: false,
+      showOrderList: false
     };
     this.addModuleNameToOrderList = this.addModuleNameToOrderList.bind(this);
     this.removeModuleNameFromOrderList = this.removeModuleNameFromOrderList.bind(
@@ -37,6 +39,7 @@ class Home extends Component {
     this.closeCompositionNotificationModalHandler = this.closeCompositionNotificationModalHandler.bind(
       this
     );
+    this.orderListTogglerHandler = this.orderListTogglerHandler.bind(this);
     this.showCompositionNotificationModal = false;
     this.shouldCompositionNotificationShow = true;
   }
@@ -75,6 +78,11 @@ class Home extends Component {
     this.shouldCompositionNotificationShow = false;
     this.showCompositionNotificationModal = false;
     this.forceUpdate();
+  }
+  orderListTogglerHandler() {
+    this.setState(prevState => {
+      return { showOrderList: !prevState.showOrderList };
+    });
   }
   componentDidMount() {
     this.getModules();
@@ -143,6 +151,13 @@ class Home extends Component {
            ************************************************************************/}
           <Icons />
           <Navbar modules={modules} />
+          <Icon
+            className={"order-list-icon"}
+            name={"icon-list"}
+            alt="open order list"
+            onClick={this.orderListTogglerHandler}
+          />
+
           <ThematicArea
             modules={modules}
             orderedModules={orderedModules}
@@ -156,6 +171,8 @@ class Home extends Component {
             removeModuleNameFromOrderList={this.removeModuleNameFromOrderList}
             showHelpModal={this.showHelpModalHandler}
             closeHelpModal={this.closeHelpModalHandler}
+            isOpened={this.state.showOrderList}
+            orderListTogglerlClicked={this.orderListTogglerHandler}
           />
         </main>
         <footer className="footer">

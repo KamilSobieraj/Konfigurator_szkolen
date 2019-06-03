@@ -66,7 +66,7 @@
     clear: both;
     margin: 50px 0;
     @include for-phone {
-      grid-template-columns: repeat(auto-fit, minmax(20vw, 23vw));
+      grid-template-columns: repeat(auto-fit, minmax(34vw, 36vw));
       margin-top: 20px;
     }
     @include for-tablet-portrait-and-up {

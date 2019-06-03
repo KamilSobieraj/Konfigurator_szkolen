@@ -7,6 +7,7 @@ import Help from "./Help/Help";
 import CloseDayTooltip from "./CloseDayTolltip";
 import CloseDayOneInfoModal from "./CloseDayOneInfoModal/CloseDayOneInfoModal";
 import CloseDayInfoModal from "./CloseDayInfoModal/CloseDayInfoModal";
+import Icon from "../../ui/icons/icon";
 
 class OrderListMain extends Component {
   constructor(props) {
@@ -38,6 +39,10 @@ class OrderListMain extends Component {
 
   render() {
     let numberOfAddedModules = this.props.chosenModulesNames.length;
+    let isOpenedClass = '';
+    if(this.props.isOpened){
+      isOpenedClass = '--opened';
+    }
     /*-----------------------------------------------------------------*\
       buttons handlers
     \*-----------------------------------------------------------------*/
@@ -501,7 +506,13 @@ class OrderListMain extends Component {
             showCloseDayInfo={this.state.showCloseDayInfo}
             handleCloseCloseDayInfo={this.handleCloseCloseDayInfo}
           />
-      <div className="order-list">
+      <div className={"order-list"+isOpenedClass}>
+        <Icon
+              className={"order-list__close-icon"}
+              name={"icon-right-arrow"}
+              alt="close button"
+              onClick={this.props.orderListTogglerlClicked}
+            />
         <h2 className="order-list__header">
           Twoje szkolenie:
           <Help

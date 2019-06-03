@@ -1,12 +1,9 @@
 @import "../ui/mixins.scss";
+@import "../ui/variables.scss";
 
 //For smaller screens modules has less space.
 .main-layout {
   width: 60vw;
-
-  @include for-tablet-portrait-and-up {
-    width: 70vw;
-  }
 }
 .modal {
   &__help {
@@ -38,9 +35,35 @@
       font-weight: bold;
     }
   }
+  &__close-day-one-notification {
+    position: fixed;
+    top: 20%;
+    left: 10%;
+    width: 80%;
+    z-index: 500;
+    background-color: white;
+    border: 1px solid #ccc;
+    box-shadow: 1px 1px 1px black;
+    padding-top: 0;
+    box-sizing: border-box;
+    transition: all 0.3s ease-out;
+    text-align: center;
+    padding: 2em;
+    & p:first-child {
+      font-size: 1.2em;
+      font-weight: bold;
+    }
+  }
+}
+.order-list-icon {
+  display: none;
 }
 
 @include for-phone {
+  .main-layout {
+    position: relative;
+    width: 90vw;
+  }
   .modal {
     &__help {
       padding: 0;
@@ -50,66 +73,60 @@
       left: 0;
       width: 100%;
     }
+    &__close-day-one-notification {
+      top: 15%;
+      left: 0;
+      width: 100%;
+    }
+  }
+  .order-list-icon {
+    display: inline-block;
+    position: fixed;
+    right: 5px;
+    width: 50px;
+    height: 50px;
+    fill: $color-cp-blue;
   }
 }
+
 @include for-tablet-portrait-and-up {
-  .modal__help {
-    width: 500px;
-    height: 500px;
-    left: calc(50% - 250px);
+  .main-layout {
+    width: 70vw;
+  }
+  .modal {
+    &__help {
+      width: 500px;
+      height: 500px;
+      left: calc(50% - 250px);
+    }
   }
 }
 @include for-tablet-landscape-and-up {
-  .modal__help {
-    width: 600px;
-    height: 500px;
-    left: calc(50% - 300px);
-    top: 20px;
+  .modal {
+    &__help {
+      width: 600px;
+      height: 500px;
+      left: calc(50% - 300px);
+      top: 20px;
+    }
   }
 }
 @include for-desctop-and-up {
-  .modal__help {
-    width: 800px;
-    height: 700px;
-    left: calc(50% - 400px);
+  .modal {
+    &__help {
+      width: 800px;
+      height: 700px;
+      left: calc(50% - 400px);
+    }
   }
 }
 @include for-big-screen-and-up {
-  .modal__help {
-    top: 5%;
-    width: 1600px;
-    height: 1600px;
-    left: calc(50% - 800px);
+  .modal {
+    &__help {
+      top: 5%;
+      width: 1600px;
+      height: 1600px;
+      left: calc(50% - 800px);
+    }
   }
-}
-
-.modal__close-day-one-notification {
-  position: fixed;
-  top: 20%;
-  left: 10%;
-  width: 80%;
-  z-index: 500;
-  background-color: white;
-  border: 1px solid #ccc;
-  box-shadow: 1px 1px 1px black;
-  padding-top: 0;
-  box-sizing: border-box;
-  transition: all 0.3s ease-out;
-  text-align: center;
-  padding: 2em;
-  & p:first-child {
-    font-size: 1.2em;
-    font-weight: bold;
-  }
-}
-
-@include for-phone {
-  .modal__close-day-one-notification {
-    top: 15%;
-    left: 0;
-    width: 100%;
-  }
-}
-.wrap {
-  position: relative;
 }

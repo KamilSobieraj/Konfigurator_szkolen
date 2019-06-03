@@ -1,4 +1,5 @@
 @import "../../ui/variables.scss";
+@import "../../ui/mixins.scss";
 
 .single-module {
   background-color: $color-background-primary;
@@ -52,7 +53,7 @@
   position: relative;
 }
 .single-module--added {
+  //transform: scale(0.9);
   position: relative;
-  transform: scale(0.9);
   background-color: $color-cp-yellow-light;
 }

@@ -1,7 +1,8 @@
 @import "../../ui/variables.scss";
 @import "../../ui/mixins.scss";
 
-.order-list {
+.order-list,
+.order-list--opened {
   position: fixed;
   top: 3em;
   right: 0;
@@ -12,9 +13,24 @@
   overflow-y: scroll;
   overflow-x: hidden;
   background-color: $color-background-primary;
-  //Form has more width on mobile
+  &__close-icon {
+    display: none;
+  }
   @include for-phone {
-    width: 40vw;
+    width: 100vw;
+    height: 100vh;
+    padding: 5vw 10vw;
+    top: 0;
+    z-index: 500;
+    transform: translateX(100%);
+    transition: all 0.6s linear 0s;
+    &__close-icon {
+      display: inline-block;
+      width: 4em;
+      height: 4em;
+      fill: $color-cp-yellow;
+      float: right;
+    }
   }
 
   &__header {
@@ -38,5 +54,11 @@
   &__single-day-close-day-button {
     width: 90%;
     font-size: 1em;
+  }
+}
+
+@include for-phone {
+  .order-list--opened {
+    transform: translateX(0);
   }
 }
