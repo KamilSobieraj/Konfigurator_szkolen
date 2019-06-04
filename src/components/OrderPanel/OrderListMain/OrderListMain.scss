@@ -38,6 +38,9 @@
     flex-direction: column;
     border-bottom: 2px solid $color-cp-blue-light;
     font-size: 1.6em;
+    @include for-phone {
+      font-size: 2em;
+    }
   }
 
   &__add-first-module-info {
@@ -54,6 +57,9 @@
   &__single-day-close-day-button {
     width: 90%;
     font-size: 1em;
+    @include for-phone {
+      font-size: 1.2em;
+    }
   }
 }
 
