@@ -24,7 +24,7 @@
       text-transform: uppercase;
       //strokes
       @include for-phone {
-        font-size: 0.55em;
+        font-size: 0.7em;
       }
       @include for-tablet-portrait-and-up {
         &:before,
