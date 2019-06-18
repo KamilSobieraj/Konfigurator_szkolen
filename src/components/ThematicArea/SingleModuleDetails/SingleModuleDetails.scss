@@ -1,5 +1,6 @@
 @import "../../ui/variables.scss";
 @import "../../ui/mixins.scss";
+@import "../../ui//keyframes.scss";
 
 $size: 32px;
 
@@ -45,15 +46,10 @@ $size: 32px;
     background-color: white;
     border: 1px solid #ccc;
     box-shadow: 1px 1px 1px black;
-
-    //problem
     padding: 2em;
     padding-top: 0;
-    //problem
-
-    //tocheckout
-    transition: transform 0.3s ease-out;
-    //tocheckout
+    -webkit-animation: slideInDown 0.3s ease-out;
+    animation: slideInDown 0.3s ease-out;
     & h2 {
       display: flex;
       justify-content: center;
@@ -65,13 +61,9 @@ $size: 32px;
 
     &-single-detail {
       list-style: none;
-
-      //problem
       font-size: 1.3em;
-      // padding-bottom: 0.2em;
-      // padding-left: 1em;
-      //problem
-
+      padding-bottom: 0.2em;
+      padding-left: 1em;
       &::before {
         @include bullet($color-cp-yellow, 10px);
         content: "\A";
@@ -91,8 +83,8 @@ $size: 32px;
       padding: 5px;
       &-single-detail {
         font-size: 12px;
-        // padding-bottom: 8px;
-        // padding-left: 5px;
+        padding-bottom: 8px;
+        padding-left: 5px;
       }
     }
   }
