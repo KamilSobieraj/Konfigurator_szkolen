@@ -514,7 +514,7 @@ class OrderListMain extends Component {
               onClick={this.props.orderListTogglerlClicked}
             />
         <h2 className="order-list__header">
-          Twoje szkolenie:
+          Twoje szkolenie: 
           <Help
             showHelpModal={this.props.showHelpModal}
             closeHelpModal={this.props.closeHelpModal}

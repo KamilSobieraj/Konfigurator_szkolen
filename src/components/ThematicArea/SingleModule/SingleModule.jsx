@@ -30,7 +30,6 @@ class SingleModule extends Component {
           details={this.props.details}
           name={this.props.name}
         />
-
         <button
           className="single-module__tile-button"
           onClick={this.handleAddModuleToList}

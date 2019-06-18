@@ -36,6 +36,7 @@ $size: 32px;
     }
   }
   &__details-modal {
+    box-sizing: border-box;
     position: fixed;
     top: 20%;
     left: 10%;
@@ -44,10 +45,15 @@ $size: 32px;
     background-color: white;
     border: 1px solid #ccc;
     box-shadow: 1px 1px 1px black;
+
+    //problem
     padding: 2em;
     padding-top: 0;
-    box-sizing: border-box;
-    transition: all 0.3s ease-out;
+    //problem
+
+    //tocheckout
+    transition: transform 0.3s ease-out;
+    //tocheckout
     & h2 {
       display: flex;
       justify-content: center;
@@ -56,13 +62,18 @@ $size: 32px;
       border-bottom: solid 1px $color-cp-blue-light;
       margin-bottom: 1em;
     }
+
     &-single-detail {
       list-style: none;
+
+      //problem
       font-size: 1.3em;
-      padding-bottom: 0.2em;
-      padding-left: 1em;
+      // padding-bottom: 0.2em;
+      // padding-left: 1em;
+      //problem
+
       &::before {
-        @include bullet($color-cp-yellow, 0.5em);
+        @include bullet($color-cp-yellow, 10px);
         content: "\A";
         display: inline-block;
         margin-right: 5px;
@@ -76,7 +87,13 @@ $size: 32px;
     &__details-modal {
       top: 15%;
       left: 0;
-      width: 100vw;
+      width: 100%;
+      padding: 5px;
+      &-single-detail {
+        font-size: 12px;
+        // padding-bottom: 8px;
+        // padding-left: 5px;
+      }
     }
   }
 }

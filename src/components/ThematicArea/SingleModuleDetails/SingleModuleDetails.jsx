@@ -20,17 +20,9 @@ class SingleModuleDetails extends Component {
   }
   render() {
     const details = this.props.details;
-    return (
-      <React.Fragment>
-        <button
-          className="single-module__details-button"
-          onClick={this.handleShow}
-        >
-          <Icon
-            className={"single-module__icon single-module__icon--details"}
-            name={"icon-details"}
-          />
-        </button>
+    let detailsModal = null;
+    if (this.state.show) {
+      detailsModal = (
         <Modal
           modalClass="single-module__details-modal"
           show={this.state.show}
@@ -48,6 +40,40 @@ class SingleModuleDetails extends Component {
 
           <p />
         </Modal>
+      );
+    } else {
+      detailsModal = null;
+    }
+    return (
+      <React.Fragment>
+        <button
+          className="single-module__details-button"
+          onClick={this.handleShow}
+        >
+          <Icon
+            className={"single-module__icon single-module__icon--details"}
+            name={"icon-details"}
+          />
+        </button>
+
+        {detailsModal}
+        {/* <Modal
+          modalClass="single-module__details-modal"
+          show={this.state.show}
+          closeModal={this.handleClose}
+        >
+          <h2>{this.props.name}</h2>
+          {details.map(e => (
+            <li
+              className="single-module__details-modal-single-detail"
+              key={this.props.name + e + Math.random()}
+            >
+              {e}
+            </li>
+          ))}
+
+          <p />
+        </Modal> */}
       </React.Fragment>
     );
   }
