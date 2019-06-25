@@ -31,16 +31,21 @@ class ThematicArea extends Component {
                   <span>{e}</span>
                 </header>
                 <div className="thematic-areas__modules">
-                  {Object.values(this.orderedModules[e]).map(f => (
+                  {Object.keys(this.orderedModules[e]).map(f =>
+                    console.log(this.orderedModules[e][f].name)
+                  )}
+                  {/* {console.log(this.orderedModules)} */}
+
+                  {Object.keys(this.orderedModules[e]).map(f => (
                     <SingleModule
-                      name={this.props.name}
+                      name={this.orderedModules[e][f].name}
                       moveModuleNameUpToThematicArea={
                         this.takeModuleNameFromSingleModule
                       }
                       clickedModuleNames={this.props.clickedModuleNames}
                       chosenModulesNames={this.props.chosenModulesNames}
-                      key={f && f.id} //probably key={f.id} is enough, but just in case let it be...
-                      {...f}
+                      key={this.orderedModules[e][f].id}
+                      {...this.orderedModules[e][f]}
                     />
                   ))}
                 </div>
