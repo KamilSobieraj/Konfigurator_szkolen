@@ -14,18 +14,19 @@ class SingleModule extends Component {
     if (!this.isModuleSelected(name)) moveModuleNameUpToThematicArea(name);
   }
 
-  isModuleSelected = name => this.props.chosenModulesNames.includes(name);
+  isModuleSelected = name => this.props.chosenModulesNames.indexOf(name) !== -1;
 
   render() {
     const { name } = this.props;
     return (
       <div
         className={
-          this.props.chosenModulesNames.includes(this.props.name) === true
-            ? "single-module single-module--added"
-            : "single-module single-module--not-added"
+          this.props.chosenModulesNames.indexOf(this.props.name) === -1
+            ? "single-module single-module--not-added"
+            : "single-module single-module--added"
         }
       >
+        {console.log(this.props.chosenModulesNames, this.props.name)}
         <SingleModuleDetails
           details={this.props.details}
           name={this.props.name}

@@ -31,11 +31,6 @@ class ThematicArea extends Component {
                   <span>{e}</span>
                 </header>
                 <div className="thematic-areas__modules">
-                  {Object.keys(this.orderedModules[e]).map(f =>
-                    console.log(this.orderedModules[e][f].name)
-                  )}
-                  {/* {console.log(this.orderedModules)} */}
-
                   {Object.keys(this.orderedModules[e]).map(f => (
                     <SingleModule
                       name={this.orderedModules[e][f].name}
