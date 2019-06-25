@@ -109,7 +109,7 @@ class LoggedIn extends Component {
                 inputRef={ref => {
                   this.addThematicArea = ref;
                 }}
-                required="true"
+                required={true}
                 placeholder="Nazwa obszaru tematycznego"
               />
             </FormGroup>
@@ -121,7 +121,7 @@ class LoggedIn extends Component {
                 inputRef={ref => {
                   this.addModuleName = ref;
                 }}
-                required="true"
+                required={true}
                 placeholder="Nazwa modułu"
               />
             </FormGroup>
@@ -133,7 +133,7 @@ class LoggedIn extends Component {
                 inputRef={ref => {
                   this.addDetails = ref;
                 }}
-                required="true"
+                required={true}
                 placeholder="Poszczególne szczegóły rozdzielaj średnikiem, np.: Szczegół 1; Szczegól 2 - detal 1; Szczegół 3"
               />
             </FormGroup>
